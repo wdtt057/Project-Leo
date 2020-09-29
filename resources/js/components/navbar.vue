@@ -33,7 +33,7 @@
                 <strong>Create Account</strong>
               </a>
               <a class="button is-info">
-                Log in
+                <strong>Log in </strong>
               </a>
             </div>
           </div>
