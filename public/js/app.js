@@ -1942,6 +1942,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -19672,7 +19682,7 @@ var render = function() {
           class: { "is-active": _vm.isActive },
           attrs: { id: "navMenu" }
         },
-        [_vm._m(1)]
+        [_vm._m(1), _vm._v(" "), _vm._m(2)]
       )
     ])
   ])
@@ -19691,13 +19701,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "navbar-end" }, [
-      _c(
-        "a",
-        { staticClass: "navbar-item button is-primary", attrs: { href: "#" } },
-        [_vm._v("Sign Up")]
-      ),
-      _vm._v(" "),
+    return _c("div", { staticClass: "navbar-start" }, [
       _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
         _vm._v("About")
       ]),
@@ -19745,6 +19749,24 @@ var staticRenderFns = [
             },
             [_vm._v("Contact Us")]
           )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "navbar-end" }, [
+      _c("div", { staticClass: "navbar-item" }, [
+        _c("div", { staticClass: "buttons" }, [
+          _c("a", { staticClass: "button is-warning" }, [
+            _c("strong", [_vm._v("Create Account")])
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "button is-info" }, [
+            _vm._v("\n              Log in\n            ")
+          ])
         ])
       ])
     ])
