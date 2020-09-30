@@ -2003,6 +2003,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -19802,28 +19811,44 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("section", { staticClass: "section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("h1", { staticClass: "title" }, [
-            _vm._v("\n        Hello World\n        ")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "subtitle" }, [
-            _vm._v("\n        My first website with "),
-            _c("strong", [_vm._v("Bulma")]),
-            _vm._v("!\n        ")
+        _c("section", { staticClass: "hero is-primary" }, [
+          _c("div", { staticClass: "hero-body" }, [
+            _c("div", { staticClass: "container" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v(
+                  "\n            <Eyecatching Header Goes Here>\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("h2", { staticClass: "subtitle" }, [
+                _vm._v("\n            Primary subtitle\n            ")
+              ])
+            ])
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "hero is-primary" }, [
-        _c("div", { staticClass: "hero-body" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("h1", { staticClass: "title" }, [
-              _vm._v("\n        Daddi Amini\n        ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-third" }, [
+              _c("figure", { staticClass: "image is-128x128" }, [
+                _c("img", {
+                  attrs: {
+                    src: "https://bulma.io/images/placeholders/128x128.png"
+                  }
+                })
+              ])
             ]),
             _vm._v(" "),
-            _c("h2", { staticClass: "subtitle" }, [
-              _vm._v("\n        Primary subtitle\n        ")
+            _c("div", { staticClass: "column" }, [
+              _c("h1", { staticClass: "title" }, [
+                _vm._v("\n            Hello World\n            ")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "subtitle" }, [
+                _vm._v("\n            My first website with "),
+                _c("strong", [_vm._v("Bulma")]),
+                _vm._v("!\n            ")
+              ])
             ])
           ])
         ])
@@ -32221,8 +32246,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
