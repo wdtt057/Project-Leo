@@ -20033,7 +20033,7 @@ var staticRenderFns = [
             _c("strong", [_vm._v("Create Account")])
           ]),
           _vm._v(" "),
-          _c("a", { staticClass: "button is-info" }, [
+          _c("a", { staticClass: "button is-info is-outlined" }, [
             _c("strong", [_vm._v("Log in ")])
           ])
         ])

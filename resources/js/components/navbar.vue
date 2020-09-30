@@ -33,7 +33,7 @@
               <a class="button is-warning">
                 <strong>Create Account</strong>
               </a>
-              <a class="button is-info">
+              <a class="button is-info is-outlined">
                 <strong>Log in </strong>
               </a>
             </div>
