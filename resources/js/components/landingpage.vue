@@ -14,6 +14,7 @@
           </div>
         </section>
         <!--End Banner Section-->
+        <!--Major Selling Point Section-->
         <section class="section is-small">
           <div class="container">
             <div class="columns">
@@ -26,13 +27,14 @@
                 </p>
               </div>
               <div class="column is-one-fifth">
-                <figure class="image is-128x128">
-                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                <figure class="image is-square">
+                  <img src="https://bulma.io/images/placeholders/256x256.png">
                 </figure>
               </div>
             </div>
         </div>
         </section>
+        <!--Programming Concepts Difficulty Section-->
         <section class="section is-small has-background-light">
           <div class="columns">
             <div class="column is-one-fourth">
@@ -66,6 +68,36 @@
                   <li>&bull;blah blah</li>
                   <li>&bull;blah blah blah</li>
                 </ul>
+            </div>
+          </div>
+        </section>
+        <!--Team Section-->
+        <section class="section is-small">
+          <div class="columns">
+            <div class="column is-one-fifth">
+              <figure class="image is-1by1">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+              </figure>
+            </div>
+            <div class="column is-one-fifth">
+              <figure class="image is-1by1">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+              </figure>
+            </div>
+            <div class="column is-one-fifth">
+              <figure class="image is-1by1">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+              </figure>
+            </div>
+            <div class="column is-one-fifth">
+              <figure class="image is-1by1">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+              </figure>
+            </div>
+            <div class="column is-one-fifth">
+              <figure class="image is-1by1">
+                <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+              </figure>
             </div>
           </div>
         </section>

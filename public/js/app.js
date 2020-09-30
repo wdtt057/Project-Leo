@@ -1982,6 +1982,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -1999,6 +2031,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -19745,10 +19778,10 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column is-one-fifth" }, [
-              _c("figure", { staticClass: "image is-128x128" }, [
+              _c("figure", { staticClass: "image is-square" }, [
                 _c("img", {
                   attrs: {
-                    src: "https://bulma.io/images/placeholders/128x128.png"
+                    src: "https://bulma.io/images/placeholders/256x256.png"
                   }
                 })
               ])
@@ -19804,6 +19837,65 @@ var staticRenderFns = [
               _c("li", [_vm._v("•blah blah")]),
               _vm._v(" "),
               _c("li", [_vm._v("•blah blah blah")])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "section is-small" }, [
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("figure", { staticClass: "image is-1by1" }, [
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "https://bulma.io/images/placeholders/256x256.png"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("figure", { staticClass: "image is-1by1" }, [
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "https://bulma.io/images/placeholders/256x256.png"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("figure", { staticClass: "image is-1by1" }, [
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "https://bulma.io/images/placeholders/256x256.png"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("figure", { staticClass: "image is-1by1" }, [
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "https://bulma.io/images/placeholders/256x256.png"
+                }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("figure", { staticClass: "image is-1by1" }, [
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "https://bulma.io/images/placeholders/256x256.png"
+                }
+              })
             ])
           ])
         ])
@@ -19877,6 +19969,10 @@ var staticRenderFns = [
     return _c("div", { staticClass: "navbar-start" }, [
       _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
         _vm._v("About")
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
+        _vm._v("Courses")
       ]),
       _vm._v(" "),
       _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
