@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
 @section('content')
-  <test-component></test-component>
+  <landing-page></landing-page>
 @endsection
 

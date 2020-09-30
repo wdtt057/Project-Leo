@@ -13,8 +13,8 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('test-component', require('./components/Test.vue').default);
-Vue.component('navbar', require('./components/Navbar.vue').default);
+Vue.component('landing-page', require('./components/landingpage.vue').default);
+Vue.component('navbar', require('./components/navbar.vue').default);
 
 
 /**
