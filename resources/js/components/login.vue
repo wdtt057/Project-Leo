@@ -9,15 +9,12 @@
           <div class="field">
             <label class="label">Username</label>
             <div class="control has-icons-left has-icons-right">
-              <input
-                class="input"
-                type="text"
-                placeholder="Username"
-                name="user"
-              />
+              <input class="input" type="text" placeholder="Username" name="user">
               <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
               </span>
+            </div>
+            <div class="control">
               <label class="label">Password</label>
               <input class="input" type="password" name="password" />
             </div>

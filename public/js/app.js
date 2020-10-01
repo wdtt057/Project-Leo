@@ -2065,9 +2065,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Login mounted.");
@@ -20074,16 +20071,18 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("span", { staticClass: "icon is-small is-left" }, [
                     _c("i", { staticClass: "fas fa-user" })
-                  ]),
-                  _vm._v(" "),
-                  _c("label", { staticClass: "label" }, [_vm._v("Password")]),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "input",
-                    attrs: { type: "password", name: "password" }
-                  })
+                  ])
                 ]
-              )
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "control" }, [
+                _c("label", { staticClass: "label" }, [_vm._v("Password")]),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "input",
+                  attrs: { type: "password", name: "password" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "field is-grouped" }, [
