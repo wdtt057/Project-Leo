@@ -37,7 +37,7 @@
           </div>
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Sign In</button>
+              <button class="button is-link">Sign Up</button>
             </div>
           </div>
           <hr>
