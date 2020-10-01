@@ -30,11 +30,11 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-warning">
+              <a class="button is-warning" href="/signup">
                 <strong>Create Account</strong>
               </a>
-              <a class="button is-info is-outlined">
-                <strong>Log in </strong>
+              <a class="button is-info is-outlined" href="/login">
+                <strong>Login</strong>
               </a>
             </div>
           </div>
