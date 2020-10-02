@@ -20096,7 +20096,7 @@ var staticRenderFns = [
             _c("hr"),
             _vm._v(" "),
             _c("p", [
-              _vm._v("New User? Create account "),
+              _vm._v("New User? Create an account "),
               _c("a", { attrs: { href: "/signup" } }, [_vm._v("here")]),
               _vm._v(".")
             ])
@@ -32896,8 +32896,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

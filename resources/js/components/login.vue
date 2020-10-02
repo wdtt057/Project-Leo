@@ -25,7 +25,7 @@
             </div>
           </div>
           <hr>
-            <p>New User? Create account <a href="/signup">here</a>.</p>
+            <p>New User? Create an account <a href="/signup">here</a>.</p>
         </div>
       </div>
     </section>
