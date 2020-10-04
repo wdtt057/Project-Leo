@@ -12,6 +12,7 @@
   </head>
   <body>
       <div id="app">
+      <!-- FOR DARKMODE class="has-background-grey-dark -->
         <navbar></navbar>
         <div class="container">
           @yield('content')

@@ -1919,6 +1919,77 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -2093,10 +2164,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-<<<<<<< HEAD
 //
-=======
->>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Login mounted.");
@@ -19897,12 +19967,131 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("section", { staticClass: "section is-large" }, [
+      _c("section", { staticClass: "section is-small" }, [
         _c("div", { staticClass: "columns" }, [
-          _c("div", {
-            staticClass:
-              "column is-three-fifths is-offset-one-fifth has-background-info-light"
-          })
+          _c("div", { staticClass: "column is-half" }, [
+            _c("img", {
+              staticStyle: { opacity: "0.8" },
+              attrs: {
+                src: "\\images\\contactpage_test.jpg",
+                alt: "contactTest"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-half" }, [
+            _c("div", { staticClass: "field is-horizontal" }, [
+              _c("div", { staticClass: "field-label is-normal" }, [
+                _c("label", { staticClass: "label" }, [_vm._v("From")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "field-body" }, [
+                _c("div", { staticClass: "field" }, [
+                  _c(
+                    "p",
+                    { staticClass: "control is-expanded has-icons-left" },
+                    [
+                      _c("input", {
+                        staticClass: "input",
+                        attrs: { type: "text", placeholder: "Name" }
+                      }),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "icon is-small is-left" }, [
+                        _c("i", { staticClass: "fas fa-user" })
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "field" }, [
+                  _c(
+                    "p",
+                    { staticClass: "control is-expanded has-icons-left" },
+                    [
+                      _c("input", {
+                        staticClass: "input",
+                        attrs: {
+                          type: "email",
+                          placeholder: "Email",
+                          value: "example@blahblahblah.com"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("span", { staticClass: "icon is-small is-left" }, [
+                        _c("i", { staticClass: "fas fa-envelope" })
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field is-horizontal" }, [
+              _c("div", { staticClass: "field-label is-normal" }, [
+                _c("label", { staticClass: "label" }, [_vm._v("Subject")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "field-body" }, [
+                _c("div", { staticClass: "field" }, [
+                  _c("div", { staticClass: "control" }, [
+                    _c("input", {
+                      staticClass: "input",
+                      attrs: {
+                        type: "text",
+                        placeholder: "e.g. Site is broken"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    {
+                      staticClass: "help is-danger",
+                      staticStyle: { display: "none" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                      This field is required\n                    "
+                      )
+                    ]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field is-horizontal" }, [
+              _c("div", { staticClass: "field-label is-normal" }, [
+                _c("label", { staticClass: "label" }, [_vm._v("Message")])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "field-body" }, [
+                _c("div", { staticClass: "field" }, [
+                  _c("div", { staticClass: "control" }, [
+                    _c("textarea", {
+                      staticClass: "textarea",
+                      attrs: { placeholder: "Explain how we can help you" }
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "field is-horizontal" }, [
+              _c("div", { staticClass: "field-label" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "field-body" }, [
+                _c("div", { staticClass: "field" }, [
+                  _c("div", { staticClass: "control" }, [
+                    _c("button", { staticClass: "button is-primary" }, [
+                      _vm._v(
+                        "\n                        Send message\n                      "
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
         ])
       ])
     ])
@@ -20164,14 +20353,25 @@ var staticRenderFns = [
                 ])
               ])
             ]),
+            _vm._v("\n<<<<<<< HEAD\n          "),
+            _c("hr"),
             _vm._v(" "),
+            _c("p", [
+              _vm._v("New User? Create account "),
+              _c("a", { attrs: { href: "/signup" } }, [_vm._v("here")]),
+              _vm._v(".")
+            ]),
+            _vm._v("\n=======\n          "),
             _c("hr"),
             _vm._v(" "),
             _c("p", [
               _vm._v("New User? Create an account "),
               _c("a", { attrs: { href: "/signup" } }, [_vm._v("here")]),
               _vm._v(".")
-            ])
+            ]),
+            _vm._v(
+              "\n>>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0\n        "
+            )
           ])
         ])
       ])
@@ -33038,8 +33238,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
