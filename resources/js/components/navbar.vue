@@ -23,7 +23,7 @@
               <a class="navbar-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Link 1</a>
               <a class="navbar-item" href="https://www.youtube.com/watch?v=ZZ5LpwO-An4" target="_blank">Link 2</a>
               <hr class="navbar-divider">
-              <a class="navbar-item" href="/" style="color:#41CAE5; font-weight: bold;">Contact Us</a>
+              <a class="navbar-item" href="/contact-us" style="color:#41CAE5; font-weight: bold;">Contact Us</a>
             </div>
           </div>
       </div>

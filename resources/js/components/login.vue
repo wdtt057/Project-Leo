@@ -7,15 +7,12 @@
           <div class="field">
             <label class="label">Username</label>
             <div class="control has-icons-left has-icons-right">
-              <input
-                class="input"
-                type="text"
-                placeholder="Username"
-                name="user"
-              />
+              <input class="input" type="text" placeholder="Username" name="user">
               <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
               </span>
+            </div>
+            <div class="control">
               <label class="label">Password</label>
               <input class="input" type="password" name="password" />
             </div>
@@ -25,8 +22,13 @@
               <button class="button is-link">Sign In</button>
             </div>
           </div>
+<<<<<<< HEAD
           <hr />
           <p>New User? Create account <a href="/signup">here</a>.</p>
+=======
+          <hr>
+            <p>New User? Create an account <a href="/signup">here</a>.</p>
+>>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0
         </div>
       </div>
     </section>
