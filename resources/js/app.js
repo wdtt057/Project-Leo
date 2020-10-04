@@ -17,6 +17,7 @@ Vue.component('landing-page', require('./components/landingpage.vue').default);
 Vue.component('navbar', require('./components/navbar.vue').default);
 Vue.component('login', require('./components/login.vue').default);
 Vue.component('signup', require('./components/signup.vue').default);
+Vue.component('contact-page', require('./components/contactpage.vue').default);
 
 
 /**
