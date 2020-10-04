@@ -2093,6 +2093,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+<<<<<<< HEAD
+//
+=======
+>>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Login mounted.");

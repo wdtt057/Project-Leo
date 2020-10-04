@@ -1,11 +1,9 @@
-<?php
-    session_start();
-?>
 <template>
   <div>
     <section class="section is-small">
       <div class="columns">
-        <div class="column is-half is-offset-one-quarter"> <!-- is-mobile not added -->
+        <div class="column is-half is-offset-one-quarter">
+          <!-- is-mobile not added -->
           <div class="field">
             <label class="label">Username</label>
             <div class="control has-icons-left has-icons-right">
@@ -24,8 +22,13 @@
               <button class="button is-link">Sign In</button>
             </div>
           </div>
+<<<<<<< HEAD
+          <hr />
+          <p>New User? Create account <a href="/signup">here</a>.</p>
+=======
           <hr>
             <p>New User? Create an account <a href="/signup">here</a>.</p>
+>>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0
         </div>
       </div>
     </section>
