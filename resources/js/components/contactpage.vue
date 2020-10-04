@@ -1,6 +1,10 @@
 <template>
     <div>
         <section class="section is-small">
+            <h1 class="title is-1 has-text-centered">Contact Us!ヾ(＠＾▽＾＠)ﾉ</h1>
+        </section>
+        <hr>
+        <section class="section is-small">
             <div class="columns">
                 <div class="column is-half"> 
                   <img src="\images\contactpage_test.jpg" alt="contactTest" style="opacity:0.8">
