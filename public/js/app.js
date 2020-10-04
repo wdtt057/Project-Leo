@@ -19893,19 +19893,12 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
-      _c("section", { staticClass: "hero is-medium is-primary is-bold" }, [
-        _c("div", { staticClass: "hero-body" }, [
-          _c("div", { staticClass: "container" }, [
-            _c("h1", { staticClass: "title" }, [
-              _c(
-                "a",
-                {
-                  attrs: { href: "https://www.youtube.com/watch?v=OOR8Xdc5-jg" }
-                },
-                [_vm._v("Mr. Clean")]
-              )
-            ])
-          ])
+      _c("section", { staticClass: "section is-large" }, [
+        _c("div", { staticClass: "columns" }, [
+          _c("div", {
+            staticClass:
+              "column is-three-fifths is-offset-one-fifth has-background-info-light"
+          })
         ])
       ])
     ])

@@ -1,9 +1,9 @@
 <template>
     <div>
-        <section class="hero is-medium is-primary is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title"> <a href="https://www.youtube.com/watch?v=OOR8Xdc5-jg">Mr. Clean</a> </h1>
+        <section class="section is-large">
+            <div class="columns">
+                <div class="column is-three-fifths is-offset-one-fifth has-background-info-light">
+                    <!--Dont mess this up it goes here ffs L O L-->
                 </div>
             </div>
         </section>
