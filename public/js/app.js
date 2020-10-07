@@ -33239,8 +33239,6 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\jmeji\\Documents\\Github\\Project-LEO\\resources\\sass\\app.scss'\n    at C:\\Users\\jmeji\\Documents\\Github\\Project-LEO\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\Users\\jmeji\\Documents\\Github\\Project-LEO\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\jmeji\\Documents\\Github\\Project-LEO\\node_modules\\loader-runner\\lib\\LoaderRunner.js:203:19\n    at C:\\Users\\jmeji\\Documents\\Github\\Project-LEO\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
-
 /***/ }),
 
 /***/ 0:
