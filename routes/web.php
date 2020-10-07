@@ -21,14 +21,12 @@ Route::get('/welcome', function() {
     return view('welcome');
 });
 
-Route::get('/login', function() {
-    return view('login');
-});
-
-Route::get('/signup', function() {
-    return view('signup');
-});
-
 Route::get('/contact-us', function() {
     return view('contact');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/verify', [App\Http\Controllers\Auth\RegisterController::class, 'verifyUser'])->name('verify.user');
