@@ -22,13 +22,8 @@
               <button class="button is-link">Sign In</button>
             </div>
           </div>
-<<<<<<< HEAD
-          <hr />
-          <p>New User? Create account <a href="/signup">here</a>.</p>
-=======
           <hr>
             <p>New User? Create an account <a href="/signup">here</a>.</p>
->>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0
         </div>
       </div>
     </section>

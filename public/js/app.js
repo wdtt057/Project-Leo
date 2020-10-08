@@ -2166,11 +2166,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Login mounted.");
@@ -20365,25 +20360,14 @@ var staticRenderFns = [
                 ])
               ])
             ]),
-            _vm._v("\n<<<<<<< HEAD\n          "),
-            _c("hr"),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("New User? Create account "),
-              _c("a", { attrs: { href: "/signup" } }, [_vm._v("here")]),
-              _vm._v(".")
-            ]),
-            _vm._v("\n=======\n          "),
             _c("hr"),
             _vm._v(" "),
             _c("p", [
               _vm._v("New User? Create an account "),
               _c("a", { attrs: { href: "/signup" } }, [_vm._v("here")]),
               _vm._v(".")
-            ]),
-            _vm._v(
-              "\n>>>>>>> 4cda1ef668054663ff80f709d8e3da064acdbae0\n        "
-            )
+            ])
           ])
         ])
       ])
@@ -20518,7 +20502,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "buttons" }, [
           _c(
             "a",
-            { staticClass: "button is-warning", attrs: { href: "/signup" } },
+            { staticClass: "button is-warning", attrs: { href: "/register" } },
             [_c("strong", [_vm._v("Create Account")])]
           ),
           _vm._v(" "),
@@ -32818,6 +32802,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -33232,24 +33227,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/***/ }),
-
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!***********************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/css/app.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
