@@ -33227,18 +33227,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-<<<<<<< HEAD
-=======
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/***/ }),
-
->>>>>>> 50256e5fed50b33c51c29793b8c32b0f10bf3d77
 /***/ 0:
 /*!***********************************************************!*\
   !*** multi ./resources/js/app.js ./resources/css/app.css ***!
