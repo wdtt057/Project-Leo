@@ -20502,7 +20502,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "buttons" }, [
           _c(
             "a",
-            { staticClass: "button is-warning", attrs: { href: "/signup" } },
+            { staticClass: "button is-warning", attrs: { href: "/register" } },
             [_c("strong", [_vm._v("Create Account")])]
           ),
           _vm._v(" "),
