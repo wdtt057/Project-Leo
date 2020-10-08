@@ -7,5 +7,6 @@ Please click the link below to verify your email and activate your account!
 <a href="http://localhost:8080/verify?code={{$email_data['verification_code']}}">Click Here!</a>
 
 <br><br>
-Thank you and happy coding! \(^0^)/
+Thank you and happy coding! \(^0^)/ 
+<br>
 -Dev Team
