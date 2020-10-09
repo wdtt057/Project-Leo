@@ -7,7 +7,7 @@
                 <h1 class="title is-1 typed-title">
                   System.out.println(
                   <span class="typed-text">{{ typeValue }}</span>
-                  <span class="cursor" :class="{'typing': typeStatus}"></span>
+                  <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
                   );
                 </h1>
                 <h2 class="subtitle">
@@ -120,7 +120,7 @@
         typeValue: '',
         typeStatus: false,
         typeArray: ['"Hello World!"' , '"Welcome to Project L.E.O."'],
-        typingSpeed: 200,
+        typingSpeed: 100,
         erasingSpeed: 100,
         newTextDelay: 2000,
         typeArrayIndex: 0,
@@ -175,18 +175,17 @@
     color:#7e05ff;
   }
   span.cursor {
-    display: inline-block;
-    margin-left: 3px;
-    width: 4px;
-    background-color: #fff;
-    color: white;
-    animation: cursorBlink 1s infinite;
-  }
+      display: inline-block;
+      margin-left: 3px;
+      width: 4px;
+      background-color: #7e05ff;
+      animation: cursorBlink 1s infinite;
+    }
   span.cursor.typing {
     animation: none;
   }
   @keyframes cursorBlink {
-    49% { background-color: #fff; }
+    49% { background-color: #7e05ff; }
     50% { background-color: transparent; }
     99% { background-color: transparent; }
   }

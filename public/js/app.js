@@ -2132,7 +2132,7 @@ __webpack_require__.r(__webpack_exports__);
       typeValue: '',
       typeStatus: false,
       typeArray: ['"Hello World!"', '"Welcome to Project L.E.O."'],
-      typingSpeed: 200,
+      typingSpeed: 100,
       erasingSpeed: 100,
       newTextDelay: 2000,
       typeArrayIndex: 0,
@@ -2369,7 +2369,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".typed-title[data-v-0572f92b] {\n  color: white;\n}\nspan.typed-text[data-v-0572f92b] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-0572f92b] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #fff;\n  color: white;\n  animation: cursorBlink-data-v-0572f92b 1s infinite;\n}\nspan.cursor.typing[data-v-0572f92b] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-0572f92b {\n49% {\n    background-color: #fff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
+exports.push([module.i, ".typed-title[data-v-0572f92b] {\n  color: white;\n}\nspan.typed-text[data-v-0572f92b] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-0572f92b] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-0572f92b 1s infinite;\n}\nspan.cursor.typing[data-v-0572f92b] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-0572f92b {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
 
 // exports
 
@@ -20827,10 +20827,11 @@ var render = function() {
               _vm._v(_vm._s(_vm.typeValue))
             ]),
             _vm._v(" "),
-            _c("span", {
-              staticClass: "cursor",
-              class: { typing: _vm.typeStatus }
-            }),
+            _c(
+              "span",
+              { staticClass: "cursor", class: { typing: _vm.typeStatus } },
+              [_vm._v(" ")]
+            ),
             _vm._v("\n              );\n            ")
           ]),
           _vm._v(" "),
@@ -33972,8 +33973,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
