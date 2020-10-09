@@ -76,33 +76,43 @@
         <section class="section is-small">
           <div class="columns" style="text-align: center;">
             <div class="column is-one-fifth">
-              <figure class="image is-1by1">
-                <img class="is-rounded" src="\images\default_icon_me.jpg">
-              </figure>
+              <a href="/about/#PersonA">
+                <figure class="image is-1by1">
+                  <img class="is-rounded" src="\images\default_icon_me.jpg">
+                </figure>
+              </a>
               <h3 class="title is-4">Elizabeth Barbieto</h3>
             </div>
             <div class="column is-one-fifth">
-              <figure class="image is-1by1">
-                <img class="is-rounded" src="\images\default_icon_ryan.png">
-              </figure>
+              <a href="/about/#PersonB">
+                <figure class="image is-1by1">
+                  <img class="is-rounded" src="\images\default_icon_ryan.png">
+                </figure>
+              </a>
               <h3 class="title is-4">Ryan Catterson</h3>
             </div>
             <div class="column is-one-fifth">
-              <figure class="image is-1by1">
-                <img class="is-rounded" src="\images\default_icon_teresa.jpg">
-              </figure>
+              <a href="/about/#PersonC">
+                <figure class="image is-1by1">
+                  <img class="is-rounded" src="\images\default_icon_teresa.jpg">
+                </figure>
+              </a>
               <h3 class="title is-4">Teresa Doan</h3>
             </div>
             <div class="column is-one-fifth">
-              <figure class="image is-1by1">
-                <img class="is-rounded" src="\images\default_icon_josh.png">
-              </figure>
+              <a href="/about/#PersonD">
+                <figure class="image is-1by1">
+                  <img class="is-rounded" src="\images\default_icon_josh.png">
+                </figure>
+              </a>
               <h3 class="title is-4">Joshua Mejia</h3>
             </div>
             <div class="column is-one-fifth">
-              <figure class="image is-1by1">
-                <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
-              </figure>
+              <a href="/about/#PersonE">
+                <figure class="image is-1by1">
+                  <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
+                </figure>
+              </a>
               <h3 class="title is-4">Dengtai Wang</h3>
             </div>
           </div>

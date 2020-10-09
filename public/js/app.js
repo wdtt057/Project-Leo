@@ -2123,6 +2123,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Landing Page mounted.');
@@ -20663,32 +20673,28 @@ var staticRenderFns = [
         { staticClass: "section is-small", attrs: { id: "PersonA" } },
         [
           _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: {
-                    src: "https://bulma.io/images/placeholders/256x256.png"
-                  }
+                  staticClass: "is-rounded is1-by-1",
+                  attrs: { src: "\\images\\default_icon_me.jpg" }
                 })
               ])
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "column is-one-fifth is-offset-two-fifths" },
-              [
-                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 1>")]),
+            _c("div", { staticClass: "column" }, [
+              _c("h2", { staticClass: "title is-4" }, [
+                _vm._v("Elizabeth Barbieto")
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("•blah")]),
                 _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("•blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah blah")])
-                ])
-              ]
-            )
+                _c("li", [_vm._v("•blah blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah blah")])
+              ])
+            ])
           ])
         ]
       ),
@@ -20698,11 +20704,13 @@ var staticRenderFns = [
         { staticClass: "section is-small", attrs: { id: "PersonB" } },
         [
           _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column is-one-fifth" }, [
-              _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 2>")]),
+            _c("div", { staticClass: "column" }, [
+              _c("h2", { staticClass: "title is-4" }, [
+                _vm._v("Ryan Catterson")
+              ]),
               _vm._v(" "),
               _c("ul", [
-                _c("li", [_vm._v("•blah")]),
+                _c("li", [_vm._v("•memes")]),
                 _vm._v(" "),
                 _c("li", [_vm._v("•blah blah")]),
                 _vm._v(" "),
@@ -20710,20 +20718,14 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "column is-one-fifth is-offset-two-fifths" },
-              [
-                _c("figure", { staticClass: "image is-1by1" }, [
-                  _c("img", {
-                    staticClass: "is-rounded",
-                    attrs: {
-                      src: "https://bulma.io/images/placeholders/256x256.png"
-                    }
-                  })
-                ])
-              ]
-            )
+            _c("div", { staticClass: "column is-two-fifths" }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded is1-by-1",
+                  attrs: { src: "\\images\\default_icon_ryan.png" }
+                })
+              ])
+            ])
           ])
         ]
       ),
@@ -20733,32 +20735,26 @@ var staticRenderFns = [
         { staticClass: "section is-small", attrs: { id: "PersonC" } },
         [
           _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: {
-                    src: "https://bulma.io/images/placeholders/256x256.png"
-                  }
+                  staticClass: "is-rounded is1-by-1",
+                  attrs: { src: "\\images\\default_icon_teresa.jpg" }
                 })
               ])
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "column is-one-fifth is-offset-two-fifths" },
-              [
-                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 3>")]),
+            _c("div", { staticClass: "column" }, [
+              _c("h2", { staticClass: "title is-4" }, [_vm._v("Teresa Doan")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("•blah")]),
                 _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("•blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah blah")])
-                ])
-              ]
-            )
+                _c("li", [_vm._v("•blah blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah blah")])
+              ])
+            ])
           ])
         ]
       ),
@@ -20768,8 +20764,8 @@ var staticRenderFns = [
         { staticClass: "section is-small", attrs: { id: "PersonD" } },
         [
           _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column is-one-fifth" }, [
-              _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 4>")]),
+            _c("div", { staticClass: "column" }, [
+              _c("h2", { staticClass: "title is-4" }, [_vm._v("Joshua Mejia")]),
               _vm._v(" "),
               _c("ul", [
                 _c("li", [_vm._v("•blah")]),
@@ -20780,20 +20776,14 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "column is-one-fifth is-offset-two-fifths" },
-              [
-                _c("figure", { staticClass: "image is-1by1" }, [
-                  _c("img", {
-                    staticClass: "is-rounded",
-                    attrs: {
-                      src: "https://bulma.io/images/placeholders/256x256.png"
-                    }
-                  })
-                ])
-              ]
-            )
+            _c("div", { staticClass: "column is-two-fifths" }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded is1-by-1",
+                  attrs: { src: "\\images\\default_icon_josh.png" }
+                })
+              ])
+            ])
           ])
         ]
       ),
@@ -20803,32 +20793,26 @@ var staticRenderFns = [
         { staticClass: "section is-small", attrs: { id: "PersonE" } },
         [
           _c("div", { staticClass: "columns" }, [
-            _c("div", { staticClass: "column is-one-fifth" }, [
+            _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: {
-                    src: "https://bulma.io/images/placeholders/256x256.png"
-                  }
+                  staticClass: "is-rounded is1-by-1",
+                  attrs: { src: "\\images\\default_icon_dengtai.jpg" }
                 })
               ])
             ]),
             _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "column is-one-fifth is-offset-two-fifths" },
-              [
-                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 5>")]),
+            _c("div", { staticClass: "column" }, [
+              _c("h2", { staticClass: "title is-4" }, [_vm._v("Dengtai Wang")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("•blah")]),
                 _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("•blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("•blah blah blah")])
-                ])
-              ]
-            )
+                _c("li", [_vm._v("•blah blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah blah")])
+              ])
+            ])
           ])
         ]
       )
@@ -21156,11 +21140,13 @@ var staticRenderFns = [
         { staticClass: "columns", staticStyle: { "text-align": "center" } },
         [
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("figure", { staticClass: "image is-1by1" }, [
-              _c("img", {
-                staticClass: "is-rounded",
-                attrs: { src: "\\images\\default_icon_me.jpg" }
-              })
+            _c("a", { attrs: { href: "/about/#PersonA" } }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: { src: "\\images\\default_icon_me.jpg" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
@@ -21169,44 +21155,52 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("figure", { staticClass: "image is-1by1" }, [
-              _c("img", {
-                staticClass: "is-rounded",
-                attrs: { src: "\\images\\default_icon_ryan.png" }
-              })
+            _c("a", { attrs: { href: "/about/#PersonB" } }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: { src: "\\images\\default_icon_ryan.png" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [_vm._v("Ryan Catterson")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("figure", { staticClass: "image is-1by1" }, [
-              _c("img", {
-                staticClass: "is-rounded",
-                attrs: { src: "\\images\\default_icon_teresa.jpg" }
-              })
+            _c("a", { attrs: { href: "/about/#PersonC" } }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: { src: "\\images\\default_icon_teresa.jpg" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [_vm._v("Teresa Doan")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("figure", { staticClass: "image is-1by1" }, [
-              _c("img", {
-                staticClass: "is-rounded",
-                attrs: { src: "\\images\\default_icon_josh.png" }
-              })
+            _c("a", { attrs: { href: "/about/#PersonD" } }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: { src: "\\images\\default_icon_josh.png" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [_vm._v("Joshua Mejia")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("figure", { staticClass: "image is-1by1" }, [
-              _c("img", {
-                staticClass: "is-rounded",
-                attrs: { src: "\\images\\default_icon_dengtai.jpg" }
-              })
+            _c("a", { attrs: { href: "/about/#PersonE" } }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: { src: "\\images\\default_icon_dengtai.jpg" }
+                })
+              ])
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [_vm._v("Dengtai Wang")])
@@ -34233,8 +34227,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

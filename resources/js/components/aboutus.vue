@@ -2,13 +2,13 @@
     <div>
          <section class="section is-small" id="PersonA">
             <div class="columns">
-                <div class="column is-one-fifth">
+                <div class="column is-two-fifths">
                     <figure class="image is-1by1">
-                        <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+                        <img class="is-rounded is1-by-1" src="\images\default_icon_me.jpg">
                     </figure>
                 </div>
-                <div class="column is-one-fifth is-offset-two-fifths">
-                    <h2 class="title is-4">&lt;Person 1&gt;</h2>
+                <div class="column">
+                    <h2 class="title is-4">Elizabeth Barbieto</h2>
                     <ul>
                         <li>&bull;blah</li>
                         <li>&bull;blah blah</li>
@@ -19,30 +19,30 @@
         </section>
         <section class="section is-small" id="PersonB">
             <div class="columns">
-                <div class="column is-one-fifth">
-                    <h2 class="title is-4">&lt;Person 2&gt;</h2>
+                <div class="column">
+                    <h2 class="title is-4">Ryan Catterson</h2>
                     <ul>
-                        <li>&bull;blah</li>
+                        <li>&bull;memes</li>
                         <li>&bull;blah blah</li>
                         <li>&bull;blah blah blah</li>
                     </ul>
                 </div>
-                <div class="column is-one-fifth is-offset-two-fifths">
+                <div class="column is-two-fifths">
                     <figure class="image is-1by1">
-                        <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+                        <img class="is-rounded is1-by-1" src="\images\default_icon_ryan.png">
                     </figure>
                 </div>
             </div>
         </section>
         <section class="section is-small" id="PersonC">
             <div class="columns">
-                <div class="column is-one-fifth">
+                <div class="column is-two-fifths">
                     <figure class="image is-1by1">
-                        <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+                        <img class="is-rounded is1-by-1" src="\images\default_icon_teresa.jpg">
                     </figure>
                 </div>
-                <div class="column is-one-fifth is-offset-two-fifths">
-                    <h2 class="title is-4">&lt;Person 3&gt;</h2>
+                <div class="column">
+                    <h2 class="title is-4">Teresa Doan</h2>
                     <ul>
                         <li>&bull;blah</li>
                         <li>&bull;blah blah</li>
@@ -53,30 +53,30 @@
         </section>
         <section class="section is-small" id="PersonD">
             <div class="columns">
-                <div class="column is-one-fifth">
-                    <h2 class="title is-4">&lt;Person 4&gt;</h2>
+                <div class="column">
+                    <h2 class="title is-4">Joshua Mejia</h2>
                     <ul>
                         <li>&bull;blah</li>
                         <li>&bull;blah blah</li>
                         <li>&bull;blah blah blah</li>
                     </ul>
                 </div> 
-                <div class="column is-one-fifth is-offset-two-fifths">
+                <div class="column is-two-fifths">
                     <figure class="image is-1by1">
-                        <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+                        <img class="is-rounded is1-by-1" src="\images\default_icon_josh.png">
                     </figure>
                 </div>
             </div>
         </section>
         <section class="section is-small" id="PersonE">
             <div class="columns">
-                <div class="column is-one-fifth">
+                <div class="column is-two-fifths">
                     <figure class="image is-1by1">
-                        <img class="is-rounded" src="https://bulma.io/images/placeholders/256x256.png">
+                        <img class="is-rounded is1-by-1" src="\images\default_icon_dengtai.jpg">
                     </figure>
                 </div>
-                <div class="column is-one-fifth is-offset-two-fifths">
-                    <h2 class="title is-4">&lt;Person 5&gt;</h2>
+                <div class="column">
+                    <h2 class="title is-4">Dengtai Wang</h2>
                     <ul>
                         <li>&bull;blah</li>
                         <li>&bull;blah blah</li>
