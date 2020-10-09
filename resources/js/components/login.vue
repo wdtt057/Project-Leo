@@ -1,11 +1,9 @@
-<?php
-    session_start();
-?>
 <template>
   <div>
     <section class="section is-small">
       <div class="columns">
-        <div class="column is-half is-offset-one-quarter"> <!-- is-mobile not added -->
+        <div class="column is-half is-offset-one-quarter">
+          <!-- is-mobile not added -->
           <div class="field">
             <label class="label">Username</label>
             <div class="control has-icons-left has-icons-right">
