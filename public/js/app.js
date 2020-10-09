@@ -20635,6 +20635,212 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/aboutus.vue?vue&type=template&id=2636d220&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/aboutus.vue?vue&type=template&id=2636d220& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c(
+        "section",
+        { staticClass: "section is-small", attrs: { id: "PersonA" } },
+        [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-fifth" }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: {
+                    src: "https://bulma.io/images/placeholders/256x256.png"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "column is-one-fifth is-offset-two-fifths" },
+              [
+                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 1>")]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [_vm._v("•blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah blah")])
+                ])
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section is-small", attrs: { id: "PersonB" } },
+        [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-fifth" }, [
+              _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 2>")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("•blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah blah")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "column is-one-fifth is-offset-two-fifths" },
+              [
+                _c("figure", { staticClass: "image is-1by1" }, [
+                  _c("img", {
+                    staticClass: "is-rounded",
+                    attrs: {
+                      src: "https://bulma.io/images/placeholders/256x256.png"
+                    }
+                  })
+                ])
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section is-small", attrs: { id: "PersonC" } },
+        [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-fifth" }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: {
+                    src: "https://bulma.io/images/placeholders/256x256.png"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "column is-one-fifth is-offset-two-fifths" },
+              [
+                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 3>")]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [_vm._v("•blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah blah")])
+                ])
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section is-small", attrs: { id: "PersonD" } },
+        [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-fifth" }, [
+              _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 4>")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [_vm._v("•blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("•blah blah blah")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "column is-one-fifth is-offset-two-fifths" },
+              [
+                _c("figure", { staticClass: "image is-1by1" }, [
+                  _c("img", {
+                    staticClass: "is-rounded",
+                    attrs: {
+                      src: "https://bulma.io/images/placeholders/256x256.png"
+                    }
+                  })
+                ])
+              ]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section is-small", attrs: { id: "PersonE" } },
+        [
+          _c("div", { staticClass: "columns" }, [
+            _c("div", { staticClass: "column is-one-fifth" }, [
+              _c("figure", { staticClass: "image is-1by1" }, [
+                _c("img", {
+                  staticClass: "is-rounded",
+                  attrs: {
+                    src: "https://bulma.io/images/placeholders/256x256.png"
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "column is-one-fifth is-offset-two-fifths" },
+              [
+                _c("h2", { staticClass: "title is-4" }, [_vm._v("<Person 5>")]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [_vm._v("•blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("•blah blah blah")])
+                ])
+              ]
+            )
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/contactpage.vue?vue&type=template&id=1323ca34&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/contactpage.vue?vue&type=template&id=1323ca34& ***!
@@ -21159,7 +21365,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "navbar-start" }, [
-      _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
+      _c("a", { staticClass: "navbar-item", attrs: { href: "/about" } }, [
         _vm._v("About")
       ]),
       _vm._v(" "),
@@ -33559,6 +33765,7 @@ Vue.component('navbar', __webpack_require__(/*! ./components/navbar.vue */ "./re
 Vue.component('login', __webpack_require__(/*! ./components/login.vue */ "./resources/js/components/login.vue")["default"]);
 Vue.component('signup', __webpack_require__(/*! ./components/signup.vue */ "./resources/js/components/signup.vue")["default"]);
 Vue.component('contact-page', __webpack_require__(/*! ./components/contactpage.vue */ "./resources/js/components/contactpage.vue")["default"]);
+Vue.component('aboutus', __webpack_require__(/*! ./components/aboutus.vue */ "./resources/js/components/aboutus.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -33600,6 +33807,59 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/aboutus.vue":
+/*!*********************************************!*\
+  !*** ./resources/js/components/aboutus.vue ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./aboutus.vue?vue&type=template&id=2636d220& */ "./resources/js/components/aboutus.vue?vue&type=template&id=2636d220&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/aboutus.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/aboutus.vue?vue&type=template&id=2636d220&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/aboutus.vue?vue&type=template&id=2636d220& ***!
+  \****************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./aboutus.vue?vue&type=template&id=2636d220& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/aboutus.vue?vue&type=template&id=2636d220&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_aboutus_vue_vue_type_template_id_2636d220___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
