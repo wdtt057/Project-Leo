@@ -76,44 +76,44 @@
         <section class="section is-small">
           <div class="columns" style="text-align: center;">
             <div class="column is-one-fifth">
-              <a href="/about/#PersonA">
+              <a href="/about/#Elizabeth-Barbieto">
                 <figure class="image is-1by1">
                   <img class="is-rounded" src="\images\default_icon_me.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#PersonA">Elizabeth Barbieto</a></h3>
+              <h3 class="title is-4"><a href="/about/#Elizabeth-Barbieto">Elizabeth Barbieto</a></h3>
             </div>
             <div class="column is-one-fifth">
-              <a href="/about/#PersonB">
+              <a href="/about/#Ryan-Catterson">
                 <figure class="image is-1by1">
                   <img class="is-rounded" src="\images\default_icon_ryan.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#PersonB">Ryan Catterson</a></h3>
+              <h3 class="title is-4"><a href="/about/#Ryan-Catterson">Ryan Catterson</a></h3>
             </div>
             <div class="column is-one-fifth">
-              <a href="/about/#PersonC">
+              <a href="/about/#Teresa-Doan">
                 <figure class="image is-1by1">
                   <img class="is-rounded" src="\images\default_icon_teresa.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#PersonC">Teresa Doan</a></h3>
+              <h3 class="title is-4"><a href="/about/#Teresa-Doan">Teresa Doan</a></h3>
             </div>
             <div class="column is-one-fifth">
-              <a href="/about/#PersonD">
+              <a href="/about/#Joshua-Mejia">
                 <figure class="image is-1by1">
                   <img class="is-rounded" src="\images\default_icon_josh.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#PersonD">Joshua Mejia</a></h3>
+              <h3 class="title is-4"><a href="/about/#Joshua-Mejia">Joshua Mejia</a></h3>
             </div>
             <div class="column is-one-fifth">
-              <a href="/about/#PersonE">
+              <a href="/about/#Dengtai-Wang">
                 <figure class="image is-1by1">
                   <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#PersonE">Dengtai Wang</a></h3>
+              <h3 class="title is-4"><a href="/about/#Dengtai-Wang">Dengtai Wang</a></h3>
             </div>
           </div>
         </section>
