@@ -12,14 +12,15 @@
     <script defer src="\js\app.js"></script>
   </head>
   <body>
-      <div id="app">
-      <!-- FOR DARKMODE class="has-background-grey-dark -->
-        <navbar></navbar>
-        <div class="container">
-          @yield('content')
-        </div>
+    <div id="app">
+    <!-- FOR DARKMODE class="has-background-grey-dark -->
+      <navbar></navbar>
+      <section class="section is-small"></section>
+      <div class="container">
+        @yield('content')
       </div>
-  <section class="section is-medium"></section>
+    </div>
+    <section class="section is-medium"></section>
   <footer class="footer">
     <div class="content has-text-centered">
       <p>

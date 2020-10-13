@@ -81,7 +81,7 @@
                   <img class="is-rounded" src="\images\default_icon_me.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Elizabeth Barbieto</h3>
+              <h3 class="title is-4"><a href="/about/#PersonA">Elizabeth Barbieto</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonB">
@@ -89,7 +89,7 @@
                   <img class="is-rounded" src="\images\default_icon_ryan.png">
                 </figure>
               </a>
-              <h3 class="title is-4">Ryan Catterson</h3>
+              <h3 class="title is-4"><a href="/about/#PersonB">Ryan Catterson</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonC">
@@ -97,7 +97,7 @@
                   <img class="is-rounded" src="\images\default_icon_teresa.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Teresa Doan</h3>
+              <h3 class="title is-4"><a href="/about/#PersonC">Teresa Doan</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonD">
@@ -105,7 +105,7 @@
                   <img class="is-rounded" src="\images\default_icon_josh.png">
                 </figure>
               </a>
-              <h3 class="title is-4">Joshua Mejia</h3>
+              <h3 class="title is-4"><a href="/about/#PersonD">Joshua Mejia</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonE">
@@ -113,7 +113,7 @@
                   <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Dengtai Wang</h3>
+              <h3 class="title is-4"><a href="/about/#PersonE">Dengtai Wang</a></h3>
             </div>
           </div>
         </section>
