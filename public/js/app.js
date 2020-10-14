@@ -21056,7 +21056,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Help, my name is Elizabeth and I'm being held hostage. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               )
             ])
           ]),
@@ -21150,7 +21150,9 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _vm._v("Elizabeth Barbieto")
+              _c("a", { attrs: { href: "/about/#PersonA" } }, [
+                _vm._v("Elizabeth Barbieto")
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -21164,7 +21166,11 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [_vm._v("Ryan Catterson")])
+            _c("h3", { staticClass: "title is-4" }, [
+              _c("a", { attrs: { href: "/about/#PersonB" } }, [
+                _vm._v("Ryan Catterson")
+              ])
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
@@ -21177,7 +21183,11 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [_vm._v("Teresa Doan")])
+            _c("h3", { staticClass: "title is-4" }, [
+              _c("a", { attrs: { href: "/about/#PersonC" } }, [
+                _vm._v("Teresa Doan")
+              ])
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
@@ -21190,7 +21200,11 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [_vm._v("Joshua Mejia")])
+            _c("h3", { staticClass: "title is-4" }, [
+              _c("a", { attrs: { href: "/about/#PersonD" } }, [
+                _vm._v("Joshua Mejia")
+              ])
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
@@ -21203,7 +21217,11 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [_vm._v("Dengtai Wang")])
+            _c("h3", { staticClass: "title is-4" }, [
+              _c("a", { attrs: { href: "/about/#PersonE" } }, [
+                _vm._v("Dengtai Wang")
+              ])
+            ])
           ])
         ]
       )
@@ -21365,10 +21383,6 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
         _vm._v("Courses")
-      ]),
-      _vm._v(" "),
-      _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
-        _vm._v("Pricing")
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "navbar-item has-dropdown is-hoverable" }, [

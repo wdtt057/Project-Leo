@@ -25,7 +25,7 @@
                 <h1 class="title is-1">
                     Be the leaders of your generation!
                 </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Help, my name is Elizabeth and I'm being held hostage. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
               <div class="column is-two-fifths">
                 <figure class="image is-4by3">
@@ -81,7 +81,7 @@
                   <img class="is-rounded" src="\images\default_icon_me.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Elizabeth Barbieto</h3>
+              <h3 class="title is-4"><a href="/about/#PersonA">Elizabeth Barbieto</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonB">
@@ -89,7 +89,7 @@
                   <img class="is-rounded" src="\images\default_icon_ryan.png">
                 </figure>
               </a>
-              <h3 class="title is-4">Ryan Catterson</h3>
+              <h3 class="title is-4"><a href="/about/#PersonB">Ryan Catterson</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonC">
@@ -97,7 +97,7 @@
                   <img class="is-rounded" src="\images\default_icon_teresa.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Teresa Doan</h3>
+              <h3 class="title is-4"><a href="/about/#PersonC">Teresa Doan</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonD">
@@ -105,7 +105,7 @@
                   <img class="is-rounded" src="\images\default_icon_josh.png">
                 </figure>
               </a>
-              <h3 class="title is-4">Joshua Mejia</h3>
+              <h3 class="title is-4"><a href="/about/#PersonD">Joshua Mejia</a></h3>
             </div>
             <div class="column is-one-fifth">
               <a href="/about/#PersonE">
@@ -113,7 +113,7 @@
                   <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
                 </figure>
               </a>
-              <h3 class="title is-4">Dengtai Wang</h3>
+              <h3 class="title is-4"><a href="/about/#PersonE">Dengtai Wang</a></h3>
             </div>
           </div>
         </section>
