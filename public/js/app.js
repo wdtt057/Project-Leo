@@ -20670,8 +20670,13 @@ var staticRenderFns = [
     return _c("div", [
       _c(
         "section",
-        { staticClass: "section is-small", attrs: { id: "PersonA" } },
+        {
+          staticClass: "section is-small",
+          attrs: { id: "Elizabeth-Barbieto" }
+        },
         [
+          _c("hr"),
+          _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
@@ -20701,8 +20706,10 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "section is-small", attrs: { id: "PersonB" } },
+        { staticClass: "section is-small", attrs: { id: "Ryan-Catterson" } },
         [
+          _c("hr"),
+          _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column" }, [
               _c("h2", { staticClass: "title is-4" }, [
@@ -20732,8 +20739,10 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "section is-small", attrs: { id: "PersonC" } },
+        { staticClass: "section is-small", attrs: { id: "Teresa-Doan" } },
         [
+          _c("hr"),
+          _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
@@ -20761,8 +20770,10 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "section is-small", attrs: { id: "PersonD" } },
+        { staticClass: "section is-small", attrs: { id: "Joshua-Mejia" } },
         [
+          _c("hr"),
+          _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column" }, [
               _c("h2", { staticClass: "title is-4" }, [_vm._v("Joshua Mejia")]),
@@ -20790,8 +20801,10 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "section",
-        { staticClass: "section is-small", attrs: { id: "PersonE" } },
+        { staticClass: "section is-small", attrs: { id: "Dengtai-Wang" } },
         [
+          _c("hr"),
+          _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
               _c("figure", { staticClass: "image is-1by1" }, [
@@ -21140,7 +21153,7 @@ var staticRenderFns = [
         { staticClass: "columns", staticStyle: { "text-align": "center" } },
         [
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#PersonA" } }, [
+            _c("a", { attrs: { href: "/about/#Elizabeth-Barbieto" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
                   staticClass: "is-rounded",
@@ -21150,14 +21163,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#PersonA" } }, [
+              _c("a", { attrs: { href: "/about/#Elizabeth-Barbieto" } }, [
                 _vm._v("Elizabeth Barbieto")
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#PersonB" } }, [
+            _c("a", { attrs: { href: "/about/#Ryan-Catterson" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
                   staticClass: "is-rounded",
@@ -21167,14 +21180,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#PersonB" } }, [
+              _c("a", { attrs: { href: "/about/#Ryan-Catterson" } }, [
                 _vm._v("Ryan Catterson")
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#PersonC" } }, [
+            _c("a", { attrs: { href: "/about/#Teresa-Doan" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
                   staticClass: "is-rounded",
@@ -21184,14 +21197,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#PersonC" } }, [
+              _c("a", { attrs: { href: "/about/#Teresa-Doan" } }, [
                 _vm._v("Teresa Doan")
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#PersonD" } }, [
+            _c("a", { attrs: { href: "/about/#Joshua-Mejia" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
                   staticClass: "is-rounded",
@@ -21201,14 +21214,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#PersonD" } }, [
+              _c("a", { attrs: { href: "/about/#Joshua-Mejia" } }, [
                 _vm._v("Joshua Mejia")
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#PersonE" } }, [
+            _c("a", { attrs: { href: "/about/#Dengtai-Wang" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
                 _c("img", {
                   staticClass: "is-rounded",
@@ -21218,7 +21231,7 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#PersonE" } }, [
+              _c("a", { attrs: { href: "/about/#Dengtai-Wang" } }, [
                 _vm._v("Dengtai Wang")
               ])
             ])
@@ -34241,8 +34254,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
