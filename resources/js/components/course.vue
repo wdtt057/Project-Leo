@@ -3,10 +3,13 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Example Component</div>
+                    <div class="card-header">Course</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        CSS
+                    </div>
+                    <div class="card-body">
+                        PHP
                     </div>
                 </div>
             </div>
