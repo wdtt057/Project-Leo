@@ -15,6 +15,7 @@ window.Vue = require('vue');
 
 Vue.component('landing-page', require('./components/landingpage.vue').default);
 Vue.component('navbar', require('./components/navbar.vue').default);
+Vue.component('navbardash', require('./components/navbardash.vue').default);
 Vue.component('login', require('./components/login.vue').default);
 Vue.component('course', require('./components/course.vue').default);
 Vue.component('signup', require('./components/signup.vue').default);
