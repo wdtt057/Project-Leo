@@ -35,12 +35,17 @@ Route::get('/contact-us', [ContactController::class, 'contact']);
 Route::post('/send-message', [ContactController::class, 'sendEmail'])->name('contact.send');
 
 Route::get('/about', function() {
-    return view('aboutus');
+    return view('about_us');
 });
 
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/verify', [App\Http\Controllers\Auth\RegisterController::class, 'verifyUser'])->name('verify.user');
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('main.home');
+
+//Route::get('/settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('main.user_settings');
+/*Route::get('/settings', function() {
+    return view('main.user_settings');
+});*/
