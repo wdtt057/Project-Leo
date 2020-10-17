@@ -43,9 +43,16 @@ Auth::routes();
 
 Route::get('/verify', [App\Http\Controllers\Auth\RegisterController::class, 'verifyUser'])->name('verify.user');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('main.home');
+Route::group(['middleware' => ['preventBackHistory']],function(){
+    
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('main.home');
 
-//Route::get('/settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('main.user_settings');
+    Route::get('/settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('main.user_settings');
+});
+
+Route::get('/FAQs' , function() {
+    return view('main.help');
+});
 /*Route::get('/settings', function() {
     return view('main.user_settings');
 });*/

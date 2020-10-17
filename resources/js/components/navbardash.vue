@@ -21,8 +21,8 @@
             <a class="navbar-link">{{ user.name }}</a>
             <div class="navbar-dropdown">
               <a class="navbar-item" href="#"><i class="fas fa-user"></i>&nbsp;Profile</a>
-              <a class="navbar-item" href="#"><i class="fas fa-cog"></i>&nbsp;Settings</a>
-							<a href="#" class="navbar-item"><i class="far fa-question-circle"></i>&nbsp;Help</a>
+              <a class="navbar-item" href="/settings"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+							<a class="navbar-item" href="/FAQs"><i class="far fa-question-circle"></i>&nbsp;Help</a>
               <hr class="navbar-divider">
               <a class="navbar-item" :href="route" style="color:red; font-weight: bold;"
 							onclick="event.preventDefault();

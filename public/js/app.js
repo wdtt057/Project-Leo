@@ -21763,16 +21763,17 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
-      _c("i", { staticClass: "fas fa-cog" }),
-      _vm._v(" Settings")
-    ])
+    return _c(
+      "a",
+      { staticClass: "navbar-item", attrs: { href: "/settings" } },
+      [_c("i", { staticClass: "fas fa-cog" }), _vm._v(" Settings")]
+    )
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
+    return _c("a", { staticClass: "navbar-item", attrs: { href: "/FAQs" } }, [
       _c("i", { staticClass: "far fa-question-circle" }),
       _vm._v(" Help")
     ])
