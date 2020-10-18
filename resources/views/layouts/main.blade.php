@@ -12,11 +12,11 @@
     <script defer src="\js\app.js"></script>
 </head>
 <body>
-	<div id="app">
+	<div id="app" class="has-background-lighter">
   <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
-			<main class="py-4">
+			<div class="container is-fluid">
 					@yield('content')
-			</main>
+			</div>
 	</div>
 </body>
 </html>
