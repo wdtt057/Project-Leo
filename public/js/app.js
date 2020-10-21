@@ -2385,7 +2385,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     logout: "{{ route('logout') }}";
@@ -21641,7 +21640,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("nav", { staticClass: "navbar is-dark" }, [
-    _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "container is-fluid" }, [
       _c("div", { staticClass: "navbar-brand" }, [
         _vm._m(0),
         _vm._v(" "),
@@ -21681,8 +21680,6 @@ var render = function() {
                   _vm._m(2),
                   _vm._v(" "),
                   _vm._m(3),
-                  _vm._v(" "),
-                  _vm._m(4),
                   _vm._v(" "),
                   _c("hr", { staticClass: "navbar-divider" }),
                   _vm._v(" "),
@@ -21768,15 +21765,6 @@ var staticRenderFns = [
       { staticClass: "navbar-item", attrs: { href: "/settings" } },
       [_c("i", { staticClass: "fas fa-cog" }), _vm._v(" Settings")]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "navbar-item", attrs: { href: "/FAQs" } }, [
-      _c("i", { staticClass: "far fa-question-circle" }),
-      _vm._v(" Help")
-    ])
   }
 ]
 render._withStripped = true
@@ -34706,8 +34694,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

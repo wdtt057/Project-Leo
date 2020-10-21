@@ -9,7 +9,7 @@
           General
         </p>
         <ul class="menu-list">
-          <li><a class="is-active">Dashboard</a></li>
+          <li><a class="">Dashboard</a></li>
         </ul>
         <p class="menu-label">
           Courses
@@ -17,15 +17,29 @@
         <ul class="menu-list">
           <li><a>Introduction</a></li>
           <li>
-            <a class="">HTML</a>
-            <ul>
+            <a id="HTML" class="" onclick="toggleMenuHTML()">HTML</a>
+            <ul id="submenuHTML" class="is-hidden">
               <li><a>Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>
           </li>
-          <li><a>CSS</a></li>
-          <li><a>Javascript</a></li>
+          <li>
+            <a id="CSS" class="" onclick="toggleMenuCSS()">CSS</a>
+            <ul id="submenuCSS" class="is-hidden">
+              <li><a>Lesson 1</a></li>
+              <li><a>Lesson 2</a></li>
+              <li><a>Lesson 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="JS" class="" onclick="toggleMenuJS()">JavaScript</a>
+            <ul id="submenuJS" class="is-hidden">
+              <li><a>Lesson 1</a></li>
+              <li><a>Lesson 2</a></li>
+              <li><a>Lesson 3</a></li>
+            </ul>
+          </li>
         </ul>
         <a class="menu-list" href="/FAQs"><i class="far fa-question-circle"></i>&nbsp;Help Center</a>
       </nav>
@@ -39,7 +53,8 @@
         </div>
         <div class="level-right">
           <div class="level-item">
-            [Date and Time will Go here eventually]
+            <!-- <script>document.write("<strong>" + (new Date()).toString() + "</strong>");</script>  -->
+            {{ date('Y-m-d H:i:s') }}
           </div>
         </div>
       </div>
@@ -179,3 +194,18 @@
   </div>
 </div>
 @endsection
+
+<script>
+function toggleMenuHTML(){
+    document.getElementById("submenuHTML").classList.toggle("is-hidden");
+    document.getElementById("HTML").classList.toggle("is-active");
+}
+function toggleMenuCSS(){
+    document.getElementById("submenuCSS").classList.toggle("is-hidden");
+    document.getElementById("CSS").classList.toggle("is-active");
+}
+function toggleMenuJS(){
+    document.getElementById("submenuJS").classList.toggle("is-hidden");
+    document.getElementById("JS").classList.toggle("is-active");
+}
+</script>

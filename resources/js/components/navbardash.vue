@@ -1,6 +1,6 @@
 <template>
 	<nav class="navbar is-dark">
-    <div class="container">
+    <div class="container is-fluid">
       <div class="navbar-brand">
         <a class="navbar-item" href="/home">
 					<i class="fas fa-home"></i>&nbsp;Home

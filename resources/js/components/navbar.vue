@@ -12,8 +12,8 @@
           <span></span>
         </span>
       </div>
-    <div id="navMenu" class="navbar-menu" :class="{'is-active':isActive}">
-      <div class="navbar-start">
+      <div id="navMenu" class="navbar-menu" :class="{'is-active':isActive}">
+        <div class="navbar-start">
           <a href="/about" class="navbar-item">About</a>
           <a href="/course" class="navbar-item">Courses</a>
           <!-- <a href="#" class="navbar-item">Pricing</a> -->
@@ -26,7 +26,7 @@
               <a class="navbar-item" href="/contact-us" style="color:#41CAE5; font-weight: bold;">Contact Us</a>
             </div>
           </div>
-      </div>
+        </div>
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
