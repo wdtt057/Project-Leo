@@ -20772,6 +20772,16 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
+      _c("section", { staticClass: "section is-small" }, [
+        _c("h1", { staticClass: "title is-1" }, [_vm._v("Our Mission")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor commodo ullamcorper. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Sit amet cursus sit amet dictum sit amet justo donec. Et netus et malesuada fames ac turpis. Nec ullamcorper sit amet risus nullam eget. Elementum pulvinar etiam non quam lacus. Odio euismod lacinia at quis. Sed risus ultricies tristique nulla aliquet enim tortor. Sagittis aliquam malesuada bibendum arcu vitae elementum. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique."
+          )
+        ])
+      ]),
+      _vm._v(" "),
       _c(
         "section",
         {
@@ -20783,12 +20793,14 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded is1-by-1",
-                  attrs: { src: "\\images\\default_icon_me.jpg" }
-                })
-              ])
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "\\images\\default_icon_me.jpg",
+                  width: "200px",
+                  height: "200px"
+                }
+              })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
@@ -20830,12 +20842,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column is-two-fifths" }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded is1-by-1",
-                  attrs: { src: "\\images\\default_icon_ryan.png" }
-                })
-              ])
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "\\images\\default_icon_ryan.png",
+                  width: "200px",
+                  height: "200px"
+                }
+              })
             ])
           ])
         ]
@@ -20849,12 +20863,14 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded is1-by-1",
-                  attrs: { src: "\\images\\default_icon_teresa.jpg" }
-                })
-              ])
+              _c("img", {
+                staticClass: "is-rounded",
+                attrs: {
+                  src: "\\images\\default_icon_teresa.jpg",
+                  width: "200px",
+                  height: "200px"
+                }
+              })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
@@ -20892,12 +20908,14 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column is-two-fifths" }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded is1-by-1",
-                  attrs: { src: "\\images\\default_icon_josh.png" }
-                })
-              ])
+              _c("img", {
+                staticClass: "is-square",
+                attrs: {
+                  src: "\\images\\default_icon_josh.png",
+                  width: "200px",
+                  height: "200px"
+                }
+              })
             ])
           ])
         ]
@@ -20911,12 +20929,14 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "columns" }, [
             _c("div", { staticClass: "column is-two-fifths" }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded is1-by-1",
-                  attrs: { src: "\\images\\default_icon_dengtai.jpg" }
-                })
-              ])
+              _c("img", {
+                staticClass: "is-rounded is1-by-1",
+                attrs: {
+                  src: "\\images\\default_icon_dengtai.jpg",
+                  width: "200px",
+                  height: "200px"
+                }
+              })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
@@ -34694,8 +34714,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\Project-LEO\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
