@@ -10,11 +10,14 @@
 <script src="/plugin/codemirror/addon/hint/html-hint.js"></script>
 <script src="/plugin/codemirror/addon/hint/css-hint.js"></script>
 <script src="/plugin/codemirror/addon/hint/javascript-hint.js"></script>
-
+<script src="/js/jquery.min.js"></script>
+<style>
+    iframe{height:600px;width:400px};
+</style>
 <section class="section">
 <div class="columns">
     <div class="column">
-        <div id="htmlEditor"></div>
+        <div id="htmlEditor" onkeyup="executeCode()"></div>
     </div>
     <div class="column">
         <div id="cssEditor"></div>
@@ -24,7 +27,13 @@
     </div>
 </div>
 </section>
-
+<section class="section has-background-light">
+    <div class="columns">
+        <div class="column is-8 is-offset-2">
+            <div id="iframewrapper"></div>
+        </div>
+    </div>
+</section>
 
 
 <script>
@@ -53,4 +62,18 @@
         lineNumbers: true,
         extraKeys: {"Ctrl-Space": "autocomplete"}
     });
+    var output = htmlEditor.getValue();
+    function executeCode(){
+        var text = htmlEditor.getValue();
+        var ifr = document.createElement("iframe");
+        ifr.setAttribute("frameborder", "0");
+        ifr.setAttribute("id", "iframeOutput");  
+        document.getElementById("iframewrapper").innerHTML = "";
+        document.getElementById("iframewrapper").appendChild(ifr);
+        var ifrw = (ifr.contentWindow) ? ifr.contentWindow : (ifr.contentDocument.document) ? ifr.contentDocument.document : ifr.contentDocument;
+        ifrw.document.open();
+        ifrw.document.write(text);
+        ifrw.document.close();
+    };
+    executeCode();
 </script>
