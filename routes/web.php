@@ -51,6 +51,15 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('main.home');
 
     Route::get('/settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('main.user_settings');
+
+    // Route::get('/courses/html/level1/lesson1', [App\Http\Controllers\HomeController::class, 'html1_1'])->name('course.html.html1_1');
+
+
+
+});
+
+Route::get('/courses/html/level1/lesson1', function() {
+    return view('courses.html.html1_1');
 });
 
 Route::get('/FAQs' , function() {

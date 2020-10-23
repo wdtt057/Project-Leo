@@ -19,7 +19,7 @@
           <li>
             <a id="HTML" class="" onclick="toggleMenuHTML()">HTML</a>
             <ul id="submenuHTML" class="is-hidden">
-              <li><a>Lesson 1</a></li>
+              <li><a href="/courses/html/level1/lesson1">Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>
