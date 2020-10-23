@@ -4,7 +4,7 @@
     <nav class="breadcrumb" aria-label="breadcrumbs">
     <ul>
         <li>
-        <a href="#">
+        <a href="/home">
             <span class="icon is-small">
             <i class="fas fa-home" aria-hidden="true"></i>
             </span>
@@ -45,12 +45,12 @@
                 </div>
             </div>
             <div class="column">
-                <div class='is-full section box has-background-black'>
+                <div class='is-full box has-background-black'>
                     <div id="htmlEditor" onkeyup="executeCode()"></div>
                 </div>
                 <div class='is-full box'> 
                     <h2>Output</h2>
-                    <div id="iframewrapper" class="section has-background-light"></div>
+                    <div id="iframewrapper" class="has-background-light"></div>
                 </div>
             </div>
         </div>
