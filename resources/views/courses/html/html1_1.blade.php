@@ -41,7 +41,7 @@
         <h1>HTML LESSON 1</h1>
         <div class="columns">
             <div class="column">
-                <div class="box has-background-primary">Lesson goes here I guess
+                <div class="box has-background-primary">Display "Hello World"
                 </div>
             </div>
             <div class="column">
@@ -52,7 +52,17 @@
                     <h2>Output</h2>
                     <div id="iframewrapper" class="has-background-light"></div>
                 </div>
+                <a id="lesson-submit" class="button is-pulled-right" onclick="checkAnswer()">Submit</a>
+                <a id="lesson-next" class="button is-pulled-right is-hidden">Next</a>
             </div>
         </div>
     </section>
 @endsection
+
+<script>
+    function checkAnswer(){
+        document.getElementById("lesson-next").classList.remove("is-hidden");
+        var x = document.getElementById("iframeOutput");
+        console.log(x);
+    }
+</script>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/plugin/codemirror/theme/shadowfox.css">
     <link rel="stylesheet" href="/plugin/codemirror/addon/hint/show-hint.css">
     <script src="/plugin/codemirror/lib/codemirror.js"></script>
-    <script src="/plugin/codemirror/mode/xml/xml.js"></script>
+    <script src="/plugin/codemirror/mode/htmlmixed/htmlmixed.js"></script>
     <script src="/plugin/codemirror/mode/css/css.js"></script>
     <script src="/plugin/codemirror/mode/javascript/javascript.js"></script>
     <script src="/plugin/codemirror/addon/hint/show-hint.js"></script>

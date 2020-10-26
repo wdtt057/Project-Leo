@@ -1,7 +1,7 @@
 var htmlEditor = CodeMirror(document.getElementById("htmlEditor"),{
-    value: "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>",
-    mode: "xml",
-    htmlMode: true,
+    value: "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1> </h1>\n\t</body>\n</html>",
+    mode: "htmlmixed",
+    // htmlMode: true,
     theme: "shadowfox",
     tabSize: 4,
     lineNumbers: true,
