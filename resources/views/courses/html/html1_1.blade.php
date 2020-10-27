@@ -52,8 +52,23 @@
                     <h2>Output</h2>
                     <div id="iframewrapper" class="has-background-light"></div>
                 </div>
-                <a id="lesson-submit" class="button is-pulled-right" onclick="checkAnswer()">Submit</a>
-                <a id="lesson-next" class="button is-pulled-right is-hidden">Next</a>
+                <div class="columns">
+                    <div class="column">
+                        <article id="res-msg" class="message is-primary is-hidden">
+                            <div class="message-header">
+                                <p id="head-msg"></p>
+                                <button class="delete" aria-label="delete" id="test"></button>
+                            </div>
+                            <div class="message-body">
+                                Good Job!
+                            </div>
+                        </article>
+                    </div>
+                    <div class="column">
+                        <a id="lesson-submit" class="button is-pulled-right" onclick="checkAnswer()">Submit</a>
+                        <a id="lesson-next" class="button is-pulled-right is-hidden">Next</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -61,8 +76,29 @@
 
 <script>
     function checkAnswer(){
-        document.getElementById("lesson-next").classList.remove("is-hidden");
-        var x = document.getElementById("iframeOutput");
-        console.log(x);
+        var x = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
+        if(x === htmlEditor.getValue()){
+            //document.getElementById("lesson-next").classList.remove("is-hidden");
+            document.getElementById("res-msg").classList.remove("is-hidden");
+            document.getElementById("res-msg").classList.remove("is-danger");
+            document.getElementById("res-msg").classList.add("is-primary");
+            document.getElementById("head-msg").innerHTML = "Correct Answer!";
+            console.log("correct answer");
+        }
+        else{
+            document.getElementById("res-msg").classList.remove("is-hidden");
+            document.getElementById("res-msg").classList.remove("is-primary");
+            document.getElementById("res-msg").classList.add("is-danger");
+            document.getElementById("head-msg").innerHTML = "Wrong Answer!";
+            console.log("wrong answer");
+        }
+        // var y = document.getElementById("res-msg");
+        // var closeBtn = document.getElementById("test");
+        // closeBtn.addEventListener("click", () => {
+        //     y.classList.add("is-hidden");
+        // })
     }
+       
+    
+
 </script>
