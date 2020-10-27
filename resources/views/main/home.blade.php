@@ -68,7 +68,7 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Avg. Quiz Score:</div>
-                  <div class="title is-5">80/100</div>
+                  <div class="title is-5">81/100</div>
                 </div>
               </div>
               <div class="level-item">
@@ -80,7 +80,7 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Completion %</div>
-                  <div class="title is-5">25%</div>
+                  <div class="title is-5">100%</div>
                 </div>
               </div>
             </div>
@@ -94,19 +94,19 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Avg. Quiz Score:</div>
-                  <div class="title is-5">0/100</div>
+                  <div class="title is-5">81.6/100</div>
                 </div>
               </div>
               <div class="level-item">
                 <div class="">
                   <div class="heading">Time:</div>
-                  <div class="title is-5">0:00</div>
+                  <div class="title is-5">12:53</div>
                 </div>
               </div>
               <div class="level-item">
                 <div class="">
                   <div class="heading">Completion %</div>
-                  <div class="title is-5">0%</div>
+                  <div class="title is-5">30%</div>
                 </div>
               </div>
             </div>
@@ -120,19 +120,19 @@
               <div class="level-item">
                 <div class="">
                   <div class="heading">Avg. Quiz Score:</div>
-                  <div class="title is-5">15/100</div>
+                  <div class="title is-5">87/100</div>
                 </div>
               </div>
               <div class="level-item">
                 <div class="">
                   <div class="heading">Time:</div>
-                  <div class="title is-5">12:23</div>
+                  <div class="title is-5">43:23</div>
                 </div>
               </div>
               <div class="level-item">
                 <div class="">
                   <div class="heading">Completion %</div>
-                  <div class="title is-5">23%</div>
+                  <div class="title is-5">60%</div>
                 </div>
               </div>
             </div>
@@ -144,24 +144,20 @@
         <div class="column is-6">
           <div class="panel">
             <p class="panel-heading">
-              killme
+              Lessons Completed
             </p>
             <div class="panel-block">
-              <figure class="image is-16x9">
-                <img src="https://placehold.it/1280x720">
-              </figure>
+              <canvas id="lessonsCompleted"></canvas>
             </div>
           </div>
         </div>
         <div class="column is-6">
           <div class="panel">
             <p class="panel-heading">
-              teehee
+              Quiz Scores
             </p>
             <div class="panel-block">
-              <figure class="image is-16x9">
-                <img src="https://placehold.it/1280x720">
-              </figure>
+              <canvas id="quizScores"></canvas>
             </div>
           </div>
         </div>
