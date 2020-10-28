@@ -8,17 +8,17 @@ var myChart = new Chart(lessonsCompleted, {
             label: '# Completed',
             data: [10, 3, 6],
             backgroundColor: [
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
                 //'rgba(255, 99, 132, 0.2)',
                 //'rgba(255, 206, 86, 0.2)',
                 //'rgba(153, 102, 255, 0.2)',
             ],
             borderColor: [
-                'rgba(75, 192, 192, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(54, 162, 235, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(153, 102, 255, 1)',
                 //'rgba(255, 99, 132, 1)',
                 //'rgba(255, 206, 86, 1)',
                 //'rgba(153, 102, 255, 1)',
@@ -79,3 +79,27 @@ var myLineChart = new Chart(quizScores, {
         }
     }
 });
+
+const accordion = document.getElementsByClassName('has-submenu');
+
+for(let i = 0; i < accordion.length; i++) {
+  accordion[i].onclick = function () {
+    this.classList.toggle('is-active');
+    
+    const submenu = this.nextElementSibling;
+    
+    if(submenu.style.maxHeight){
+      //Close menu
+      // console.log('tutup');
+      submenu.style.maxHeight = null;
+      submenu.style.marginTop = null;
+      submenu.style.marginBottom = null;
+    }else {
+      //Open menu
+      // console.log('Open');
+      submenu.style.maxHeight = submenu.scrollHeight + "px";
+      submenu.style.marginTop = "0.2em";
+      submenu.style.marginBottm = "0.22em";
+    }
+  }
+}
