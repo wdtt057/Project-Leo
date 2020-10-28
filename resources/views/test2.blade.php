@@ -1,8 +1,9 @@
 <script src="/js/jquery.min.js"></script>
+<script src="/plugin/confetti/confetti.js"></script>
 <div class="preloader">
     <div class="loader"></div>
 </div>
-
+<canvas id="my-canvas"></canvas>
 <style>
 .preloader {
     position: fixed;
@@ -105,6 +106,8 @@
     $(window).on('load', function(){ //remove setTimeout function before web launch
         setTimeout(function (){ //delete this line
             $('.preloader').addClass('complete');
-        }, 2000); //delete this line
+        }, 1000); //delete this line
     });
+    
+    confetti.start();
 </script>

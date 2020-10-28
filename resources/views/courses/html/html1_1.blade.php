@@ -83,6 +83,7 @@
             document.getElementById("head-msg").innerHTML = "Correct Answer!";
             document.getElementById("msg-body").innerHTML = "Good job!";
             console.log("correct answer");
+            confetti.start(3000, 175, 300);
         }
         else{
             document.getElementById("res-msg").classList.remove("is-hidden");
@@ -100,3 +101,8 @@
         if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
     }
 </script>
+<style>
+#iframeOutput {
+    width: 100%;
+}
+</style>

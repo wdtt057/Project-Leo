@@ -24,6 +24,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script defer src="\js\app.js"></script>
     <script defer src="\js\custom.js"></script>
+    <script src="\plugin\confetti\confetti.js"></script>
 </head>
 <body>
     <div id="app" class="has-background-white-ter">

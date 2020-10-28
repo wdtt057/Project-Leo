@@ -53,8 +53,8 @@
         </div>
         <div class="level-right">
           <div class="level-item">
-            <!-- <script>document.write("<strong>" + (new Date()).toString() + "</strong>");</script>  -->
-            {{ date('Y-m-d H:i:s') }}
+            <div id="time"></div>
+            <!--{{ date('Y-m-d H:i:s') }}-->
           </div>
         </div>
       </div>
@@ -192,18 +192,21 @@
 @endsection
 
 <script>
-// function toggleMenuHTML(){
-//     document.getElementById("submenuHTML").classList.toggle("is-hidden");
-//     document.getElementById("HTML").classList.toggle("is-active");
-// }
-// function toggleMenuCSS(){
-//     document.getElementById("submenuCSS").classList.toggle("is-hidden");
-//     document.getElementById("CSS").classList.toggle("is-active");
-// }
-// function toggleMenuJS(){
-//     document.getElementById("submenuJS").classList.toggle("is-hidden");
-//     document.getElementById("JS").classList.toggle("is-active");
-// }
+  function showTime() {
+    var date = new Date(),
+        utc = new Date(Date.UTC(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          date.getHours(),
+          date.getMinutes(),
+          date.getSeconds()
+        ));
+
+    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
+  }
+
+  setInterval(showTime, 1000);
 </script>
 
 <style>
