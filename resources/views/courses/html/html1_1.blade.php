@@ -59,9 +59,7 @@
                                 <p id="head-msg"></p>
                                 <button class="delete" aria-label="delete" onclick="closeCheck()"></button>
                             </div>
-                            <div class="message-body">
-                                Good Job!
-                            </div>
+                            <div id="msg-body" class="message-body"></div>
                         </article>
                     </div>
                     <div class="column">
@@ -83,6 +81,7 @@
             document.getElementById("res-msg").classList.remove("is-danger");
             document.getElementById("res-msg").classList.add("is-primary");
             document.getElementById("head-msg").innerHTML = "Correct Answer!";
+            document.getElementById("msg-body").innerHTML = "Good job!";
             console.log("correct answer");
         }
         else{
@@ -90,6 +89,7 @@
             document.getElementById("res-msg").classList.remove("is-primary");
             document.getElementById("res-msg").classList.add("is-danger");
             document.getElementById("head-msg").innerHTML = "Wrong Answer!";
+            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sures its in the &lt;h1&gt; tag!";
             console.log("wrong answer");
         }
        
@@ -98,6 +98,5 @@
     function closeCheck(){
         var y = document.getElementById("res-msg");
         if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
-
-
+    }
 </script>
