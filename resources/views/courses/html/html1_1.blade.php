@@ -57,7 +57,7 @@
                         <article id="res-msg" class="message is-primary is-hidden">
                             <div class="message-header">
                                 <p id="head-msg"></p>
-                                <button class="delete" aria-label="delete" id="test"></button>
+                                <button class="delete" aria-label="delete" onclick="closeCheck()"></button>
                             </div>
                             <div class="message-body">
                                 Good Job!
@@ -92,13 +92,12 @@
             document.getElementById("head-msg").innerHTML = "Wrong Answer!";
             console.log("wrong answer");
         }
-        // var y = document.getElementById("res-msg");
-        // var closeBtn = document.getElementById("test");
-        // closeBtn.addEventListener("click", () => {
-        //     y.classList.add("is-hidden");
-        // })
-    }
        
-    
+    }
+
+    function closeCheck(){
+        var y = document.getElementById("res-msg");
+        if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
+
 
 </script>
