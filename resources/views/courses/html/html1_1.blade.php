@@ -89,7 +89,7 @@
             document.getElementById("res-msg").classList.remove("is-primary");
             document.getElementById("res-msg").classList.add("is-danger");
             document.getElementById("head-msg").innerHTML = "Wrong Answer!";
-            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sures its in the &lt;h1&gt; tag!";
+            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sures it is in the &lt;h1&gt; tag!";
             console.log("wrong answer");
         }
        
