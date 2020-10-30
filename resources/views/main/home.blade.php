@@ -17,24 +17,24 @@
         <ul class="menu-list">
           <li><a>Introduction</a></li>
           <li>
-            <a id="HTML" class="has-submenu">HTML</a>
-            <ul id="submenuHTML" class="test">
+            <a id="HTML" class="" onclick="toggleMenuHTML()">HTML</a>
+            <ul id="submenuHTML" class="is-hidden">
               <li><a href="/courses/html/level1/lesson1">Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>
           </li>
           <li>
-            <a id="CSS" class="has-submenu">CSS</a>
-            <ul id="submenuCSS" class="test">
+            <a id="CSS" class="" onclick="toggleMenuCSS()">CSS</a>
+            <ul id="submenuCSS" class="is-hidden">
               <li><a>Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>
           </li>
           <li>
-            <a id="JS" class="has-submenu">JavaScript</a>
-            <ul id="submenuJS" class="test">
+            <a id="JS" class="" onclick="toggleMenuJS()">JavaScript</a>
+            <ul id="submenuJS" class="is-hidden">
               <li><a>Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
@@ -192,30 +192,16 @@
 @endsection
 
 <script>
-// function toggleMenuHTML(){
-//     document.getElementById("submenuHTML").classList.toggle("is-hidden");
-//     document.getElementById("HTML").classList.toggle("is-active");
-// }
-// function toggleMenuCSS(){
-//     document.getElementById("submenuCSS").classList.toggle("is-hidden");
-//     document.getElementById("CSS").classList.toggle("is-active");
-// }
-// function toggleMenuJS(){
-//     document.getElementById("submenuJS").classList.toggle("is-hidden");
-//     document.getElementById("JS").classList.toggle("is-active");
-// }
+function toggleMenuHTML(){
+    document.getElementById("submenuHTML").classList.toggle("is-hidden");
+    document.getElementById("HTML").classList.toggle("is-active");
+}
+function toggleMenuCSS(){
+    document.getElementById("submenuCSS").classList.toggle("is-hidden");
+    document.getElementById("CSS").classList.toggle("is-active");
+}
+function toggleMenuJS(){
+    document.getElementById("submenuJS").classList.toggle("is-hidden");
+    document.getElementById("JS").classList.toggle("is-active");
+}
 </script>
-
-<style>
-.test {
-  max-height: 0;
-  overflow:hidden;
-  transition: all 0.2s ease-in-out;
-}
-
-.menu-list li ul{
-  margin-left: 0.75em!important;
-  margin-top: 0!important;
-  margin-bottom: 0!important;
-}
-</style>
