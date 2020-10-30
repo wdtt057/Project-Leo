@@ -40,9 +40,93 @@
     <section class="section">
         <h1>HTML LESSON 1</h1>
         <div class="columns">
-            <div class="column">
+            <div class="column is-two-fifths">
                 <div class="box has-background-primary">Display "Hello World"
                 </div>
+                    <section class="section">
+      <div class="container is-clipped">
+        <div id="slider">
+
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\body.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h3.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\hTags.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image video-container">
+                <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U" frameborder="0"></iframe>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
             </div>
             <div class="column">
                 <div class='is-full box has-background-black'>

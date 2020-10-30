@@ -25,6 +25,9 @@
     <script defer src="\js\app.js"></script>
     <script defer src="\js\custom.js"></script>
     <script src="\plugin\confetti\confetti.js"></script>
+    <link rel="stylesheet" href="/plugin/bulma-carousel/css/bulma-carousel.min.css" />
+    <script defer src="/plugin/bulma-carousel/js/bulma-carousel.min.js"></script>
+    <script defer src="/js/test.js"></script>
 </head>
 <body>
     <div id="app" class="has-background-white-ter">
