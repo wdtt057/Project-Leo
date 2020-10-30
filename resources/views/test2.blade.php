@@ -111,42 +111,8 @@
     
     confetti.start();
 </script> -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/plugin/glider/css/glider.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="glider-contain">
-        <div class="glider">
-          <div><figure><img src="\images\lesson-slides\html\body.png" alt=""/></figure></div>
-          <div><figure><img src="\images\lesson-slides\html\h1.png" alt=""/></figure></div>
-          <div><figure><img src="\images\lesson-slides\html\h2.png" alt=""/></figure></div>
-          <div><figure><img src="\images\lesson-slides\html\h3.png" alt=""/></figure></div>
-        </div>
-        <button aria-label="Previous" class="glider-prev">
-          <i class="fa fa-chevron-left"></i>
-        </button>
-        <button aria-label="Next" class="glider-next">
-          <i class="fa fa-chevron-right"></i>
-        </button>
-        <div role="tablist" id="dots"></div>
-      </div>
-    </div>
-    <script src="/plugin/glider/js/glider.min.js"></script>
-    <script>
-      new Glider(document.querySelector('.glider'), {
-        slidesToShow: 1,
-        dots: '#dots',
-        draggable: true,
-        arrows: {
-          prev: '.glider-prev',
-          next: '.glider-next'
-        }
-      });
-    </script>
-  </body>
-</html>
+@extends('layouts.base')
+
+@section('content')
+    <signup csrf="{{csrf_token()}}"></signup>
+@endsection

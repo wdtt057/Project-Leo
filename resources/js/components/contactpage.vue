@@ -10,7 +10,6 @@
                   <img src="\images\contactpage_test.jpg" alt="contactTest" style="opacity:0.8">
                 </div>
                 <div class="column is-half">
-                    <!--Dont mess this up it goes here ffs L O L-->
                   <div class="field is-horizontal">
                     <div class="field-label is-normal">
                       <label class="label">From</label>
