@@ -114,129 +114,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script> -->
-    <link rel="stylesheet" href="/plugin/bulma-carousel/css/bulma-carousel.min.css" />
-    <script defer src="/plugin/bulma-carousel/js/bulma-carousel.min.js"></script>
-    <script defer src="/js/test.js"></script>
+    <link rel="stylesheet" href="/plugin/glider/css/glider.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   </head>
   <body>
-    <section class="section">
-      <div class="container is-clipped">
-        <div id="slider">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550921082-c282cdc432d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 1
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550945771-515f118cef86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 2
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550971264-3f7e4a7bb349?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 3
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550931937-2dfd45a40da0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 4
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550930516-af8b8cc4f871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 5
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image video-container is-16by9">
-                <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U" frameborder="0"></iframe>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 6
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
+    <div class="container">
+      <div class="glider-contain">
+        <div class="glider">
+          <div><figure><img src="\images\lesson-slides\html\body.png" alt=""/></figure></div>
+          <div><figure><img src="\images\lesson-slides\html\h1.png" alt=""/></figure></div>
+          <div><figure><img src="\images\lesson-slides\html\h2.png" alt=""/></figure></div>
+          <div><figure><img src="\images\lesson-slides\html\h3.png" alt=""/></figure></div>
         </div>
+        <button aria-label="Previous" class="glider-prev">
+          <i class="fa fa-chevron-left"></i>
+        </button>
+        <button aria-label="Next" class="glider-next">
+          <i class="fa fa-chevron-right"></i>
+        </button>
+        <div role="tablist" id="dots"></div>
       </div>
-    </section>
+    </div>
+    <script src="/plugin/glider/js/glider.min.js"></script>
+    <script>
+      new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        dots: '#dots',
+        draggable: true,
+        arrows: {
+          prev: '.glider-prev',
+          next: '.glider-next'
+        }
+      });
+    </script>
   </body>
 </html>

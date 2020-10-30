@@ -2384,7 +2384,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     logout: "{{ route('logout') }}";
@@ -21686,8 +21685,6 @@ var render = function() {
           _c("div", { staticClass: "navbar-start" }),
           _vm._v(" "),
           _c("div", { staticClass: "navbar-end" }, [
-            _vm._m(1),
-            _vm._v(" "),
             _c(
               "div",
               { staticClass: "navbar-item has-dropdown is-hoverable" },
@@ -21697,9 +21694,9 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "navbar-dropdown" }, [
-                  _vm._m(2),
+                  _vm._m(1),
                   _vm._v(" "),
-                  _vm._m(3),
+                  _vm._m(2),
                   _vm._v(" "),
                   _c("hr", { staticClass: "navbar-divider" }),
                   _vm._v(" "),
@@ -21756,16 +21753,6 @@ var staticRenderFns = [
       _c("i", { staticClass: "fas fa-home" }),
       _vm._v(" Home\n        ")
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "a",
-      { staticClass: "navbar-item", attrs: { href: "/progress" } },
-      [_vm._v("Progress "), _c("i", { staticClass: "far fa-chart-bar" })]
-    )
   },
   function() {
     var _vm = this
@@ -34714,8 +34701,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

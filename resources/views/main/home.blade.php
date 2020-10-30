@@ -9,7 +9,7 @@
           General
         </p>
         <ul class="menu-list">
-          <li><a class="">Dashboard</a></li>
+          <li><a class="">Dashboard <i class="far fa-chart-bar"></i></a></li>
         </ul>
         <p class="menu-label">
           Courses

@@ -16,7 +16,6 @@
           <!-- <a href="#" class="navbar-item">Pricing</a> -->
       </div>
         <div class="navbar-end">
-					<a href="/progress" class="navbar-item">Progress&nbsp;<i class="far fa-chart-bar"></i></a>
 					<div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">{{ user.name }}</a>
             <div class="navbar-dropdown">
