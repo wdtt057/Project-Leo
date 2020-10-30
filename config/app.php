@@ -67,8 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-
+    'timezone' => 'America/Los_Angeles', /* Originally was UTC */
+    
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration

@@ -40,9 +40,93 @@
     <section class="section">
         <h1>HTML LESSON 1</h1>
         <div class="columns">
-            <div class="column">
+            <div class="column is-two-fifths">
                 <div class="box has-background-primary">Display "Hello World"
                 </div>
+                    <section class="section">
+      <div class="container is-clipped">
+        <div id="slider">
+
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\body.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h3.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\hTags.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image video-container">
+                <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U" frameborder="0"></iframe>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
             </div>
             <div class="column">
                 <div class='is-full box has-background-black'>
@@ -53,18 +137,21 @@
                     <div id="iframewrapper" class="has-background-light"></div>
                 </div>
                 <div class="columns">
-                    <div class="column">
-                        <article id="res-msg" class="message is-primary is-hidden">
-                            <div class="message-header">
-                                <p id="head-msg"></p>
-                                <button class="delete" aria-label="delete" onclick="closeCheck()"></button>
-                            </div>
-                            <div id="msg-body" class="message-body"></div>
-                        </article>
+                    <div class="column is-4 is-offset-8">
+                            <a id="lesson-next" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
+                            &nbsp;
+                            <a id="lesson-submit" class="button is-pulled-right is-primary" onclick="checkAnswer()">Submit</a>
                     </div>
-                    <div class="column">
-                        <a id="lesson-submit" class="button is-pulled-right" onclick="checkAnswer()">Submit</a>
-                        <a id="lesson-next" class="button is-pulled-right is-hidden">Next</a>
+                </div>                
+                <div id="res-msg" class="modal is-hidden">
+                    <div class="modal-background"></div>
+                    <div class="modal-card">
+                        <header id="mod-head" class="modal-card-head">
+                        <p id="head-msg" class="modal-card-title" style="color:#fff;"></p>
+                        <button class="delete" aria-label="close" onclick="closeCheck()"></button>
+                        </header>
+                        <section id="msg-body" class="modal-card-body">
+                        </section>
                     </div>
                 </div>
             </div>
@@ -76,27 +163,54 @@
     function checkAnswer(){
         var x = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
         if(x === htmlEditor.getValue()){
-            //document.getElementById("lesson-next").classList.remove("is-hidden");
+            document.getElementById("lesson-next").classList.remove("is-hidden");
             document.getElementById("res-msg").classList.remove("is-hidden");
-            document.getElementById("res-msg").classList.remove("is-danger");
-            document.getElementById("res-msg").classList.add("is-primary");
+            document.getElementById("res-msg").classList.add("is-active");
+            document.getElementById("mod-head").classList.remove("fail-header");
+            document.getElementById("msg-body").classList.remove("fail-body");
+            document.getElementById("mod-head").classList.add("success-header");
+            document.getElementById("msg-body").classList.add("success-body");
             document.getElementById("head-msg").innerHTML = "Correct Answer!";
             document.getElementById("msg-body").innerHTML = "Good job!";
             console.log("correct answer");
+            confetti.start(3000, 175, 300);
         }
         else{
             document.getElementById("res-msg").classList.remove("is-hidden");
-            document.getElementById("res-msg").classList.remove("is-primary");
-            document.getElementById("res-msg").classList.add("is-danger");
+            document.getElementById("res-msg").classList.add("is-active");
+            document.getElementById("mod-head").classList.remove("success-header");
+            document.getElementById("msg-body").classList.remove("success-body");
+            document.getElementById("mod-head").classList.add("fail-header");
+            document.getElementById("msg-body").classList.add("fail-body");
             document.getElementById("head-msg").innerHTML = "Wrong Answer!";
-            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sures it is in the &lt;h1&gt; tag!";
+            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sure it is in the &lt;h1&gt; tag!";
             console.log("wrong answer");
         }
-       
     }
-
     function closeCheck(){
         var y = document.getElementById("res-msg");
         if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
     }
 </script>
+<style>
+#iframeOutput {
+    width: 100%;
+}
+.success-header {
+  background-color: #00d1b2!important;
+  border-color: #00d1b2;
+
+}
+.success-body {
+  background-color: #ebfffc!important;
+  color: #00947e;
+}
+.fail-header {
+  background-color: #f14668!important;
+  border-color: #f14668;
+}
+.fail-body {
+  background-color: #feecf0!important;
+  color: #cc0f35;
+}
+</style>

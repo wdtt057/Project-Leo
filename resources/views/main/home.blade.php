@@ -53,8 +53,8 @@
         </div>
         <div class="level-right">
           <div class="level-item">
-            <!-- <script>document.write("<strong>" + (new Date()).toString() + "</strong>");</script>  -->
-            {{ date('Y-m-d H:i:s') }}
+            <div id="time"></div>
+            <!--{{ date('Y-m-d H:i:s') }}-->
           </div>
         </div>
       </div>
