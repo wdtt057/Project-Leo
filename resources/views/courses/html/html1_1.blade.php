@@ -1,4 +1,4 @@
-@extends('layouts.course')
+@extends('layouts.course_text_editor')
 
 @section('content')
     <nav class="breadcrumb" aria-label="breadcrumbs">
@@ -65,7 +65,7 @@
                   </div>
                 </section>
             </div>
-            <div class="column">
+            <div class="column is-half">
                 <div class='is-full box has-background-black'>
                     <div id="htmlEditor" onkeyup="executeCode()"></div>
                 </div>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-4 is-offset-8">
-                            <a id="lesson-next" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
+                            <a id="lesson-next" href="/courses/html/level1/lesson2" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
                             &nbsp;
                             <a id="lesson-submit" class="button is-pulled-right is-primary" onclick="checkAnswer()">Submit</a>
                     </div>

@@ -45,16 +45,5 @@ function closeCheck(){
     if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
 }
 
-/* Lesson Carousel - check glider.js for documentation */
-new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-});
-
 /* ANSWER KEY STARTS HERE */
 var html1_1_ans = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
