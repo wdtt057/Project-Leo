@@ -1,41 +1,41 @@
 //lessonsCompleted Chart
-var lessonsCompleted = document.getElementById('lessonsCompleted').getContext('2d');
-var myChart = new Chart(lessonsCompleted, {
-    type: 'bar',
-    data: {
-        labels: ['HTML', 'CSS', 'JavaScript'],
-        datasets: [{
-            label: '# Completed',
-            data: [10, 3, 6],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                //'rgba(255, 99, 132, 0.2)',
-                //'rgba(255, 206, 86, 0.2)',
-                //'rgba(153, 102, 255, 0.2)',
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(153, 102, 255, 1)',
-                //'rgba(255, 99, 132, 1)',
-                //'rgba(255, 206, 86, 1)',
-                //'rgba(153, 102, 255, 1)',
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
+var lessonsCompleted = document.getElementById('lessonsCompleted');//.getContext('2d');
+// var myChart = new Chart(lessonsCompleted, {
+//     type: 'bar',
+//     data: {
+//         labels: ['HTML', 'CSS', 'JavaScript'],
+//         datasets: [{
+//             label: '# Completed',
+//             data: [10, 3, 4],
+//             backgroundColor: [
+//                 'rgba(255, 99, 132, 0.2)',
+//                 'rgba(255, 206, 86, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 //'rgba(255, 99, 132, 0.2)',
+//                 //'rgba(255, 206, 86, 0.2)',
+//                 //'rgba(153, 102, 255, 0.2)',
+//             ],
+//             borderColor: [
+//                 'rgba(255, 99, 132, 1)',
+//                 'rgba(255, 206, 86, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 //'rgba(255, 99, 132, 1)',
+//                 //'rgba(255, 206, 86, 1)',
+//                 //'rgba(153, 102, 255, 1)',
+//             ],
+//             borderWidth: 1
+//         }]
+//     },
+//     options: {
+//         scales: {
+//             yAxes: [{
+//                 ticks: {
+//                     beginAtZero: true
+//                 }
+//             }]
+//         }
+//     }
+// });
 //Quiz Scores Chart
 var quizScores = document.getElementById('quizScores').getContext('2d');
 var myLineChart = new Chart(quizScores, {

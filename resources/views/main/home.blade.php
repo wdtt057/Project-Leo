@@ -106,13 +106,23 @@
             <p class="panel-heading">
               Lessons Completed
             </p>
-            <div class="panel-block">
-              <canvas id="lessonsCompleted"></canvas>
+            <div class="box">
+              <h4 class="subtitle is-4">HTML</h4>
+              <progress id="html-progress" class="progress is-danger" value="100" max="100">30%</progress>
+              <hr>
+              <h4 class="subtitle is-4">CSS</h4>
+              <progress id="css-progress" class="progress is-warning" value="30" max="100">30%</progress>
+              <hr>
+              <h4 class="subtitle is-4">JS</h4>
+              <progress id="js-progress" class="progress is-info" value="60" max="100">100%</progress>
+              <br>
+             <!--  <canvas id="lessonsCompleted"> -->
+              <!-- </canvas> -->
             </div>
           </div>
         </div>
         <div class="column is-6">
-          <div class="panel">
+          <div class="panel" style="padding-bottom:28px">
             <p class="panel-heading">
               Quiz Scores
             </p>
