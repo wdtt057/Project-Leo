@@ -13,8 +13,10 @@
       </div>
     <div id="navMenu" class="navbar-menu" :class="{'is-active':isActive}">
       <div class="navbar-start">
+          <!-- <a href="#" class="navbar-item">Pricing</a> -->
       </div>
         <div class="navbar-end">
+					<a href="/progress" class="navbar-item">Progress&nbsp;<i class="far fa-chart-bar"></i></a>
 					<div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">{{ user.name }}</a>
             <div class="navbar-dropdown">

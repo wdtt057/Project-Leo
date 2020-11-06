@@ -1,4 +1,4 @@
-@extends('layouts.course_text_editor')
+@extends('layouts.course')
 
 @section('content')
     <nav class="breadcrumb" aria-label="breadcrumbs">
@@ -40,32 +40,95 @@
     <section class="section">
         <h1>HTML LESSON 1</h1>
         <div class="columns">
-            <div class="column is-half">
-                <div class="box has-background-primary">
-                  <p>Create an &lt;h1&gt; that will display "Hello World"</p>
-                </div>       
-                <section class="section box has-background-dark">
-                  <div class="glider-contain">
-                      <div class="glider">
-                        <div><figure><img src="\images\lesson-slides\html\body.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\h1.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\h2.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\h3.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\hTags.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\p1.png" alt=""/></figure></div>
-                        <div><figure><img src="\images\lesson-slides\html\p2.png" alt=""/></figure></div>
-                      </div>
-                      <button aria-label="Previous" class="glider-prev">
-                        <i class="fa fa-chevron-left"></i>
-                      </button>
-                      <button aria-label="Next" class="glider-next">
-                        <i class="fa fa-chevron-right"></i>
-                      </button>
-                      <div role="tablist" id="dots"></div>
-                  </div>
-                </section>
+            <div class="column is-two-fifths">
+                <div class="box has-background-primary">Display "Hello World"
+                </div>
+                    <section class="section">
+      <div class="container is-clipped">
+        <div id="slider">
+
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\body.png"
+                  alt=""
+                />
+              </figure>
             </div>
-            <div class="column is-half">
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\h3.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\hTags.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_1.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="\images\L1_2.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image video-container">
+                <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U" frameborder="0"></iframe>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+            </div>
+            <div class="column">
                 <div class='is-full box has-background-black'>
                     <div id="htmlEditor" onkeyup="executeCode()"></div>
                 </div>
@@ -75,7 +138,7 @@
                 </div>
                 <div class="columns">
                     <div class="column is-4 is-offset-8">
-                            <a id="lesson-next" href="/courses/html/level1/lesson2" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
+                            <a id="lesson-next" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
                             &nbsp;
                             <a id="lesson-submit" class="button is-pulled-right is-primary" onclick="checkAnswer()">Submit</a>
                     </div>
@@ -95,9 +158,11 @@
         </div>
     </section>
 @endsection
+
 <script>
     function checkAnswer(){
-        if(html1_1_ans === htmlEditor.getValue()){
+        var x = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
+        if(x === htmlEditor.getValue()){
             document.getElementById("lesson-next").classList.remove("is-hidden");
             document.getElementById("res-msg").classList.remove("is-hidden");
             document.getElementById("res-msg").classList.add("is-active");
@@ -107,7 +172,8 @@
             document.getElementById("msg-body").classList.add("success-body");
             document.getElementById("head-msg").innerHTML = "Correct Answer!";
             document.getElementById("msg-body").innerHTML = "Good job!";
-            confetti.start(2500, 175, 300);
+            console.log("correct answer");
+            confetti.start(3000, 175, 300);
         }
         else{
             document.getElementById("res-msg").classList.remove("is-hidden");
@@ -117,7 +183,34 @@
             document.getElementById("mod-head").classList.add("fail-header");
             document.getElementById("msg-body").classList.add("fail-body");
             document.getElementById("head-msg").innerHTML = "Wrong Answer!";
-            document.getElementById("msg-body").innerHTML = "Try Again!<br />&bull; Check your spelling and your spacing.<br />&bull; Make sure it is in the &lt;h1&gt; tag!";
+            document.getElementById("msg-body").innerHTML = "Almost!<br />&bull;Check your spelling and your spacing.<br />&bull;Make sure it is in the &lt;h1&gt; tag!";
+            console.log("wrong answer");
         }
     }
+    function closeCheck(){
+        var y = document.getElementById("res-msg");
+        if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
+    }
 </script>
+<style>
+#iframeOutput {
+    width: 100%;
+}
+.success-header {
+  background-color: #00d1b2!important;
+  border-color: #00d1b2;
+
+}
+.success-body {
+  background-color: #ebfffc!important;
+  color: #00947e;
+}
+.fail-header {
+  background-color: #f14668!important;
+  border-color: #f14668;
+}
+.fail-body {
+  background-color: #feecf0!important;
+  color: #cc0f35;
+}
+</style>

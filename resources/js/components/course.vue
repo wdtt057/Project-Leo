@@ -4,6 +4,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">Course</div>
+
                     <div class="card-body">
                         CSS
                     </div>
