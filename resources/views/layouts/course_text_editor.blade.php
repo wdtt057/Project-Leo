@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="/plugin/glider/css/glider.css" />
     <script src="/plugin/codemirror/lib/codemirror.js"></script>
+    <script src="/plugin/codemirror/mode/xml/xml.js"></script>
     <script src="/plugin/codemirror/mode/htmlmixed/htmlmixed.js"></script>
     <script src="/plugin/codemirror/mode/css/css.js"></script>
     <script src="/plugin/codemirror/mode/javascript/javascript.js"></script>

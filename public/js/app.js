@@ -21099,7 +21099,11 @@ var staticRenderFns = [
               "ul",
               { staticClass: "submenu-list", attrs: { id: "submenuCSS" } },
               [
-                _c("li", [_c("a", [_vm._v("Lesson 1")])]),
+                _c("li", [
+                  _c("a", { attrs: { href: "/courses/css/level1/lesson1" } }, [
+                    _vm._v("Lesson 1")
+                  ])
+                ]),
                 _vm._v(" "),
                 _c("li", [_c("a", [_vm._v("Lesson 2")])]),
                 _vm._v(" "),

@@ -54,17 +54,11 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
 
     Route::get('/settings', [App\Http\Controllers\HomeController::class, 'settings'])->name('main.user_settings');
 
-    // Route::get('/courses/html/level1/lesson1', [App\Http\Controllers\HomeController::class, 'html1_1'])->name('course.html.html1_1');
+    Route::get('/courses/html/level1/lesson1', [App\Http\Controllers\HomeController::class, 'htmlLesson1'])->name('courses.html.html1_1');
 
+    Route::get('/courses/html/level1/lesson2', [App\Http\Controllers\HomeController::class, 'htmlLesson2'])->name('courses.html.html1_2');
 
-
-});
-
-Route::get('/courses/html/level1/lesson1', function() {
-    return view('courses.html.html1_1');
-});
-Route::get('/courses/html/level1/lesson2', function() {
-    return view('courses.html.html1_2');
+    Route::get('/courses/css/level1/lesson1', [App\Http\Controllers\HomeController::class, 'cssLesson1'])->name('courses.css.css1_1');
 });
 
 Route::get('/FAQs' , function() {
