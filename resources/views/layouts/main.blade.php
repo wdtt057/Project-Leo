@@ -11,6 +11,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script defer src="\js\app.js"></script>
     <script defer src="\js\home.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
 </head>
 <body>
