@@ -3,47 +3,7 @@
 @section('content')
 <div class="section">
   <div class="columns">
-    <aside class="column is-2">
-      <nav class="menu">
-        <p class="menu-label">
-          General
-        </p>
-        <ul class="menu-list">
-          <li><a class="">Dashboard</a></li>
-        </ul>
-        <p class="menu-label">
-          Courses
-        </p>
-        <ul class="menu-list">
-          <li><a>Introduction</a></li>
-          <li>
-            <a id="HTML" class="" onclick="toggleMenuHTML()">HTML</a>
-            <ul id="submenuHTML" class="is-hidden">
-              <li><a href="/courses/html/level1/lesson1">Lesson 1</a></li>
-              <li><a>Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
-            </ul>
-          </li>
-          <li>
-            <a id="CSS" class="" onclick="toggleMenuCSS()">CSS</a>
-            <ul id="submenuCSS" class="is-hidden">
-              <li><a>Lesson 1</a></li>
-              <li><a>Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
-            </ul>
-          </li>
-          <li>
-            <a id="JS" class="" onclick="toggleMenuJS()">JavaScript</a>
-            <ul id="submenuJS" class="is-hidden">
-              <li><a>Lesson 1</a></li>
-              <li><a>Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
-            </ul>
-          </li>
-        </ul>
-        <a class="menu-list" href="/FAQs"><i class="far fa-question-circle"></i>&nbsp;Help Center</a>
-      </nav>
-    </aside>
+    <aside-menu></aside-menu>
     <main class="column">
       <div class="level">
         <div class="level-left">
@@ -146,13 +106,23 @@
             <p class="panel-heading">
               Lessons Completed
             </p>
-            <div class="panel-block">
-              <canvas id="lessonsCompleted"></canvas>
+            <div class="box">
+              <h4 class="subtitle is-4">HTML</h4>
+              <progress id="html-progress" class="progress is-danger" value="100" max="100">30%</progress>
+              <hr>
+              <h4 class="subtitle is-4">CSS</h4>
+              <progress id="css-progress" class="progress is-warning" value="30" max="100">30%</progress>
+              <hr>
+              <h4 class="subtitle is-4">JS</h4>
+              <progress id="js-progress" class="progress is-info" value="60" max="100">100%</progress>
+              <br>
+             <!--  <canvas id="lessonsCompleted"> -->
+              <!-- </canvas> -->
             </div>
           </div>
         </div>
         <div class="column is-6">
-          <div class="panel">
+          <div class="panel" style="padding-bottom:28px">
             <p class="panel-heading">
               Quiz Scores
             </p>
@@ -167,9 +137,7 @@
               Something
             </p>
             <div class="panel-block">
-              <figure class="image is-16x9">
-                <img src="https://placehold.it/1280x720">
-              </figure>
+              <canvas id="lessonsCompleted"></canvas>
             </div>
           </div>
         </div>
@@ -192,16 +160,33 @@
 @endsection
 
 <script>
-function toggleMenuHTML(){
-    document.getElementById("submenuHTML").classList.toggle("is-hidden");
-    document.getElementById("HTML").classList.toggle("is-active");
-}
-function toggleMenuCSS(){
-    document.getElementById("submenuCSS").classList.toggle("is-hidden");
-    document.getElementById("CSS").classList.toggle("is-active");
-}
-function toggleMenuJS(){
-    document.getElementById("submenuJS").classList.toggle("is-hidden");
-    document.getElementById("JS").classList.toggle("is-active");
-}
+  function showTime() {
+    var date = new Date(),
+        utc = new Date(Date.UTC(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          date.getHours(),
+          date.getMinutes(),
+          date.getSeconds()
+        ));
+
+    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
+  }
+
+  setInterval(showTime, 1000);
 </script>
+
+<style>
+.submenu-list {
+  max-height: 0;
+  overflow:hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-list li ul{
+  margin-left: 0.75em!important;
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+</style>
