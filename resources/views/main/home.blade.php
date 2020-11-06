@@ -137,7 +137,7 @@
               Something
             </p>
             <div class="panel-block">
-              <canvas id="lessonsCompleted"></canvas>
+              <!-- <canvas id="lessonsCompleted"></canvas> -->
             </div>
           </div>
         </div>
