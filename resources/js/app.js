@@ -13,14 +13,15 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('landing-page', require('./components/landingpage.vue').default);
-Vue.component('navbar', require('./components/navbar.vue').default);
-Vue.component('navbardash', require('./components/navbardash.vue').default);
-Vue.component('login', require('./components/login.vue').default);
-Vue.component('course', require('./components/course.vue').default);
-Vue.component('signup', require('./components/signup.vue').default);
-Vue.component('contact-page', require('./components/contactpage.vue').default);
-Vue.component('aboutus', require('./components/aboutus.vue').default);
+Vue.component('landing-page', require('./components/LandingPage.vue').default);
+Vue.component('navbar', require('./components/Navbar.vue').default);
+Vue.component('navbardash', require('./components/NavbarDash.vue').default);
+Vue.component('aside-menu', require('./components/AsideMenu.vue').default);
+Vue.component('login', require('./components/Login.vue').default);
+Vue.component('course', require('./components/Course.vue').default);
+Vue.component('signup', require('./components/Signup.vue').default);
+Vue.component('contact-page', require('./components/ContactPage.vue').default);
+Vue.component('aboutus', require('./components/AboutUs.vue').default);
 
 
 /**

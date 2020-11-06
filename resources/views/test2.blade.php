@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
 <!-- <script src="/js/jquery.min.js"></script>
 <script src="/plugin/confetti/confetti.js"></script>
 <div class="preloader">
@@ -111,132 +113,143 @@
     
     confetti.start();
 </script> -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script> -->
-    <link rel="stylesheet" href="/plugin/bulma-carousel/css/bulma-carousel.min.css" />
-    <script defer src="/plugin/bulma-carousel/js/bulma-carousel.min.js"></script>
-    <script defer src="/js/test.js"></script>
-  </head>
-  <body>
-    <section class="section">
-      <div class="container is-clipped">
-        <div id="slider">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550921082-c282cdc432d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 1
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550945771-515f118cef86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 2
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550971264-3f7e4a7bb349?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 3
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550931937-2dfd45a40da0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 4
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-16by9 is-covered">
-                <img
-                  src="https://images.unsplash.com/photo-1550930516-af8b8cc4f871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                  alt=""
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 5
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-image">
-              <figure class="image video-container is-16by9">
-                <iframe type="text/html" src="https://www.youtube.com/embed/H0v773vKS_U" frameborder="0"></iframe>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="item__title">
-                Mon titre 6
-              </div>
-              <div class="item__description">
-                Ici une petite description pour tester le slider
-              </div>
-            </div>
-          </div>
-        </div>
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <ul>
+    <li>
+      <a href="/home">
+        <span class="icon is-small">
+        <i class="fas fa-home" aria-hidden="true"></i>
+        </span>
+        <span>Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon is-small">
+        <i class="fab fa-html5" aria-hidden="true"></i>
+        </span>
+        <span>HTML</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon is-small">
+        <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
+        </span>
+        <span>Level 1</span>
+      </a>
+    </li>
+    <li class="is-active">
+      <a href="#">
+        <span class="icon is-small">
+        <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+        </span>
+        <span>Lesson 2</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<section class="section">
+  <div class="columns">
+    <div class="column is-half">
+      <div class="box">
+        Dragging shit from here
+        <div class="lists">
+			<div class="list">
+				<div id="test" class="list-item" draggable="true">Something</div>
+				<div class="list-item" draggable="true">Like</div>
+				<div class="list-item" draggable="true">That</div>
+			</div>
+		</div>
       </div>
-    </section>
-  </body>
-</html>
+    </div>
+    <div class="column is-half">
+      <div class="box">
+        and putting it here
+        <div class="lists">
+			<div class="list"></div>
+		</div>
+      </div>
+    </div>
+  </div>
+</section> 
+<style>
+.lists {
+	display: flex;
+	flex: 1;
+	width: 100%;
+}
+
+.lists .list {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+
+	width: 100%;
+	min-width: 250px;
+	max-width: 350px;
+	height: 100%;
+	min-height: 150px;
+
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: 0 15px;
+	padding: 8px;
+	transition: all 0.2s linear;
+}
+
+.lists .list .list-item {
+	background-color: #F3F3F3;
+	border-radius: 8px;
+	padding: 15px 20px;
+	text-align: center;
+	margin: 4px 0px;
+}
+</style>
+<script>
+const list_items = document.querySelectorAll('.list-item');
+const lists = document.querySelectorAll('.list');
+
+let draggedItem = null;
+
+for (let i = 0; i < list_items.length; i++) {
+	const item = list_items[i];
+
+	item.addEventListener('dragstart', function () {
+		draggedItem = item;
+		setTimeout(function () {
+			item.style.display = 'none';
+		}, 0)
+	});
+
+	item.addEventListener('dragend', function () {
+		setTimeout(function () {
+			draggedItem.style.display = 'block';
+			draggedItem = null;
+		}, 0);
+	})
+
+	for (let j = 0; j < lists.length; j ++) {
+		const list = lists[j];
+		list.addEventListener('dragover', function (e) {
+			e.preventDefault();
+		});
+		
+		list.addEventListener('dragenter', function (e) {
+			e.preventDefault();
+			this.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
+		});
+
+		list.addEventListener('dragleave', function (e) {
+			this.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
+		});
+
+		list.addEventListener('drop', function (e) {
+			console.log('drop');
+			this.append(draggedItem);
+			this.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
+		});
+	}
+}
+var test = document.getElementById("test");
+console.log(test.innerHTML);
+</script>
