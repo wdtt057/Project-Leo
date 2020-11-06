@@ -16,7 +16,6 @@
         <div class="navbar-start">
           <a href="/about" class="navbar-item">About</a>
           <a href="/course" class="navbar-item">Courses</a>
-          <!-- <a href="#" class="navbar-item">Pricing</a> -->
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Resources</a>
             <div class="navbar-dropdown">

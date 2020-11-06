@@ -2,9 +2,9 @@
   <div>
     <section class="section is-small">
       <div class="columns">
-        <div class="column is-half is-offset-one-quarter"> <!-- is-mobile not added -->
+        <div class="column is-half is-offset-one-quarter">
           <div class="field">
-              <label class="label">Email</label>
+            <label class="label">Email</label>
             <div class="control has-icons-left has-icons-right">
               <input
                 class="input"
@@ -37,7 +37,7 @@
           </div>
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Sign Up</button>
+              <button class="button is-link">Register</button>
             </div>
           </div>
           <hr>
@@ -52,6 +52,11 @@
 export default {
   mounted() {
     console.log("Login mounted.");
+  },
+  data() {
+    return {
+      csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+    }
   },
 };
 </script>

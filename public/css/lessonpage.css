@@ -1,0 +1,20 @@
+#iframeOutput {
+    width: 100%;
+}
+.success-header {
+  background-color: #00d1b2!important;
+  border-color: #00d1b2;
+
+}
+.success-body {
+  background-color: #ebfffc!important;
+  color: #00947e;
+}
+.fail-header {
+  background-color: #f14668!important;
+  border-color: #f14668;
+}
+.fail-body {
+  background-color: #feecf0!important;
+  color: #cc0f35;
+}

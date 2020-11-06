@@ -63,6 +63,9 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
 Route::get('/courses/html/level1/lesson1', function() {
     return view('courses.html.html1_1');
 });
+Route::get('/courses/html/level1/lesson2', function() {
+    return view('courses.html.html1_2');
+});
 
 Route::get('/FAQs' , function() {
     return view('main.help');
