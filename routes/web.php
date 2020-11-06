@@ -67,3 +67,9 @@ Route::get('/FAQs' , function() {
 /*Route::get('/settings', function() {
     return view('main.user_settings');
 });*/
+
+//quiz chart route
+Route::get('get_css_data', 'App/Http/Controllers/QuizChartController@GetCSSQuizScoreData');
+Route::get('get_html_data', 'App/Http/Controllers/QuizChartController@GetHTMLQuizScoreData');
+Route::get('get_js_data', 'App/Http/Controllers/QuizChartController@GetJSQuizScoreData');
+//end quiz chart route

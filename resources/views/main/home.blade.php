@@ -1,9 +1,50 @@
 @extends('layouts.main')
 
 @section('content')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 <div class="section">
   <div class="columns">
-    <aside-menu></aside-menu>
+    <aside class="column is-2">
+      <nav class="menu">
+        <p class="menu-label">
+          General
+        </p>
+        <ul class="menu-list">
+          <li><a class="">Dashboard</a></li>
+        </ul>
+        <p class="menu-label">
+          Courses
+        </p>
+        <ul class="menu-list">
+          <li><a>Introduction</a></li>
+          <li>
+            <a id="HTML" class="" onclick="toggleMenuHTML()">HTML</a>
+            <ul id="submenuHTML" class="is-hidden">
+              <li><a href="/courses/html/level1/lesson1">Lesson 1</a></li>
+              <li><a>Lesson 2</a></li>
+              <li><a>Lesson 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="CSS" class="" onclick="toggleMenuCSS()">CSS</a>
+            <ul id="submenuCSS" class="is-hidden">
+              <li><a>Lesson 1</a></li>
+              <li><a>Lesson 2</a></li>
+              <li><a>Lesson 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a id="JS" class="" onclick="toggleMenuJS()">JavaScript</a>
+            <ul id="submenuJS" class="is-hidden">
+              <li><a>Lesson 1</a></li>
+              <li><a>Lesson 2</a></li>
+              <li><a>Lesson 3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a class="menu-list" href="/FAQs"><i class="far fa-question-circle"></i>&nbsp;Help Center</a>
+      </nav>
+    </aside>
     <main class="column">
       <div class="level">
         <div class="level-left">
@@ -152,33 +193,16 @@
 @endsection
 
 <script>
-  function showTime() {
-    var date = new Date(),
-        utc = new Date(Date.UTC(
-          date.getFullYear(),
-          date.getMonth(),
-          date.getDate(),
-          date.getHours(),
-          date.getMinutes(),
-          date.getSeconds()
-        ));
-
-    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
-  }
-
-  setInterval(showTime, 1000);
+function toggleMenuHTML(){
+    document.getElementById("submenuHTML").classList.toggle("is-hidden");
+    document.getElementById("HTML").classList.toggle("is-active");
+}
+function toggleMenuCSS(){
+    document.getElementById("submenuCSS").classList.toggle("is-hidden");
+    document.getElementById("CSS").classList.toggle("is-active");
+}
+function toggleMenuJS(){
+    document.getElementById("submenuJS").classList.toggle("is-hidden");
+    document.getElementById("JS").classList.toggle("is-active");
+}
 </script>
-
-<style>
-.submenu-list {
-  max-height: 0;
-  overflow:hidden;
-  transition: all 0.2s ease-in-out;
-}
-
-.menu-list li ul{
-  margin-left: 0.75em!important;
-  margin-top: 0!important;
-  margin-bottom: 0!important;
-}
-</style>
