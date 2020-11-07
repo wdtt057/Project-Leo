@@ -2541,7 +2541,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
+exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}", ""]);
 
 // exports
 
@@ -34955,8 +34955,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

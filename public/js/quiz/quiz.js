@@ -8,10 +8,11 @@
    if(index < jsonData.length){
      document.getElementById("qNum").innerHTML = "Question " + (index+1) + " of " + jsonData.length;
      document.getElementById("question").innerHTML = jsonData[index].q;
-     document.getElementById("optt1").innerHTML = jsonData[index].opt1;
-     document.getElementById("optt2").innerHTML = jsonData[index].opt2;
-     document.getElementById("optt3").innerHTML = jsonData[index].opt3;
-     document.getElementById("optt4").innerHTML = jsonData[index].opt4;
+     document.getElementById("optt1").textContent = jsonData[index].opt1;
+     document.getElementById("optt2").textContent = jsonData[index].opt2;
+     document.getElementById("optt3").textContent = jsonData[index].opt3;
+     document.getElementById("optt4").textContent = jsonData[index].opt4;
+     document.getElementById("quizHint").innerHTML = jsonData[index].hint;
    }
  }
 
@@ -53,14 +54,30 @@
      if(jsonData.length-1 < i){
        var score = (correctCount/jsonData.length)*100;
        if(score >= 70){
-         document.getElementById("exitQuiz").classList.remove("is-hidden")
-         alert("Your score is: " + score +"%, Good Job!!");
+          document.getElementById("exitQuiz").classList.remove("is-hidden")
+          confetti.start();
+          document.getElementById("res-msg").classList.remove("is-hidden");
+          document.getElementById("res-msg").classList.add("is-active");
+          document.getElementById("mod-head").classList.add("success-header");
+          document.getElementById("msg-body").classList.add("success-body");
+          document.getElementById("head-msg").innerHTML = "You passed!";
+          document.getElementById("msg-body").innerHTML = "Good job, you got " + correctCount + " correct out of " + jsonData.length + "!<br>Grade: " + score + "%";
        }
        else{
          document.getElementById("retryQuiz").classList.remove("is-hidden")
-         alert("Your score is: " + score +"%, try again");
+         document.getElementById("res-msg").classList.remove("is-hidden");
+         document.getElementById("res-msg").classList.add("is-active");
+         document.getElementById("mod-head").classList.add("fail-header");
+         document.getElementById("msg-body").classList.add("fail-body");
+         document.getElementById("head-msg").innerHTML = "Try Again!";
+         document.getElementById("msg-body").innerHTML = "You need at least 70% to move on!<br>You got " + correctCount + " correct out of " + jsonData.length +".<br>Grade: " + score + "%";
        }
      }
      //callback to generate
      generate(i);
  }
+
+ function closeMsg(){
+  var y = document.getElementById("res-msg");
+  if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
+}

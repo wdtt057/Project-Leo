@@ -1,42 +1,47 @@
 [
     {
-        "q" : "What is the Biggest Heading Tag?",
-        "opt1" : "head",
-        "opt2" : "h6",
-        "opt3" : "title",
-        "opt4" : "h1",
-        "answer" : "h1"
+        "q" : "What is the biggest Heading Tag?",
+        "opt1" : "<head>",
+        "opt2" : "<h6>",
+        "opt3" : "<title>",
+        "opt4" : "<h1>",
+        "answer" : "<h1>",
+        "hint" : "The smaller the number, the better!"
     },
     {
-        "q" : "What contains all the elements of an HTML document?",
-        "opt1" : "meta",
-        "opt2" : "body",
-        "opt3" : "html",
-        "opt4" : "p",
-        "answer" : "body"
+        "q" : "What tag contains all the elements of an HTML document?",
+        "opt1" : "<meta>",
+        "opt2" : "<body>",
+        "opt3" : "<html>",
+        "opt4" : "<head>",
+        "answer" : "<body>",
+        "hint" : "Is HTML contained in the body or the head?"
     },
     {
         "q" : "The _____ tag represents the root of an HTML document.",
-        "opt1" : "html",
-        "opt2" : "body",
-        "opt3" : "meta",
-        "opt4" : "root",
-        "answer" : "html"
+        "opt1" : "<html>",
+        "opt2" : "<body>",
+        "opt3" : "<meta>",
+        "opt4" : "<root>",
+        "answer" : "<html>",
+        "hint" : "The answer is easier than it looks! :)"
     },
     {
         "q" : "Which tag defines a hyperlink?",
-        "opt1" : "embed",
-        "opt2" : "link",
-        "opt3" : "a",
-        "opt4" : "hyperlink",
-        "answer" : "a"
+        "opt1" : "<embed>",
+        "opt2" : "<link>",
+        "opt3" : "<a>",
+        "opt4" : "<hyperlink>",
+        "answer" : "<a>",
+        "hint" : "Also known as an anchor"
     },
     {
         "q" : "Which will represent an ordered list?",
-        "opt1" : "ol",
-        "opt2" : "ul",
-        "opt3" : "li",
-        "opt4" : "dl",
-        "answer" : "ol"
+        "opt1" : "<ol>",
+        "opt2" : "<ul>",
+        "opt3" : "<li>",
+        "opt4" : "<dl>",
+        "answer" : "<ol>",
+        "hint" : "The hint is with the word ordered"
     }
 ]

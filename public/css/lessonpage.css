@@ -18,3 +18,33 @@
   background-color: #feecf0!important;
   color: #cc0f35;
 }
+.quiz-choice{
+  padding-left: 5px;
+}
+.hint {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.hint .hint-text {
+  visibility: hidden;
+  width: 250px;
+/*   background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px; */
+  margin-left: 5px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.hint:hover .hint-text {
+  visibility: visible;
+}

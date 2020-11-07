@@ -36,6 +36,9 @@ class HomeController extends Controller
     public function htmlLesson2(){
         return view('courses.html.html1_2');
     }
+    public function htmlQuiz1(){
+        return view('courses.html.html_quiz1');
+    }
     public function cssLesson1(){
         return view('courses.css.css1_1');
     }
