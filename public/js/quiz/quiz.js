@@ -1,37 +1,66 @@
-var jsonData = [
-    {
-        "q" : "What is the Biggest Heading Tag?",
-        "opt1" : " h1",
-        "opt2" : " h6",
-        "opt3" : " title",
-        "answer" : " h1"
-    },
-    {
-        "q" : "What contains all the elements of an HTML document?",
-        "opt1" : " meta",
-        "opt2" : " body",
-        "opt3" : " html",
-        "answer" : " body"
-    },
-    {
-        "q" : "The _____ tag represents the root of an HTML document.",
-        "opt1" : " html",
-        "opt2" : " body",
-        "opt3" : " meta",
-        "answer" : " html"
-    },
-    {
-        "q" : "Which tag defines a hyperlink?",
-        "opt1" : " embed",
-        "opt2" : " link",
-        "opt3" : " a",
-        "answer" : " a"
-    },
-    {
-        "q" : "Which will represent an ordered list?",
-        "opt1" : " ol",
-        "opt2" : " ul",
-        "opt3" : " li",
-        "answer" : " ol"
-    },
-];
+ //json array
+ var i = 0;
+ var correctCount = 0;
+ //generate from json array 
+ //init first question
+ generate(0);
+ function generate(index){
+   if(index < jsonData.length){
+     document.getElementById("qNum").innerHTML = "Question " + (index+1) + " of " + jsonData.length;
+     document.getElementById("question").innerHTML = jsonData[index].q;
+     document.getElementById("optt1").innerHTML = jsonData[index].opt1;
+     document.getElementById("optt2").innerHTML = jsonData[index].opt2;
+     document.getElementById("optt3").innerHTML = jsonData[index].opt3;
+     document.getElementById("optt4").innerHTML = jsonData[index].opt4;
+   }
+ }
+
+ function quizCheck(){
+   var option1 = document.getElementById("opt1");
+   var option2 = document.getElementById("opt2");
+   var option3 = document.getElementById("opt3");
+   var option4 = document.getElementById("opt4");
+     if(option1.checked && jsonData[i].opt1 == jsonData[i].answer){
+       correctCount++;
+       option1.checked = false;
+     }
+     if(option2.checked && jsonData[i].opt2 == jsonData[i].answer){
+       correctCount++;
+       option2.checked = false;
+     }
+     if(option3.checked && jsonData[i].opt3 == jsonData[i].answer){
+       correctCount++;
+       option3.checked = false;
+     }
+     if(option4.checked && jsonData[i].opt4 == jsonData[i].answer){
+        correctCount++;
+        option4.checked = false;
+      }
+     if(option1.checked && jsonData[i].opt1 != jsonData[i].answer){
+         option1.checked = false;
+     }
+     if(option2.checked && jsonData[i].opt2 != jsonData[i].answer){
+       option2.checked = false;
+     }
+     if(option3.checked && jsonData[i].opt3 != jsonData[i].answer){
+       option3.checked = false;
+     }
+     if(option4.checked && jsonData[i].opt4 != jsonData[i].answer){
+        option4.checked = false;
+      }
+     //increment for next question
+     i++;
+     if(jsonData.length-1 < i){
+       var score = (correctCount/jsonData.length)*100;
+       if(score >= 70){
+         document.getElementById("exitQuiz").classList.remove("is-hidden")
+         alert("Your score is: " + score +"%, Good Job!!");
+       }
+       else{
+         document.getElementById("retryQuiz").classList.remove("is-hidden")
+         alert("Your score is: " + score +"%, try again");
+       }
+     }
+     //callback to generate
+     generate(i);
+ }
