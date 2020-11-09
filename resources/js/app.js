@@ -23,6 +23,12 @@ Vue.component('signup', require('./components/Signup.vue').default);
 Vue.component('contact-page', require('./components/ContactPage.vue').default);
 Vue.component('aboutus', require('./components/AboutUs.vue').default);
 
+// HTML Lessons
+Vue.component('html-slides', require('./components/html/HTMLSlides.vue').default);
+Vue.component('intro-html-one', require('./components/html/IntroHTML1.vue').default);
+Vue.component('html-exercise-1a', require('./components/html/HTMLExercise1A.vue').default);
+Vue.component('html-quiz-1a', require('./components/html/HTMLQuiz1A.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

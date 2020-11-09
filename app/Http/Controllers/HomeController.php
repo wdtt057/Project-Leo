@@ -30,6 +30,9 @@ class HomeController extends Controller
     {
         return view('main.user_settings');
     }
+    public function html1(){
+        return view('courses.html.html_lesson1');
+    }
     public function htmlLesson1(){
         return view('courses.html.html1_1');
     }

@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Project LEO</title>
+    <title>Project LEO - Lesson</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <!--<link rel="stylesheet" href="\css\app.css">-->
     <link rel="stylesheet" href="/css/lessonpage.css">
     <link rel="stylesheet" href="/plugin/codemirror/lib/codemirror.css">
     <link rel="stylesheet" href="/plugin/codemirror/theme/shadowfox.css">
     <link rel="stylesheet" href="/plugin/codemirror/addon/hint/show-hint.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="/css/lessonpage.css">
     <link rel="stylesheet" href="/plugin/glider/css/glider.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="/plugin/codemirror/lib/codemirror.js"></script>
     <script src="/plugin/codemirror/mode/xml/xml.js"></script>
     <script src="/plugin/codemirror/mode/htmlmixed/htmlmixed.js"></script>
@@ -22,21 +24,21 @@
     <script src="/plugin/codemirror/addon/hint/html-hint.js"></script>
     <script src="/plugin/codemirror/addon/hint/css-hint.js"></script>
     <script src="/plugin/codemirror/addon/hint/javascript-hint.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-    <script defer src="/js/app.js"></script>
-    <script defer src="/js/text-editor.js"></script>
-    <script defer src="/js/carousel.js"></script>
     <script src="/plugin/confetti/confetti.js"></script>
-    <script src="/plugin/glider/js/glider.min.js"></script>
-</head>
-<body>
-    <div id="app" class="has-background-white-ter">
-    <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
-        <div class="container is-fluid">
-                @yield('content')
+    <script defer src="/js/app.js"></script>
+    <script defer src="/js/quiz/quiz.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script defer src="/plugin/glider/js/glider.min.js"></script>
+    <script defer src="/js/carousel.js"></script>
+  </head>
+  <body>
+    <div id="app" class="lesson-bg">
+      <!-- FOR DARKMODE class="has-background-grey-dark -->
+      <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
+        <div class="container">
+          @yield('content')
         </div>
-	</div>
-</body>
+    </div>
+    <script defer src="/js/lesson-page.js"></script>
+  </body>
 </html>

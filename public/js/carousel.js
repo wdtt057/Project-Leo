@@ -1,5 +1,5 @@
 /* Lesson Carousel - check glider.js for documentation */
-new Glider(document.querySelector('.glider'), {
+var glider = new Glider(document.querySelector('.glider'), {
   slidesToShow: 1,
   dots: '#dots',
   draggable: true,
@@ -8,3 +8,5 @@ new Glider(document.querySelector('.glider'), {
     next: '.glider-next'
   }
 });
+
+//glider.refresh(true);
