@@ -17,7 +17,6 @@
 			<div><input type="radio" id="opt4" name="options"><span id="optt4" class="quiz-choice"></span></div>
 			<br>
 			<button class="button is-primary" onclick="quizCheck()">Next Question</button>
-			<a id="exitQuiz" class="button is-link is-hidden" href="/home">Exit Quiz</a>
 			<button id="retryQuiz" class="button is-danger is-hidden" onclick="window.location.reload();">Retry Quiz</button>
 			<div id="quiz-msg" class="modal is-hidden">
 				<div class="modal-background"></div>
@@ -32,7 +31,7 @@
 			</div>
 		</section>
 		<hr>
-		<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+		<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+		<a id="exitQuiz" class="button action-button is-hidden" href="/home">Exit Quiz</a>
 	</fieldset>
 </template>

@@ -18,7 +18,7 @@
 					</div>
 					<div class="columns">
 						<div class="column is-4 is-offset-8">
-							<a id="lesson-next" href="/courses/html/level1/lesson2" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
+							<a href="/courses/html/level1/lesson2" class="button is-pulled-right is-link is-hidden ml-3">Next</a>
 							&nbsp;
 							<a id="lesson-submit" class="button is-pulled-right is-primary" onclick="checkAnswer()">Submit</a>
 						</div>
@@ -38,7 +38,7 @@
 			</div>
 		</section>
 		<hr>
-		<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+		<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+		<input type="button" name="next" id="lesson-next" class="next action-button is-hidden" value="Next" />
 	</fieldset>
 </template>

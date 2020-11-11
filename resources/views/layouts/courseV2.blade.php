@@ -29,15 +29,15 @@
     <script defer src="/js/quiz/quiz.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script defer src="/plugin/glider/js/glider.min.js"></script>
-    <script defer src="/js/carousel.js"></script>
+    <!--<script defer src="/js/carousel.js"></script>-->
   </head>
   <body>
     <div id="app" class="lesson-bg">
       <!-- FOR DARKMODE class="has-background-grey-dark -->
       <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
-        <div class="container">
-          @yield('content')
-        </div>
+      <section class="section is-small">
+        @yield('content')
+      </section>
     </div>
     <script defer src="/js/lesson-page.js"></script>
   </body>

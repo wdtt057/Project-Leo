@@ -22137,10 +22137,7 @@ var staticRenderFns = [
                   {
                     staticClass:
                       "button is-pulled-right is-link is-hidden ml-3",
-                    attrs: {
-                      id: "lesson-next",
-                      href: "/courses/html/level1/lesson2"
-                    }
+                    attrs: { href: "/courses/html/level1/lesson2" }
                   },
                   [_vm._v("Next")]
                 ),
@@ -22200,13 +22197,18 @@ var staticRenderFns = [
       _c("hr"),
       _vm._v(" "),
       _c("input", {
-        staticClass: "previous action-button",
+        staticClass: "previous action-button-previous",
         attrs: { type: "button", name: "previous", value: "Previous" }
       }),
       _vm._v(" "),
       _c("input", {
-        staticClass: "next action-button",
-        attrs: { type: "button", name: "next", value: "Next" }
+        staticClass: "next action-button is-hidden",
+        attrs: {
+          type: "button",
+          name: "next",
+          id: "lesson-next",
+          value: "Next"
+        }
       })
     ])
   }
@@ -22310,15 +22312,6 @@ var staticRenderFns = [
         ),
         _vm._v(" "),
         _c(
-          "a",
-          {
-            staticClass: "button is-link is-hidden",
-            attrs: { id: "exitQuiz", href: "/home" }
-          },
-          [_vm._v("Exit Quiz")]
-        ),
-        _vm._v(" "),
-        _c(
           "button",
           {
             staticClass: "button is-danger is-hidden",
@@ -22366,14 +22359,18 @@ var staticRenderFns = [
       _c("hr"),
       _vm._v(" "),
       _c("input", {
-        staticClass: "previous action-button",
+        staticClass: "previous action-button-previous",
         attrs: { type: "button", name: "previous", value: "Previous" }
       }),
       _vm._v(" "),
-      _c("input", {
-        staticClass: "next action-button",
-        attrs: { type: "button", name: "next", value: "Next" }
-      })
+      _c(
+        "a",
+        {
+          staticClass: "button action-button is-hidden",
+          attrs: { id: "exitQuiz", href: "/home" }
+        },
+        [_vm._v("Exit Quiz")]
+      )
     ])
   }
 ]
@@ -22405,113 +22402,116 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "section box has-background-dark has-text-centered" },
-      [
-        _c("div", { staticClass: "glider-contain" }, [
-          _c("div", { staticClass: "glider" }, [
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\body.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
+    return _c("div", { staticClass: "section is-small" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "box has-background-dark has-text-centered has-text-white"
+        },
+        [
+          _c("div", { staticClass: "glider-contain" }, [
+            _c("h1", [_vm._v("HTML Lessons")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "glider" }, [
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\body.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\h1.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\h2.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\h3.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\hTags.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\p1.png",
+                      alt: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "\\images\\lesson-slides\\html\\p2.png",
+                      alt: ""
+                    }
+                  })
+                ])
               ])
             ]),
             _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\h1.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ]),
+            _c(
+              "button",
+              {
+                staticClass: "glider-prev",
+                attrs: { "aria-label": "Previous" }
+              },
+              [_c("i", { staticClass: "fa fa-chevron-left" })]
+            ),
             _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\h2.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ]),
+            _c(
+              "button",
+              { staticClass: "glider-next", attrs: { "aria-label": "Next" } },
+              [_c("i", { staticClass: "fa fa-chevron-right" })]
+            ),
             _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\h3.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\hTags.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\p1.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", [
-              _c("figure", [
-                _c("img", {
-                  attrs: {
-                    src: "\\images\\lesson-slides\\html\\p2.png",
-                    alt: "",
-                    width: "600px"
-                  }
-                })
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "glider-prev", attrs: { "aria-label": "Previous" } },
-            [_c("i", { staticClass: "fa fa-chevron-left" })]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "glider-next", attrs: { "aria-label": "Next" } },
-            [_c("i", { staticClass: "fa fa-chevron-right" })]
-          ),
-          _vm._v(" "),
-          _c("div", { attrs: { role: "tablist", id: "dots" } })
-        ])
-      ]
-    )
+            _c("div", { attrs: { role: "tablist", id: "dots" } })
+          ])
+        ]
+      )
+    ])
   }
 ]
 render._withStripped = true

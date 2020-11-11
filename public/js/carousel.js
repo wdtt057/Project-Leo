@@ -9,4 +9,4 @@ var glider = new Glider(document.querySelector('.glider'), {
   }
 });
 
-//glider.refresh(true);
+glider.refresh(true);
