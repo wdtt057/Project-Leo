@@ -29,7 +29,7 @@
     <script defer src="/js/quiz/quiz.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script defer src="/plugin/glider/js/glider.min.js"></script>
-    <!--<script defer src="/js/carousel.js"></script>-->
+    <script defer src="/js/carousel.js"></script>
   </head>
   <body>
     <div id="app" class="lesson-bg">

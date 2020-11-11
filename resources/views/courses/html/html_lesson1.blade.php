@@ -39,6 +39,7 @@
 				<html-exercise-1a></html-exercise-1a>
         <html-quiz-1a></html-quiz-1a>
       </div>
+			<html-slides></html-slides>
     </div>
   </div>
 @endsection

@@ -157,12 +157,23 @@
 
 #progressbar li {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 14px;
     left: 10%;
-    width: 15%;
+    width: 30%;
     float: left;
     position: relative;
-    font-weight: 400
+    font-weight: 350;
+}
+@media screen and (min-width: 900px){
+    #progressbar li {
+        list-style-type: none;
+        font-size: 15px;
+        left: 10%;
+        width: 15%;
+        float: left;
+        position: relative;
+        font-weight: 400
+    }
 }
 #progressbar #intro:before {
     font-family: 'Font Awesome 5 Free';
@@ -230,10 +241,4 @@
 .progress-bar {
     background-color: #673AB7
 }
-
-.fit-image {
-    width: 100%;
-    object-fit: cover
-}
-
 
