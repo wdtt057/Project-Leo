@@ -3,7 +3,7 @@
 @section('content')
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
-      <h2 id="heading">HTML LESSON 1</h2>
+      <h2 id="heading">HTML LESSON 1A</h2>
       <p>Blahblah Fuck you</p>
       <div id="msform">
         <!-- progressbar -->
@@ -26,16 +26,7 @@
 					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>
-        <fieldset>
-					<div class="container box">
-						<figure class="image is-16by9">
-							<iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/QGJuMBdaqIw?showinfo=0" frameborder="0" allowfullscreen></iframe>
-						</figure>
-					</div>
-					<hr>
-					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-          <input type="button" name="next" class="next action-button" value="Next" />
-        </fieldset>
+				<lesson-video></lesson-video>
 				<html-exercise-1a></html-exercise-1a>
         <html-quiz-1a></html-quiz-1a>
       </div>
@@ -44,6 +35,7 @@
   </div>
 @endsection
 <script src="/js/jquery.min.js"></script> 
+<!-- ajax request for quiz-->
 <script>
 	var jsonData = (function() {
 	var json = null;
