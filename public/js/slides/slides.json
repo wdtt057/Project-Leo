@@ -1,0 +1,21 @@
+[
+	{
+		"lessonID" : "HTML LESSON 1A",
+		"slidesTitle" : "HTML LESSON A",
+		"slidePath" : [
+										"/images/lesson-slides/html/body.png",
+										"/images/lesson-slides/html/h1.png",
+										"/images/lesson-slides/html/h2.png",
+										"/images/lesson-slides/html/h3.png",
+										"/images/lesson-slides/html/hTags.png"
+									]
+	},
+	{
+		"lessonID" : "HTML LESSON 1B",
+		"slidesTitle" : "HTML LESSON B",
+		"slidePath" : [
+										"/images/lesson-slides/html/p1.png",
+										"/images/lesson-slides/html/p1.png"
+									]
+	}
+]

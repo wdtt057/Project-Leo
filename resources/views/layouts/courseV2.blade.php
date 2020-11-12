@@ -28,6 +28,7 @@
     <script defer src="/js/app.js"></script>
     <script defer src="/js/quiz/quiz.js"></script>
     <script defer src="/js/video/video.js"></script>
+    <script defer src="/js/slides/slides.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script defer src="/plugin/glider/js/glider.min.js"></script>
     <script defer src="/js/carousel.js"></script>

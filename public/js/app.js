@@ -21601,6 +21601,76 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "section is-small" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "box has-background-dark has-text-centered has-text-white"
+          },
+          [
+            _c("div", { staticClass: "glider-contain" }, [
+              _c("h1", { attrs: { id: "slides-title" } }),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("div", {
+                staticClass: "glider",
+                attrs: { id: "lesson-slides" }
+              }),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "glider-prev",
+                  attrs: { "aria-label": "Previous" }
+                },
+                [_c("i", { staticClass: "fa fa-chevron-left" })]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                { staticClass: "glider-next", attrs: { "aria-label": "Next" } },
+                [_c("i", { staticClass: "fa fa-chevron-right" })]
+              ),
+              _vm._v(" "),
+              _c("div", { attrs: { role: "tablist", id: "dots" } })
+            ])
+          ]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LessonVideo.vue?vue&type=template&id=5219a8f0&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/LessonVideo.vue?vue&type=template&id=5219a8f0& ***!
@@ -22420,148 +22490,6 @@ var staticRenderFns = [
         },
         [_vm._v("Exit Quiz")]
       )
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56& ***!
-  \******************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "section is-small" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "box has-background-dark has-text-centered has-text-white"
-          },
-          [
-            _c("div", { staticClass: "glider-contain" }, [
-              _c("h1", [_vm._v("HTML Lessons")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "glider" }, [
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\body.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\h1.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\h2.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\h3.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\hTags.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\p1.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", [
-                  _c("figure", [
-                    _c("img", {
-                      attrs: {
-                        src: "\\images\\lesson-slides\\html\\p2.png",
-                        alt: ""
-                      }
-                    })
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "glider-prev",
-                  attrs: { "aria-label": "Previous" }
-                },
-                [_c("i", { staticClass: "fa fa-chevron-left" })]
-              ),
-              _vm._v(" "),
-              _c(
-                "button",
-                { staticClass: "glider-next", attrs: { "aria-label": "Next" } },
-                [_c("i", { staticClass: "fa fa-chevron-right" })]
-              ),
-              _vm._v(" "),
-              _c("div", { attrs: { role: "tablist", id: "dots" } })
-            ])
-          ]
-        )
-      ])
     ])
   }
 ]
@@ -34823,7 +34751,7 @@ Vue.component('contact-page', __webpack_require__(/*! ./components/ContactPage.v
 Vue.component('aboutus', __webpack_require__(/*! ./components/AboutUs.vue */ "./resources/js/components/AboutUs.vue")["default"]);
 Vue.component('lesson-video', __webpack_require__(/*! ./components/LessonVideo.vue */ "./resources/js/components/LessonVideo.vue")["default"]); // HTML Lessons
 
-Vue.component('html-slides', __webpack_require__(/*! ./components/html/HTMLSlides.vue */ "./resources/js/components/html/HTMLSlides.vue")["default"]);
+Vue.component('lesson-slides', __webpack_require__(/*! ./components/LessonSlides.vue */ "./resources/js/components/LessonSlides.vue")["default"]);
 Vue.component('intro-html-one', __webpack_require__(/*! ./components/html/IntroHTML1.vue */ "./resources/js/components/html/IntroHTML1.vue")["default"]);
 Vue.component('html-exercise-1a', __webpack_require__(/*! ./components/html/HTMLExercise1A.vue */ "./resources/js/components/html/HTMLExercise1A.vue")["default"]);
 Vue.component('html-quiz-1a', __webpack_require__(/*! ./components/html/HTMLQuiz1A.vue */ "./resources/js/components/html/HTMLQuiz1A.vue")["default"]);
@@ -35213,6 +35141,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_template_id_643fd5aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LandingPage_vue_vue_type_template_id_643fd5aa_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LessonSlides.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/LessonSlides.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LessonSlides.vue?vue&type=template&id=a703e1b6& */ "./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/LessonSlides.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6& ***!
+  \*********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./LessonSlides.vue?vue&type=template&id=a703e1b6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/LessonSlides.vue?vue&type=template&id=a703e1b6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LessonSlides_vue_vue_type_template_id_a703e1b6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -35648,59 +35629,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HTMLQuiz1A_vue_vue_type_template_id_ec495b8e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HTMLQuiz1A_vue_vue_type_template_id_ec495b8e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/html/HTMLSlides.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/html/HTMLSlides.vue ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HTMLSlides.vue?vue&type=template&id=0bb9cd56& */ "./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/html/HTMLSlides.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56& ***!
-  \************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./HTMLSlides.vue?vue&type=template&id=0bb9cd56& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/html/HTMLSlides.vue?vue&type=template&id=0bb9cd56&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HTMLSlides_vue_vue_type_template_id_0bb9cd56___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

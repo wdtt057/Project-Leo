@@ -25,7 +25,7 @@ Vue.component('aboutus', require('./components/AboutUs.vue').default);
 
 Vue.component('lesson-video', require('./components/LessonVideo.vue').default);
 // HTML Lessons
-Vue.component('html-slides', require('./components/html/HTMLSlides.vue').default);
+Vue.component('lesson-slides', require('./components/LessonSlides.vue').default);
 Vue.component('intro-html-one', require('./components/html/IntroHTML1.vue').default);
 Vue.component('html-exercise-1a', require('./components/html/HTMLExercise1A.vue').default);
 Vue.component('html-quiz-1a', require('./components/html/HTMLQuiz1A.vue').default);
