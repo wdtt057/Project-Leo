@@ -17,7 +17,7 @@
 			<div><input type="radio" id="opt4" name="options"><span id="optt4" class="quiz-choice"></span></div>
 			<br>
 			<button class="button is-primary" onclick="quizCheck()">Next Question</button>
-			<button id="retryQuiz" class="button is-danger is-hidden" onclick="window.location.reload();">Retry Quiz</button>
+			<button id="retryQuiz" class="button is-danger is-hidden" onclick="resetQuiz()">Retry Quiz</button>
 			<div id="quiz-msg" class="modal is-hidden">
 				<div class="modal-background"></div>
 				<div class="modal-card">

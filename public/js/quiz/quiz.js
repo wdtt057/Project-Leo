@@ -81,3 +81,12 @@
   var y = document.getElementById("quiz-msg");
   if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
 }
+
+function resetQuiz(){
+  generate(0);
+  correctCount = 0;
+  i = 0;
+  document.getElementById("retryQuiz").classList.add("is-hidden");
+  document.getElementById("quiz-mod-head").classList.remove("fail-header");
+  document.getElementById("quiz-msg-body").classList.remove("fail-body");
+}

@@ -148,7 +148,10 @@
     text-align: center;
     margin-bottom: 30px;
     overflow: hidden;
-    color: lightgrey
+    color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #progressbar .active {
@@ -158,17 +161,16 @@
 #progressbar li {
     list-style-type: none;
     font-size: 14px;
-    left: 10%;
     width: 30%;
     float: left;
     position: relative;
     font-weight: 350;
+
 }
 @media screen and (min-width: 900px){
     #progressbar li {
         list-style-type: none;
         font-size: 15px;
-        left: 10%;
         width: 15%;
         float: left;
         position: relative;

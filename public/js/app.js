@@ -22321,7 +22321,7 @@ var staticRenderFns = [
       }),
       _vm._v(" "),
       _c("input", {
-        staticClass: "next action-button is-hidden",
+        staticClass: "next action-button",
         attrs: {
           type: "button",
           name: "next",
@@ -22434,7 +22434,7 @@ var staticRenderFns = [
           "button",
           {
             staticClass: "button is-danger is-hidden",
-            attrs: { id: "retryQuiz", onclick: "window.location.reload();" }
+            attrs: { id: "retryQuiz", onclick: "resetQuiz()" }
           },
           [_vm._v("Retry Quiz")]
         ),
@@ -35694,8 +35694,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
