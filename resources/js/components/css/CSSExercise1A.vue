@@ -5,16 +5,26 @@
 			<div class="columns">
 				<div class="column is-half">
 					<div class="box has-background-primary">
-						<p>Create an &lt;h1&gt; that will display "Hello World"</p>
+						<p>Tasks
+							<ul>
+								<li>.css-title: blue</li>
+								<li>p: italics and yellow</li>
+								<li>#cssbg black</li>
+							</ul>
+						</p>
 					</div>       
 				</div>
 				<div class="column is-half">
 					<div class='is-full box has-background-black'>
-						<div id="htmlEditor" onkeyup="executeCodeHTML()"></div>
+						<div id="cssEditor" onkeyup="executeCodeCSS()"></div>
 					</div>
 					<div class='is-full box'> 
 						<h2>Output</h2>
-						<div id="iframewrapper" class="has-background-light"></div>
+						<div id="cssbg" class="has-background-light">
+							Turn this background black!
+							<h1 class="css-title">This will become blue!</h1>
+							<p>Use italics and turn me yellow!</p>
+						</div>
 					</div>
 					<div class="columns">
 						<div class="column is-4 is-offset-8">

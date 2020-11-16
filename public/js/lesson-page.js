@@ -27,8 +27,10 @@ var jsEditor = CodeMirror(document.getElementById("jsEditor"),{
 	lineWrapping: true,
     extraKeys: {"Ctrl-Space": "autocomplete"}
 });
-var output = htmlEditor.getValue();
-function executeCode(){
+
+// HTML Output
+/* var output = htmlEditor.getValue();
+function executeCodeHTML(){
     var text = htmlEditor.getValue();
     var ifr = document.createElement("iframe");
     ifr.setAttribute("frameborder", "0");
@@ -40,14 +42,22 @@ function executeCode(){
     ifrw.document.write(text);
     ifrw.document.close();
 };
-executeCode();
-
+executeCodeHTML(); */
+var intialCSSInput = cssEditor.getValue();
+var initStyleTag = "<style id='cmCss'>\n" + intialCSSInput + "\n</style>";
+$('head').append(initStyleTag);
+// CSS Output
+function executeCodeCSS() {
+	var cssInput = "<style id='cmCss'>\n" + cssEditor.getValue() + "\n</style>";
+	$('#cmCss').replaceWith(cssInput);
+}
 /*Close the pop up message after checking answer*/
 function closeCheck(){
     var y = document.getElementById("res-msg");
     if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
 }
 htmlEditor.refresh();
+cssEditor.refresh();
 /* ANSWER KEY STARTS HERE */
 var html1_1_ans = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
 //jQuery time

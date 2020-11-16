@@ -2541,7 +2541,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
+exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}", ""]);
 
 // exports
 
@@ -21100,7 +21100,7 @@ var staticRenderFns = [
               { staticClass: "submenu-list", attrs: { id: "submenuCSS" } },
               [
                 _c("li", [
-                  _c("a", { attrs: { href: "/courses/css/level1/lesson1" } }, [
+                  _c("a", { attrs: { href: "/css-lesson1" } }, [
                     _vm._v("Lesson 1")
                   ])
                 ]),
@@ -22198,6 +22198,163 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("fieldset", [
+      _c("section", { staticClass: "section" }, [
+        _c("h1", [_vm._v("HTML LESSON 1")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "columns" }, [
+          _c("div", { staticClass: "column is-half" }, [
+            _c("div", { staticClass: "box has-background-primary" }, [
+              _c("p", [
+                _vm._v("Tasks\n\t\t\t\t\t\t"),
+                _c("ul", [
+                  _c("li", [_vm._v(".css-title: blue")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("p: italics and yellow")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("#cssbg black")])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "column is-half" }, [
+            _c("div", { staticClass: "is-full box has-background-black" }, [
+              _c("div", {
+                attrs: { id: "cssEditor", onkeyup: "executeCodeCSS()" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "is-full box" }, [
+              _c("h2", [_vm._v("Output")]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "has-background-light", attrs: { id: "cssbg" } },
+                [
+                  _vm._v(
+                    "\n\t\t\t\t\t\tTurn this background black!\n\t\t\t\t\t\t"
+                  ),
+                  _c("h1", { staticClass: "css-title" }, [
+                    _vm._v("This will become blue!")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Use italics and turn me yellow!")])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "columns" }, [
+              _c("div", { staticClass: "column is-4 is-offset-8" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass:
+                      "button is-pulled-right is-link is-hidden ml-3",
+                    attrs: { href: "/courses/html/level1/lesson2" }
+                  },
+                  [_vm._v("Next")]
+                ),
+                _vm._v("\n\t\t\t\t\t\t \n\t\t\t\t\t\t"),
+                _c(
+                  "a",
+                  {
+                    staticClass: "button is-pulled-right is-primary",
+                    attrs: { id: "lesson-submit", onclick: "checkAnswer()" }
+                  },
+                  [_vm._v("Submit")]
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "modal is-hidden", attrs: { id: "res-msg" } },
+              [
+                _c("div", { staticClass: "modal-background" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-card" }, [
+                  _c(
+                    "header",
+                    {
+                      staticClass: "modal-card-head",
+                      attrs: { id: "mod-head" }
+                    },
+                    [
+                      _c("p", {
+                        staticClass: "modal-card-title",
+                        staticStyle: { color: "#fff" },
+                        attrs: { id: "head-msg" }
+                      }),
+                      _vm._v(" "),
+                      _c("button", {
+                        staticClass: "delete",
+                        attrs: {
+                          "aria-label": "close",
+                          onclick: "closeCheck()"
+                        }
+                      })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("section", {
+                    staticClass: "modal-card-body",
+                    attrs: { id: "msg-body" }
+                  })
+                ])
+              ]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("hr"),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "previous action-button-previous",
+        attrs: { type: "button", name: "previous", value: "Previous" }
+      }),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "next action-button",
+        attrs: {
+          type: "button",
+          name: "next",
+          id: "lesson-next",
+          value: "Next"
+        }
+      })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/html/HTMLExercise1A.vue?vue&type=template&id=01bf757c&":
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/html/HTMLExercise1A.vue?vue&type=template&id=01bf757c& ***!
@@ -22236,7 +22393,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-half" }, [
             _c("div", { staticClass: "is-full box has-background-black" }, [
               _c("div", {
-                attrs: { id: "htmlEditor", onkeyup: "executeCode()" }
+                attrs: { id: "htmlEditor", onkeyup: "executeCodeHTML()" }
               })
             ]),
             _vm._v(" "),
@@ -34754,7 +34911,9 @@ Vue.component('lesson-video', __webpack_require__(/*! ./components/LessonVideo.v
 Vue.component('lesson-slides', __webpack_require__(/*! ./components/LessonSlides.vue */ "./resources/js/components/LessonSlides.vue")["default"]);
 Vue.component('intro-html-one', __webpack_require__(/*! ./components/html/IntroHTML1.vue */ "./resources/js/components/html/IntroHTML1.vue")["default"]);
 Vue.component('html-exercise-1a', __webpack_require__(/*! ./components/html/HTMLExercise1A.vue */ "./resources/js/components/html/HTMLExercise1A.vue")["default"]);
-Vue.component('html-quiz-1a', __webpack_require__(/*! ./components/html/HTMLQuiz1A.vue */ "./resources/js/components/html/HTMLQuiz1A.vue")["default"]);
+Vue.component('html-quiz-1a', __webpack_require__(/*! ./components/html/HTMLQuiz1A.vue */ "./resources/js/components/html/HTMLQuiz1A.vue")["default"]); // CSS Lessons
+
+Vue.component('css-exercise-1a', __webpack_require__(/*! ./components/css/CSSExercise1A.vue */ "./resources/js/components/css/CSSExercise1A.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -35528,6 +35687,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/css/CSSExercise1A.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/css/CSSExercise1A.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CSSExercise1A.vue?vue&type=template&id=6ca21f04& */ "./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/css/CSSExercise1A.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./CSSExercise1A.vue?vue&type=template&id=6ca21f04& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/css/CSSExercise1A.vue?vue&type=template&id=6ca21f04&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CSSExercise1A_vue_vue_type_template_id_6ca21f04___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/html/HTMLExercise1A.vue":
 /*!*********************************************************!*\
   !*** ./resources/js/components/html/HTMLExercise1A.vue ***!
@@ -35694,8 +35906,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

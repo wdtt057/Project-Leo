@@ -30,6 +30,10 @@ Vue.component('intro-html-one', require('./components/html/IntroHTML1.vue').defa
 Vue.component('html-exercise-1a', require('./components/html/HTMLExercise1A.vue').default);
 Vue.component('html-quiz-1a', require('./components/html/HTMLQuiz1A.vue').default);
 
+// CSS Lessons
+
+Vue.component('css-exercise-1a', require('./components/css/CSSExercise1A.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

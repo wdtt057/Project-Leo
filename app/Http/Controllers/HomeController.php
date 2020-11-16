@@ -43,7 +43,7 @@ class HomeController extends Controller
         return view('courses.html.html_quiz1');
     }
     public function cssLesson1(){
-        return view('courses.css.css1_1');
+        return view('courses.css.css_lesson1');
     }
 
 }
