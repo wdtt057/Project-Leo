@@ -78,7 +78,7 @@
             <div class="column is-one-fifth">
               <a href="/about/#Elizabeth-Barbieto">
                 <figure class="image is-1by1">
-                  <img class="is-rounded" src="\images\default_icon_me.jpg">
+                  <img src="\images\elizabeth_icon.png">
                 </figure>
               </a>
               <h3 class="title is-4"><a href="/about/#Elizabeth-Barbieto">Elizabeth Barbieto</a></h3>
@@ -86,7 +86,7 @@
             <div class="column is-one-fifth">
               <a href="/about/#Ryan-Catterson">
                 <figure class="image is-1by1">
-                  <img class="is-rounded" src="\images\default_icon_ryan.png">
+                  <img src="\images\ryan_icon.png">
                 </figure>
               </a>
               <h3 class="title is-4"><a href="/about/#Ryan-Catterson">Ryan Catterson</a></h3>
@@ -94,7 +94,7 @@
             <div class="column is-one-fifth">
               <a href="/about/#Teresa-Doan">
                 <figure class="image is-1by1">
-                  <img class="is-rounded" src="\images\default_icon_teresa.jpg">
+                  <img src="\images\teresa_icon.png">
                 </figure>
               </a>
               <h3 class="title is-4"><a href="/about/#Teresa-Doan">Teresa Doan</a></h3>
@@ -102,7 +102,7 @@
             <div class="column is-one-fifth">
               <a href="/about/#Joshua-Mejia">
                 <figure class="image is-1by1">
-                  <img class="is-rounded" src="\images\default_icon_josh.png">
+                  <img src="\images\joshua_icon.png">
                 </figure>
               </a>
               <h3 class="title is-4"><a href="/about/#Joshua-Mejia">Joshua Mejia</a></h3>
@@ -110,7 +110,7 @@
             <div class="column is-one-fifth">
               <a href="/about/#Dengtai-Wang">
                 <figure class="image is-1by1">
-                  <img class="is-rounded" src="\images\default_icon_dengtai.jpg">
+                  <img  src="\images\dengtai_icon.png">
                 </figure>
               </a>
               <h3 class="title is-4"><a href="/about/#Dengtai-Wang">Dengtai Wang</a></h3>
