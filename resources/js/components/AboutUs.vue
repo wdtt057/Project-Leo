@@ -42,7 +42,7 @@
             <hr>
                 <div class="columns">
                     <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\default_icon_teresa.jpg" width="200px" height="200px">
+                        <img class="is-rounded" src="\images\teresa_icon.png" width="200px" height="200px">
                     </div>
                     <div class="column">
                         <h2 class="title is-4">Teresa Doan</h2>
@@ -76,7 +76,7 @@
             <hr>
                 <div class="columns">
                     <div class="column is-two-fifths">
-                            <img class="is-rounded is1-by-1" src="\images\default_icon_dengtai.jpg" width="200px" height="200px">
+                            <img class="is-rounded is1-by-1" src="\images\dengtai_icon.png" width="200px" height="200px">
                     </div>
                     <div class="column">
                         <h2 class="title is-4">Dengtai Wang</h2>

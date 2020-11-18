@@ -20924,7 +20924,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded",
                 attrs: {
-                  src: "\\images\\default_icon_teresa.jpg",
+                  src: "\\images\\teresa_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -20990,7 +20990,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded is1-by-1",
                 attrs: {
-                  src: "\\images\\default_icon_dengtai.jpg",
+                  src: "\\images\\dengtai_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -21509,10 +21509,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-one-fifth" }, [
             _c("a", { attrs: { href: "/about/#Elizabeth-Barbieto" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: { src: "\\images\\default_icon_me.jpg" }
-                })
+                _c("img", { attrs: { src: "\\images\\elizabeth_icon.png" } })
               ])
             ]),
             _vm._v(" "),
@@ -21526,10 +21523,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-one-fifth" }, [
             _c("a", { attrs: { href: "/about/#Ryan-Catterson" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: { src: "\\images\\default_icon_ryan.png" }
-                })
+                _c("img", { attrs: { src: "\\images\\ryan_icon.png" } })
               ])
             ]),
             _vm._v(" "),
@@ -21543,10 +21537,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-one-fifth" }, [
             _c("a", { attrs: { href: "/about/#Teresa-Doan" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: { src: "\\images\\default_icon_teresa.jpg" }
-                })
+                _c("img", { attrs: { src: "\\images\\teresa_icon.png" } })
               ])
             ]),
             _vm._v(" "),
@@ -21560,10 +21551,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-one-fifth" }, [
             _c("a", { attrs: { href: "/about/#Joshua-Mejia" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: { src: "\\images\\default_icon_josh.png" }
-                })
+                _c("img", { attrs: { src: "\\images\\joshua_icon.png" } })
               ])
             ]),
             _vm._v(" "),
@@ -21577,10 +21565,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-one-fifth" }, [
             _c("a", { attrs: { href: "/about/#Dengtai-Wang" } }, [
               _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", {
-                  staticClass: "is-rounded",
-                  attrs: { src: "\\images\\default_icon_dengtai.jpg" }
-                })
+                _c("img", { attrs: { src: "\\images\\dengtai_icon.png" } })
               ])
             ]),
             _vm._v(" "),
