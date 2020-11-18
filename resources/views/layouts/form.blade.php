@@ -12,6 +12,7 @@
     <script defer src="/js/app.js"></script>
     <script defer src="/js/form-validation.js"></script>
     <script src="/js/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <div id="app">

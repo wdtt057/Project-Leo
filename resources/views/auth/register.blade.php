@@ -35,8 +35,7 @@
 								<label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Username') }}</label>
 
 								<div class="col-md-6">
-									<input onkeyup="validateUName()" id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
+                                <input onkeyup="validateUName()" id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="username" value="{{ old('name') }}" required autocomplete="username" autofocus>
 									@error('name')
 										<span class="invalid-feedback" role="alert">
 											<strong>{{ $message }}</strong>
@@ -77,6 +76,7 @@
 											<span class="medium"></span>
 											<span class="strong"></span>
 									</div>
+									<div class="indicator-text"></div>
 									<span><input type="checkbox" onclick="toggleVisibility()"> Show Password</span>
 									@error('password')
 										<span class="invalid-feedback" role="alert">
@@ -92,6 +92,17 @@
 								<div class="col-md-6">
 									<input onkeyup="samePassword()" id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
 									<span id="validate-status"></span>
+								</div>
+							</div>
+
+							<div class="form-group row{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+								<div class="col-md-6 offset-md-4">
+									{!! app('captcha')->display() !!}
+									@if ($errors->has('g-recaptcha-response'))
+										<span class="help-block text-danger">
+											<strong>Passing reCaptcha is required! Please Try Again</strong>
+										</span>
+									@endif
 								</div>
 							</div>
 

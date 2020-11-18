@@ -55,6 +55,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'g-recaptcha-response' => 'required|captcha',
         ]);
     }
 
@@ -67,17 +68,25 @@ class RegisterController extends Controller
 
      public function register(Request $request)
      {
-         $user = new User();
-         $user->name = $request->name;
-         $user->email = $request->email;
-         $user->password = Hash::make($request->password);
-         $user->verification_code = sha1(time());
-         $user->save();
+        $this->validate($request, [
+            'g-recaptcha-response' => 'required|captcha',
+        ]);
 
-         if($user != null) {
-            MailController::sendVerificationEmail($user->name, $user->email, $user->verification_code);
+        if('g-recaptcha-response' !== ""){
+            $user = new User();
+            $user->firstname = $request->firstname;
+            $user->lastname = $request->lastname;
+            $user->username = $request->username;
+            $user->birthday = $request->birthday;
+            $user->email = $request->email;
+            $user->password = Hash::make($request->password);
+            $user->verification_code = sha1(time());
+            $user->save();
+        }
+        if($user != null) {
+            MailController::sendVerificationEmail($user->username, $user->email, $user->verification_code);
             return redirect()->back()->with(session()->flash('alert-success', 'Your account has been created. Please check your email for the verification link!'));
-         }
+        }
 
         return redirect()->back()->with(session()->flash('alert-danger', 'Oh no! Something went wrong :('));
      }

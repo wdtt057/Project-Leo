@@ -8,7 +8,7 @@
       <div class="level">
         <div class="level-left">
           <div class="level-item">
-            <div class="title">{{ Auth::user()->name }}'s Dashboard</div>
+            <div class="title">{{ Auth::user()->username }}'s Dashboard</div>
           </div>
         </div>
         <div class="level-right">
