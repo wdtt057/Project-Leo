@@ -20,11 +20,7 @@
 					</div>
 					<div class='is-full box'> 
 						<h2>Output</h2>
-						<div id="cssbg" class="has-background-light">
-							Turn this background black!
-							<h1 class="css-title">This will become blue!</h1>
-							<p>Use italics and turn me yellow!</p>
-						</div>
+						<div id="iframewrapper" class="has-background-light"></div>
 					</div>
 					<div class="columns">
 						<div class="column is-4 is-offset-8">

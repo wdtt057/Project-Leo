@@ -42,5 +42,6 @@
       </section>
     </div>
     <script defer src="/js/lesson-page.js"></script>
+    <script defer src="/js/css-editor.js"></script>
   </body>
 </html>

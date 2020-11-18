@@ -14,7 +14,10 @@
 					</div>
 					<div class='is-full box'> 
 						<h2>Output</h2>
-						<div id="iframewrapper" class="has-background-light"></div>
+						<div id="iframewrapper" class="has-background-light">
+							<h1>Test</h1>
+							<p> p test </p>
+						</div>
 					</div>
 					<div class="columns">
 						<div class="column is-4 is-offset-8">

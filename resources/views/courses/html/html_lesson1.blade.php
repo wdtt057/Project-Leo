@@ -1,4 +1,4 @@
-@extends('layouts.courseV2')
+@extends('layouts.course_html')
 
 @section('content')
 	<div class="columns">

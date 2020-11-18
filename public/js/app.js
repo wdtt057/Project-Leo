@@ -22250,20 +22250,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "is-full box" }, [
               _c("h2", [_vm._v("Output")]),
               _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "has-background-light", attrs: { id: "cssbg" } },
-                [
-                  _vm._v(
-                    "\n\t\t\t\t\t\tTurn this background black!\n\t\t\t\t\t\t"
-                  ),
-                  _c("h1", { staticClass: "css-title" }, [
-                    _vm._v("This will become blue!")
-                  ]),
-                  _vm._v(" "),
-                  _c("p", [_vm._v("Use italics and turn me yellow!")])
-                ]
-              )
+              _c("div", {
+                staticClass: "has-background-light",
+                attrs: { id: "iframewrapper" }
+              })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "columns" }, [
@@ -22400,10 +22390,18 @@ var staticRenderFns = [
             _c("div", { staticClass: "is-full box" }, [
               _c("h2", [_vm._v("Output")]),
               _vm._v(" "),
-              _c("div", {
-                staticClass: "has-background-light",
-                attrs: { id: "iframewrapper" }
-              })
+              _c(
+                "div",
+                {
+                  staticClass: "has-background-light",
+                  attrs: { id: "iframewrapper" }
+                },
+                [
+                  _c("h1", [_vm._v("Test")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v(" p test ")])
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "columns" }, [
@@ -35906,8 +35904,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
