@@ -2541,7 +2541,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}", ""]);
+exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
 
 // exports
 
@@ -20835,7 +20835,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor commodo ullamcorper. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Sit amet cursus sit amet dictum sit amet justo donec. Et netus et malesuada fames ac turpis. Nec ullamcorper sit amet risus nullam eget. Elementum pulvinar etiam non quam lacus. Odio euismod lacinia at quis. Sed risus ultricies tristique nulla aliquet enim tortor. Sagittis aliquam malesuada bibendum arcu vitae elementum. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique."
+            "With Project-Leo, our mission is to empower students by teaching Web Development techniques that will allow them to grow and apply themselves."
           )
         ])
       ]),
@@ -20854,7 +20854,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded",
                 attrs: {
-                  src: "\\images\\default_icon_me.jpg",
+                  src: "\\images\\elizabeth_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -20903,7 +20903,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded",
                 attrs: {
-                  src: "\\images\\default_icon_ryan.png",
+                  src: "\\images\\ryan_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -20969,7 +20969,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-square",
                 attrs: {
-                  src: "\\images\\default_icon_josh.png",
+                  src: "\\images\\joshua_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -21423,7 +21423,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Help, my name is Elizabeth and I'm being held hostage. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Learn Web Development by learning to code in HTML, CSS and Javascript."
               )
             ])
           ]),
@@ -35906,8 +35906,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
