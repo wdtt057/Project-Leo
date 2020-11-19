@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Project LEO</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <!--<link rel="stylesheet" href="\css\app.css">-->
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="/css/lessonpage.css">
     <link rel="stylesheet" href="/plugin/codemirror/lib/codemirror.css">
     <link rel="stylesheet" href="/plugin/codemirror/theme/shadowfox.css">

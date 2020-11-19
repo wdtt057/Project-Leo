@@ -1,29 +1,49 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "npm run development -- --watch",
-        "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-    },
-    "devDependencies": {
-        "axios": "^0.19",
-        "bulma": "^0.9.1",
-        "cross-env": "^7.0",
-        "laravel-mix": "^5.0.1",
-        "lodash": "^4.17.19",
-        "node-sass": "^4.14.1",
-        "resolve-url-loader": "^3.1.2",
-        "sass-loader": "^10.0.2",
-        "vue-template-compiler": "^2.6.12"
-    },
-    "dependencies": {
-        "chart.js": "^2.9.4",
-        "confetti-js": "0.0.18",
-        "object-path": "^0.11.5",
-        "vue": "^2.6.12"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "css-build": "node-sass --omit-source-map-url public/sass/styles.scss public/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "devDependencies": {
+    "axios": "^0.19",
+    "bulma": "^0.9.1",
+    "cross-env": "^7.0",
+    "laravel-mix": "^5.0.1",
+    "lodash": "^4.17.19",
+    "node-sass": "^4.14.1",
+    "resolve-url-loader": "^3.1.2",
+    "sass-loader": "^10.0.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "confetti-js": "0.0.18",
+    "object-path": "^0.11.5",
+    "vue": "^2.6.12"
+  },
+  "name": "leo-scss",
+  "description": "",
+  "version": "1.0.0",
+  "main": "sass/mystyles.scss",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh7951/project-leo.git"
+  },
+  "author": "Project LEO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh7951/project-leo/issues"
+  },
+  "homepage": "https://github.com/josh7951/project-leo#readme"
 }
