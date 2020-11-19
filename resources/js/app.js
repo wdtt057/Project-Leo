@@ -34,7 +34,8 @@ Vue.component('html-quiz-1a', require('./components/html/HTMLQuiz1A.vue').defaul
 
 Vue.component('css-exercise-1a', require('./components/css/CSSExercise1A.vue').default);
 
-
+//JavaScript Lessons
+Vue.component('js-exercise-1a', require('./components/js/JavaScriptExercise1A.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

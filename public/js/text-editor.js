@@ -17,33 +17,16 @@ var cssEditor = CodeMirror(document.getElementById("cssEditor"),{
     extraKeys: {"Ctrl-Space": "autocomplete"}
 });
 var jsEditor = CodeMirror(document.getElementById("jsEditor"),{
-    value: "function testFunction() { \n\talert('hello world');\n\treturn true; \n}",
+    value: "function{\n}",
     mode: "javascript",
     theme: "shadowfox",
     tabSize: 4,
     lineNumbers: true,
     extraKeys: {"Ctrl-Space": "autocomplete"}
 });
-var output = htmlEditor.getValue();
-function executeCode(){
-    var text = htmlEditor.getValue();
-    var ifr = document.createElement("iframe");
-    ifr.setAttribute("frameborder", "0");
-    ifr.setAttribute("id", "iframeOutput");  
-    document.getElementById("iframewrapper").innerHTML = "";
-    document.getElementById("iframewrapper").appendChild(ifr);
-    var ifrw = (ifr.contentWindow) ? ifr.contentWindow : (ifr.contentDocument.document) ? ifr.contentDocument.document : ifr.contentDocument;
-    ifrw.document.open();
-    ifrw.document.write(text);
-    ifrw.document.close();
-};
-executeCode();
 
 /*Close the pop up message after checking answer*/
 function closeCheck(){
     var y = document.getElementById("res-msg");
     if(window.getComputedStyle(y).display !== "hidden")  y.classList.add("is-hidden");
 }
-
-/* ANSWER KEY STARTS HERE */
-var html1_1_ans = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";

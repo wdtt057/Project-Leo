@@ -14,4 +14,4 @@ function executeCodeHTML(){
 executeCodeHTML(); 
 htmlEditor.refresh();
 /* ANSWER KEY STARTS HERE */
-var html1_1_ans = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";
+var html1A_ans = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1>Hello World</h1>\n\t</body>\n</html>";

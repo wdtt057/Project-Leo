@@ -31,7 +31,7 @@
           <li>
             <a id="JS" class="has-submenu">JavaScript</a>
             <ul id="submenuJS" class="submenu-list">
-              <li><a>Lesson 1</a></li>
+              <li><a href="js-lesson1">Lesson 1</a></li>
               <li><a>Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>

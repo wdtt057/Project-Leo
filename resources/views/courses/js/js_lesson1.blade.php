@@ -1,10 +1,10 @@
-@extends('layouts.course_html')
+@extends('layouts.course_js')
 
 @section('content')
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
-      <h2 id="heading">HTML LESSON 1A</h2>
-      <p>Blahblah Fuck you</p>
+      <h2 id="heading">JavaScript LESSON 1A</h2>
+      <p>Something Something</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
@@ -16,21 +16,21 @@
         </ul>
         <div class="progress">
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-				</div> 
-				<br> 
-				<!-- fieldsets -->
+        </div> 
+        <br> 
+        <!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-					Warmup Shit
-					<hr>
-					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+            Warmup Shit
+            <hr>
+            <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>
-				<lesson-video></lesson-video>
-				<html-exercise-1a></html-exercise-1a>
+        <lesson-video></lesson-video>
+        <js-exercise-1a></js-exercise-1a>
         <html-quiz-1a></html-quiz-1a>
       </div>
-	<lesson-slides></lesson-slides>
+		<lesson-slides></lesson-slides>
     </div>
   </div>
 @endsection
@@ -53,7 +53,7 @@
 </script>
 <script>
 	function checkAnswer(){
-		if(html1A_ans === htmlEditor.getValue()){
+		if(js1A_ans === jsEditor.getValue()){
 			document.getElementById("lesson-next").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.add("is-active");

@@ -56,13 +56,13 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
 
     Route::get('/html-lesson1', [App\Http\Controllers\HomeController::class, 'html1'])->name('courses.html.html_lesson1');
 
-    Route::get('/courses/html/level1/lesson1', [App\Http\Controllers\HomeController::class, 'htmlLesson1'])->name('courses.html.html1_1');
-
     Route::get('/courses/html/level1/lesson2', [App\Http\Controllers\HomeController::class, 'htmlLesson2'])->name('courses.html.html1_2');
 
     Route::get('/courses/html/quiz1', [App\Http\Controllers\HomeController::class, 'htmlQuiz1'])->name('courses.html.html_quiz1');
 
     Route::get('/css-lesson1', [App\Http\Controllers\HomeController::class, 'cssLesson1'])->name('courses.css.css_lesson1');
+
+    Route::get('/js-lesson1', [App\Http\Controllers\HomeController::class, 'jsLesson1'])->name('courses.js.js_lesson1');
 });
 
 Route::get('/FAQs' , function() {
