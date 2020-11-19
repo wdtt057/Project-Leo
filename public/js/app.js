@@ -21679,7 +21679,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("fieldset", [
-      _c("div", { staticClass: "container box" }, [
+      _c("div", { staticClass: "video-container box" }, [
         _c("h3", { staticClass: "title is-4", attrs: { id: "video-title" } }),
         _vm._v(" "),
         _c("figure", { staticClass: "image is-16by9", attrs: { id: "jVideo" } })
@@ -21978,7 +21978,7 @@ var render = function() {
               { staticClass: "navbar-item has-dropdown is-hoverable" },
               [
                 _c("a", { staticClass: "navbar-link" }, [
-                  _vm._v(_vm._s(_vm.user.name))
+                  _vm._v(_vm._s(_vm.user.username))
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "navbar-dropdown" }, [
@@ -22358,11 +22358,15 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "columns" }, [
           _c("div", { staticClass: "column is-half" }, [
-            _c("div", { staticClass: "box has-background-primary" }, [
-              _c("p", [
-                _vm._v('Create an <h1> that will display "Hello World"')
-              ])
-            ])
+            _c(
+              "div",
+              { staticClass: "box has-background-warning has-text-white-bis" },
+              [
+                _c("p", [
+                  _vm._v('Create an <h1> that will display "Hello World"')
+                ])
+              ]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-half" }, [
@@ -35889,8 +35893,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

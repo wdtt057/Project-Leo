@@ -4,7 +4,7 @@
 			<h1>HTML LESSON 1</h1>
 			<div class="columns">
 				<div class="column is-half">
-					<div class="box has-background-primary">
+					<div class="box has-background-warning has-text-white-bis">
 						<p>Create an &lt;h1&gt; that will display "Hello World"</p>
 					</div>       
 				</div>

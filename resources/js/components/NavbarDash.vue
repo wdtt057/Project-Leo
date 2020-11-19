@@ -16,7 +16,7 @@
       </div>
         <div class="navbar-end">
 					<div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">{{ user.name }}</a>
+            <a class="navbar-link">{{ user.username }}</a>
             <div class="navbar-dropdown">
               <a class="navbar-item" href="#"><i class="fas fa-user"></i>&nbsp;Profile</a>
               <a class="navbar-item" href="/settings"><i class="fas fa-cog"></i>&nbsp;Settings</a>
