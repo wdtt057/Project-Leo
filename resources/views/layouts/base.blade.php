@@ -7,12 +7,10 @@
     <title>Project LEO</title>
     <link rel="stylesheet" href="css\styles.css">
     <link rel="stylesheet" href="\css\pageload.css">
-    <link rel="stylesheet" href="\css\onepage-scroll.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script defer src="\js\app.js"></script>
     <script src="\js\jquery.min.js"></script>
-    <script src="\js\jquery.onepage-scroll.js"></script>
   </head>
   <body>
     <div id="app">
@@ -20,19 +18,18 @@
         <navbar></navbar>
           @yield('content')
     </div>
-    <!-- <section class="section is-medium"></section> -->
-    <!-- <footer class="footer"> -->
-    <!-- <div class="content has-text-centered">
+    <section class="section is-medium"></section>
+    <footer class="footer">
+    <div class="content has-text-centered">
       <p>
         Copyright &copy; 2020 - All Rights reserved - Project LEO
       </p>
     </div>
-  </footer> -->
+  </footer> 
   <div class="preloader">
     <div class="loading-cube"></div>
   </div>
   </body>
-  <script>$(".main").onepage_scroll();</script>
 
   <script type="text/javascript">
       $(window).on('load', function(){ //remove setTimeout function before web launch
