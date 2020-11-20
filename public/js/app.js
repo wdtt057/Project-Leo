@@ -2131,101 +2131,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Landing Page mounted.');
@@ -20854,7 +20759,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded",
                 attrs: {
-                  src: "\\images\\elizabeth_icon.png",
+                  src: "\\images\\elizabeth_with_dog_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -20903,7 +20808,7 @@ var staticRenderFns = [
               _c("img", {
                 staticClass: "is-rounded",
                 attrs: {
-                  src: "\\images\\ryan_icon.png",
+                  src: "\\images\\ryan_with_dog_icon.png",
                   width: "200px",
                   height: "200px"
                 }
@@ -21378,212 +21283,31 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("section", { staticClass: "hero is-medium has-background-black-ter" }, [
-      _c("div", { staticClass: "hero-body" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("h1", { staticClass: "title is-1 typed-title" }, [
-            _vm._v("\n              System.out.println(\n              "),
-            _c("span", { staticClass: "typed-text" }, [
-              _vm._v(_vm._s(_vm.typeValue))
-            ]),
-            _vm._v(" "),
-            _c(
-              "span",
-              { staticClass: "cursor", class: { typing: _vm.typeStatus } },
-              [_vm._v(" ")]
-            ),
-            _vm._v("\n              );\n            ")
-          ]),
-          _vm._v(" "),
-          _c("h2", { staticClass: "subtitle" }, [
-            _vm._v("\n            Primary subtitle\n            ")
-          ])
-        ])
+  return _c("div", { staticClass: "main" }, [
+    _c("section", { staticClass: "has-background-black-ter" }, [
+      _c("h1", { staticClass: "title is-1 typed-title" }, [
+        _vm._v("\n            System.out.println(\n            "),
+        _c("span", { staticClass: "typed-text" }, [
+          _vm._v(_vm._s(_vm.typeValue))
+        ]),
+        _vm._v(" "),
+        _c(
+          "span",
+          { staticClass: "cursor", class: { typing: _vm.typeStatus } },
+          [_vm._v(" ")]
+        ),
+        _vm._v("\n            );\n          ")
+      ]),
+      _vm._v(" "),
+      _c("h2", { staticClass: "subtitle" }, [
+        _vm._v("\n          Primary subtitle\n          ")
       ])
     ]),
     _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _vm._m(2)
+    _c("section", [_vm._v("\n      Test 2\n    ")])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section is-small" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c("h1", { staticClass: "title is-1" }, [
-              _vm._v(
-                "\n                Be the leaders of your generation!\n            "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Learn Web Development by learning to code in HTML, CSS and Javascript."
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-two-fifths" }, [
-            _c("figure", { staticClass: "image is-4by3" }, [
-              _c("img", { attrs: { src: "\\images\\default_kidcoding.jpg" } })
-            ])
-          ])
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "section is-small has-background-light" },
-      [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column is-one-fourth" }, [
-            _c("h2", { staticClass: "title is-4" }, [_vm._v("<Level One>")]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [_vm._v("•blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah blah")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fourth" }, [
-            _c("h2", { staticClass: "title is-4" }, [_vm._v("<Level Two>")]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [_vm._v("•blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah blah")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fourth" }, [
-            _c("h2", { staticClass: "title is-4" }, [_vm._v("<Level Three>")]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [_vm._v("•blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah blah")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fourth" }, [
-            _c("h2", { staticClass: "title is-4" }, [_vm._v("<Level Four>")]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [_vm._v("•blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah")]),
-              _vm._v(" "),
-              _c("li", [_vm._v("•blah blah blah")])
-            ])
-          ])
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "section is-small" }, [
-      _c(
-        "div",
-        { staticClass: "columns", staticStyle: { "text-align": "center" } },
-        [
-          _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#Elizabeth-Barbieto" } }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", { attrs: { src: "\\images\\elizabeth_icon.png" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#Elizabeth-Barbieto" } }, [
-                _vm._v("Elizabeth Barbieto")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#Ryan-Catterson" } }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", { attrs: { src: "\\images\\ryan_icon.png" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#Ryan-Catterson" } }, [
-                _vm._v("Ryan Catterson")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#Teresa-Doan" } }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", { attrs: { src: "\\images\\teresa_icon.png" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#Teresa-Doan" } }, [
-                _vm._v("Teresa Doan")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#Joshua-Mejia" } }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", { attrs: { src: "\\images\\joshua_icon.png" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#Joshua-Mejia" } }, [
-                _vm._v("Joshua Mejia")
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "column is-one-fifth" }, [
-            _c("a", { attrs: { href: "/about/#Dengtai-Wang" } }, [
-              _c("figure", { staticClass: "image is-1by1" }, [
-                _c("img", { attrs: { src: "\\images\\dengtai_icon.png" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("h3", { staticClass: "title is-4" }, [
-              _c("a", { attrs: { href: "/about/#Dengtai-Wang" } }, [
-                _vm._v("Dengtai Wang")
-              ])
-            ])
-          ])
-        ]
-      )
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

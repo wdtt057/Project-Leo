@@ -92,3 +92,14 @@
         height: 0;
     }
 }
+#landing-bg{
+    background-color:#242424;
+}
+
+@media screen and (min-width: 1025px){
+    #landing-bg{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/landing.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
