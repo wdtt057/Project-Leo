@@ -29,7 +29,7 @@
               </div>
               <div class="column is-two-fifths">
                 <figure class="image is-4by3">
-                  <img src="\images\default_kidcoding.jpg">
+                  <img src="\images\background_img_6.png">
                 </figure>
               </div>
             </div>
@@ -76,44 +76,44 @@
         <section class="section is-small">
           <div class="columns" style="text-align: center;">
             <div class="column is-one-fifth">
-              <a href="/about/#Elizabeth-Barbieto">
-                <figure class="image is-1by1">
-                  <img src="\images\elizabeth_icon.png">
-                </figure>
-              </a>
               <h3 class="title is-4"><a href="/about/#Elizabeth-Barbieto">Elizabeth Barbieto</a></h3>
-            </div>
-            <div class="column is-one-fifth">
-              <a href="/about/#Ryan-Catterson">
-                <figure class="image is-1by1">
-                  <img src="\images\ryan_icon.png">
+              <a href="/about/#Elizabeth-Barbieto">
+                <figure class="image">
+                  <img src="\images\elizabeth_with_dog_icon.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#Ryan-Catterson">Ryan Catterson</a></h3>
             </div>
             <div class="column is-one-fifth">
+              <h3 class="title is-4"><a href="/about/#Ryan-Catterson">Ryan Catterson</a></h3>
+              <a href="/about/#Ryan-Catterson">
+                <figure class="image ">
+                  <img src="\images\ryan_with_dog_icon.png">
+                </figure>
+              </a>
+            </div>
+            <div class="column is-one-fifth">
+              <h3 class="title is-4"><a href="/about/#Teresa-Doan">Teresa Doan</a></h3>
               <a href="/about/#Teresa-Doan">
-                <figure class="image is-1by1">
+                <figure class="image">
                   <img src="\images\teresa_icon.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#Teresa-Doan">Teresa Doan</a></h3>
             </div>
             <div class="column is-one-fifth">
+              <h3 class="title is-4"><a href="/about/#Joshua-Mejia">Joshua Mejia</a></h3>
               <a href="/about/#Joshua-Mejia">
-                <figure class="image is-1by1">
+                <figure class="image">
                   <img src="\images\joshua_icon.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#Joshua-Mejia">Joshua Mejia</a></h3>
             </div>
             <div class="column is-one-fifth">
+              <h3 class="title is-4"><a href="/about/#Dengtai-Wang">Dengtai Wang</a></h3>
               <a href="/about/#Dengtai-Wang">
-                <figure class="image is-1by1">
+                <figure class="image">
                   <img  src="\images\dengtai_icon.png">
                 </figure>
               </a>
-              <h3 class="title is-4"><a href="/about/#Dengtai-Wang">Dengtai Wang</a></h3>
             </div>
           </div>
         </section>

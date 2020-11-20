@@ -8,7 +8,7 @@
             <hr>
                 <div class="columns">
                     <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\elizabeth_icon.png" width="200px" height="200px">
+                        <img class="is-rounded" src="\images\elizabeth_with_dog_icon.png" width="200px" height="200px">
                     </div>
                     <div class="column">
                         <h2 class="title is-4">Elizabeth Barbieto</h2>
@@ -33,7 +33,7 @@
                         </ul>
                     </div>
                     <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\ryan_icon.png" width="200px" height="200px">
+                        <img class="is-rounded" src="\images\ryan_with_dog_icon.png" width="200px" height="200px">
                     </div>
                 </div>
             </hr>
