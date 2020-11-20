@@ -20,7 +20,7 @@ let regexMedium = /\d+/;
 let regexStrong = /.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/;
 function strengthMeter(){
   document.getElementById('password-confirm').value = '';
-  $('#password-confirm').addClass('is-invalid');
+  $('#password-confirm').addClass('is-danger');
   $('#submit-button').prop('disabled', true);
   $("#validate-status").text("Password Confirmation Field Empty!");  
   if(input.value != ""){
@@ -34,12 +34,12 @@ function strengthMeter(){
         text.style.display = "block";
         text.textContent = "Password Strength: Weak"
         text.classList.add("weak");
-        input.classList.add("is-invalid");
-        input.classList.remove("is-valid")
+        input.classList.add("is-danger");
+        input.classList.remove("is-success")
       }
       if(no == 2){
-        input.classList.add("is-valid");
-        input.classList.remove("is-invalid")
+        input.classList.add("is-success");
+        input.classList.remove("is-danger")
         medium.classList.add("active");
         text.style.display = "block";
         text.textContent = "Password Strength: Medium"
@@ -74,20 +74,20 @@ var password2 = $("#password-confirm").val();
 if(password1 == password2) {
   $("#validate-status").text("Passwords Match!");
   $('#submit-button').prop('disabled', false);
-  $('#password-confirm').addClass('is-valid');
-  $('#password-confirm').removeClass('is-invalid');
+  $('#password-confirm').addClass('is-success');
+  $('#password-confirm').removeClass('is-danger');
 }
 else if(password2 == ''){
   $("#validate-status").text("Password Confirmation Field Empty!");  
   $('#submit-button').prop('disabled', true);
-  $('#password-confirm').addClass('is-invalid');
-  $('#password-confirm').removeClass('is-valid');
+  $('#password-confirm').addClass('is-danger');
+  $('#password-confirm').removeClass('is-success');
 }
 else {
   $("#validate-status").text("Passwords Do Not Match!");  
   $('#submit-button').prop('disabled', true);
-  $('#password-confirm').addClass('is-invalid');
-  $('#password-confirm').removeClass('is-valid');
+  $('#password-confirm').addClass('is-danger');
+  $('#password-confirm').removeClass('is-success');
 }
 }
 
@@ -101,11 +101,11 @@ function validateMail() {
 const email = $("#email").val();
 
 if (validateEmail(email)) {
-  $('#email').addClass('is-valid');
-  $('#email').removeClass('is-invalid');
+  $('#email').addClass('is-success');
+  $('#email').removeClass('is-danger');
 } else {
-  $('#email').addClass('is-invalid');
-  $('#email').removeClass('is-valid');
+  $('#email').addClass('is-danger');
+  $('#email').removeClass('is-success');
 }
 return false;
 }
@@ -113,33 +113,33 @@ return false;
 function validateFName(){
 var fname = $("#firstname").val();
 if(fname != ""){
-  $('#firstname').addClass('is-valid');
-  $('#firstname').removeClass('is-invalid');
+  $('#firstname').addClass('is-success');
+  $('#firstname').removeClass('is-danger');
 }
 else{
-  $('#firstname').addClass('is-invalid');
-  $('#firstname').removeClass('is-valid');    
+  $('#firstname').addClass('is-danger');
+  $('#firstname').removeClass('is-success');    
 }
 }
 function validateLName(){
 var lname = $("#lastname").val();
 if(lname != ""){
-  $('#lastname').addClass('is-valid');
-  $('#lastname').removeClass('is-invalid');
+  $('#lastname').addClass('is-success');
+  $('#lastname').removeClass('is-danger');
 }
 else{
-  $('#lastname').addClass('is-invalid');
-  $('#lastname').removeClass('is-valid');    
+  $('#lastname').addClass('is-danger');
+  $('#lastname').removeClass('is-success');    
 }
 }
 function validateUName(){
 var username = $("#name").val();
 if(username != ""){
-  $('#name').addClass('is-valid');
-  $('#name').removeClass('is-invalid');
+  $('#name').addClass('is-success');
+  $('#name').removeClass('is-danger');
 }
 else{
-  $('#name').addClass('is-invalid');
-  $('#name').removeClass('is-valid');    
+  $('#name').addClass('is-danger');
+  $('#name').removeClass('is-success');    
 }
 }

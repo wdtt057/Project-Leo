@@ -1,121 +1,178 @@
 @extends('layouts.form')
 
 @section('content')
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="flash-message">
-				@foreach (['danger', 'warning', 'success', 'info'] as $msg)
-					@if(Session::has('alert-' . $msg))
-						<p class="alert alert-{{ $msg }}">{{ Session::get('alert-' .$msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
-					@endif
-				@endforeach
-      </div>
-      <div class="card">
-				<div class="card-header">{{ __('Register') }}</div>
-				<div class="card-body">
-					<form method="POST" action="{{ route('register') }}">
-							@csrf
-							<div class="form-group row">
-									<label for="firstname" class="col-md-4 col-form-label text-md-right">First Name</label>
+<div class="container box">
+  <div class="flash-message">
+    @foreach (['danger', 'warning', 'success', 'info'] as $msg)
+      @if(Session::has('alert-' . $msg))
+        <p class="alert alert-{{ $msg }} has-background-{{ $msg }}">{{ Session::get('alert-' .$msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
+      @endif
+    @endforeach
+  </div>
+  <div class="columns">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Registration</h2>
+      <form method="POST" action="{{ route('register') }}">
+      @csrf
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Name</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input class="input form-control" onkeyup="validateFName()" id="firstname" name="firstname" type="text" placeholder="First Name" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input class="input form-control" onkeyup="validateLName()" id="lastname" name="lastname" type="text" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-									<div class="col-md-6">
-											<input onkeyup="validateFName()" id="firstname" name="firstname" type="text" class="form-control" required>
-									</div>
-							</div>
-							<div class="form-group row">
-									<label for="lastname" class="col-md-4 col-form-label text-md-right">Last Name</label>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Username</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+            <p class="control is-expanded has-icons-left">
+                <input class="input form-control @error('name') is-invalid @enderror" onkeyup="validateUName()" id="name" type="text" name="username" type="text" placeholder="leo123" value="{{ old('name') }}" required autocomplete="username">
+                @error('name')
+                  <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                  </span>
+                @enderror                
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-									<div class="col-md-6">
-											<input onkeyup="validateLName()" id="lastname" name="lastname" type="text" class="form-control" required>
-									</div>
-							</div>
-							
-							<div class="form-group row">
-								<label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Username') }}</label>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">E-Mail</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+            <p class="control is-expanded has-icons-left">
+                <input class="input form-control @error('email') is-invalid @enderror" onkeyup="validateMail()" id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email">
+                @error('email')
+                  <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                  </span>
+                @enderror              
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-								<div class="col-md-6">
-                                <input onkeyup="validateUName()" id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="username" value="{{ old('name') }}" required autocomplete="username" autofocus>
-									@error('name')
-										<span class="invalid-feedback" role="alert">
-											<strong>{{ $message }}</strong>
-										</span>
-									@enderror
-								</div>
-							</div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Birthday</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input type="date" id="birthday" class="input form-control" name="birthday" required>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-birthday-cake"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-							<div class="form-group row">
-								<label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
-
-								<div class="col-md-6">
-									<input onkeyup="validateMail()" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-									@error('email')
-										<span class="invalid-feedback" role="alert">
-											<strong>{{ $message }}</strong>
-										</span>
-									@enderror
-								</div>
-							</div>
-
-							<div class="form-group row">
-									<label for="birthday" class="col-md-4 col-form-label text-md-right">Birthday</label>
-									
-									<div class="col-md-6">  
-											<input type="date" id="birthday" class="form-control" name="birthday" required>
-									</div>
-							</div>
-
-							<div class="form-group row">
-								<label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-								<div class="col-md-6">
-									<input onkeyup="strengthMeter()" id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-									<div class="indicator">
-											<span class="weak"></span>
-											<span class="medium"></span>
-											<span class="strong"></span>
-									</div>
-									<div class="indicator-text"></div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Password</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input onkeyup="strengthMeter()" id="password" type="password" class="input form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-lock"></i>
+                </span>
+                <div class="indicator">
+                  <span class="weak"></span>
+                  <span class="medium"></span>
+                  <span class="strong"></span>
+                </div>
+                <div class="indicator-text"></div>
 									<span><input type="checkbox" onclick="toggleVisibility()"> Show Password</span>
 									@error('password')
 										<span class="invalid-feedback" role="alert">
 											<strong>{{ $message }}</strong>
 										</span>
 									@enderror
-								</div>
-							</div>
+              </p>
+            </div>
+          </div>
+        </div>
 
-							<div class="form-group row">
-								<label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Confirm Password</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input onkeyup="samePassword()" id="password-confirm" type="password" class="input form-control" name="password_confirmation" required autocomplete="new-password">
+                <span id="validate-status"></span>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-lock"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="field is-horizontal {{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+          <div class="field-label is-normal">
+            <label class="label"></label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+             {!! app('captcha')->display() !!}
+              @if ($errors->has('g-recaptcha-response'))
+                <span class="help-block text-danger">
+                  <strong>Passing reCaptcha is required! Please Try Again</strong>
+                </span>
+              @endif
+            </div>
+          </div>
+        </div>
 
-								<div class="col-md-6">
-									<input onkeyup="samePassword()" id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-									<span id="validate-status"></span>
-								</div>
-							</div>
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label"></label>
+          </div>
+          <div class="field-body">
+            <p class="control">
+              <button id="submit-button" type="submit" class="button is-primary">
+                {{ __('Register') }}
+              </button>
+              <br>
+              <span>Already registered? <a href="/login">Sign in here</a></span>
+            </p>
+          </div>
+        </div>
 
-							<div class="form-group row{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
-								<div class="col-md-6 offset-md-4">
-									{!! app('captcha')->display() !!}
-									@if ($errors->has('g-recaptcha-response'))
-										<span class="help-block text-danger">
-											<strong>Passing reCaptcha is required! Please Try Again</strong>
-										</span>
-									@endif
-								</div>
-							</div>
-
-							<div class="form-group row mb-0">
-								<div class="col-md-6 offset-md-4">
-									<button id="submit-button" type="submit" class="btn btn-primary">
-										{{ __('Register') }}
-									</button>
-								</div>
-							</div>
-					</form>
-				</div>
-			</div>
+      </form>
     </div>
   </div>
 </div>
