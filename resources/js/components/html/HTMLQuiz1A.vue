@@ -16,8 +16,8 @@
 			<div><input type="radio" id="opt3" name="options"><span id="optt3" class="quiz-choice"></span></div>
 			<div><input type="radio" id="opt4" name="options"><span id="optt4" class="quiz-choice"></span></div>
 			<br>
-			<button class="button is-primary" onclick="quizCheck()">Next Question</button>
-			<button id="retryQuiz" class="button is-danger is-hidden" onclick="resetQuiz()">Retry Quiz</button>
+			<button class="button is-warning" onclick="quizCheck()">Next Question</button>
+			<button id="retryQuiz" class="button is-primary is-hidden" onclick="resetQuiz()">Retry Quiz</button>
 			<div id="quiz-msg" class="modal is-hidden">
 				<div class="modal-background"></div>
 				<div class="modal-card">

@@ -52,7 +52,7 @@
 /* Lesson Page CSS Shit */
 #heading {
     text-transform: uppercase;
-    color: #9600ff;
+    color: #922f92;
     font-weight: normal
 }
 
@@ -78,9 +78,9 @@
 
 #msform .action-button {
     width: 100px;
-    background: #757763;
+    background: #eeec66;
     font-weight: bold;
-    color: white;
+    color: black;
     border: 0 none;
     border-radius: 4px;
     cursor: pointer;
@@ -91,7 +91,7 @@
 
 #msform .action-button:hover,
 #msform .action-button:focus {
-    background-color: #D0D1CD;
+    background-color: #f5f39c;
     color:black;
 }
 
@@ -120,14 +120,14 @@
 
 .fs-title {
     font-size: 25px;
-    color: #9600ff;
+    color: #922f92;
     margin-bottom: 15px;
     font-weight: normal;
     text-align: left
 }
 
 .purple-text {
-    color: #9600ff;
+    color: #922f92;
     font-weight: normal
 }
 
@@ -156,7 +156,7 @@
 }
 
 #progressbar .active {
-    color: #9600ff
+    color: #922f92
 }
 
 #progressbar li {
@@ -234,7 +234,7 @@
 
 #progressbar li.active:before,
 #progressbar li.active:after {
-    background: #9600ff
+    background: #922f92
 }
 
 .progress {
@@ -242,12 +242,24 @@
 }
 
 .progress-bar {
-    background-color: #9600ff
+    background-color: #922f92
 }
 
 /*CUSTOM CSS COLORS*/
 .has-background-royal-blue{
-    background-color: #4900ff!important;
+    background-color: #265eaa!important;
+}
+
+.has-background-neon-blue{
+    background-color: #4dc1e4!important;
+}
+
+.has-background-yellow{
+    background-color: #f5f39c;
+}
+
+.has-background-dark-yellow{
+    background-color: #eeec66;
 }
 
 .video-container{

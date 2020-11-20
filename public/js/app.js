@@ -22364,13 +22364,19 @@ var staticRenderFns = [
           _c("div", { staticClass: "column is-half" }, [
             _c(
               "div",
-              { staticClass: "box has-background-warning has-text-white-bis" },
+              {
+                staticClass: "box has-background-royal-blue has-text-white-bis"
+              },
               [
                 _c("p", [
                   _vm._v('Create an <h1> that will display "Hello World"')
                 ])
               ]
-            )
+            ),
+            _vm._v(" "),
+            _c("div", [
+              _c("img", { attrs: { src: "\\images\\girl-exercise.png" } })
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "column is-half" }, [
@@ -22572,7 +22578,7 @@ var staticRenderFns = [
         _c(
           "button",
           {
-            staticClass: "button is-primary",
+            staticClass: "button is-warning",
             attrs: { onclick: "quizCheck()" }
           },
           [_vm._v("Next Question")]
@@ -22581,7 +22587,7 @@ var staticRenderFns = [
         _c(
           "button",
           {
-            staticClass: "button is-danger is-hidden",
+            staticClass: "button is-primary is-hidden",
             attrs: { id: "retryQuiz", onclick: "resetQuiz()" }
           },
           [_vm._v("Retry Quiz")]
@@ -36099,8 +36105,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
