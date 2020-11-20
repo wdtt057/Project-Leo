@@ -30,6 +30,13 @@
         <h2 class="subtitle">
         Primary subtitle
         </h2>
+        <div class="hero is-fullheight">
+          <div class="hero-body">
+            <div class="container">
+              <button class="button is-info is-outlined is-rounded is-large" style="font-weight:bold;" onclick="window.location.href='/register'">Get Started</button><br>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     </div>
