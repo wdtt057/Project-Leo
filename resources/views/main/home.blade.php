@@ -162,7 +162,7 @@
 <script>
   function showTime() {
     var date = new Date(),
-        utc = new Date(Date.UTC(
+        utc = new Date(Date(
           date.getFullYear(),
           date.getMonth(),
           date.getDate(),

@@ -16,8 +16,8 @@
             <a id="HTML" class="has-submenu">HTML</a>
             <ul id="submenuHTML" class="submenu-list">
               <li><a href="/html-lesson1">Lesson 1</a></li>
-              <li><a href="/courses/html/level1/lesson2">Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
+              <li><a href="/html-lesson2">Lesson 2</a></li>
+              <li><a href="/html-lesson3">Lesson 3</a></li>
             </ul>
           </li>
           <li>

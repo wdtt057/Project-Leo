@@ -1,21 +1,40 @@
 [
 	{
-		"lessonID" : "HTML LESSON 1A",
+		"lessonID" : "HTML LESSON 1",
 		"slidesTitle" : "HTML LESSON A",
 		"slidePath" : [
-										"/images/lesson-slides/html/body.png",
-										"/images/lesson-slides/html/h1.png",
-										"/images/lesson-slides/html/h2.png",
-										"/images/lesson-slides/html/h3.png",
-										"/images/lesson-slides/html/hTags.png"
+										"/images/lesson-slides/html/1.png",
+										"/images/lesson-slides/html/2.png",
+										"/images/lesson-slides/html/3.png",
+										"/images/lesson-slides/html/4.png",
+										"/images/lesson-slides/html/5.png",
+										"/images/lesson-slides/html/6.png",
+										"/images/lesson-slides/html/7.png",
+										"/images/lesson-slides/html/12.png"
 									]
 	},
 	{
-		"lessonID" : "HTML LESSON 1B",
+		"lessonID" : "HTML LESSON 2",
 		"slidesTitle" : "HTML LESSON B",
 		"slidePath" : [
-										"/images/lesson-slides/html/p1.png",
-										"/images/lesson-slides/html/p1.png"
+										"/images/lesson-slides/html/16.png",
+										"/images/lesson-slides/html/17.png",
+										"/images/lesson-slides/html/18.png",
+										"/images/lesson-slides/html/21.png",
+										"/images/lesson-slides/html/22.png",
+										"/images/lesson-slides/html/24.png",
+										"/images/lesson-slides/html/25.png",
+										"/images/lesson-slides/html/26.png",
+										"/images/lesson-slides/html/27.png"
+									]
+	},
+	{
+		"lessonID" : "HTML LESSON 3",
+		"slidesTitle" : "HTML LESSON B",
+		"slidePath" : [
+										"/images/lesson-slides/html/32.png",
+										"/images/lesson-slides/html/33.png",
+										"/images/lesson-slides/html/35.png"
 									]
 	}
 ]

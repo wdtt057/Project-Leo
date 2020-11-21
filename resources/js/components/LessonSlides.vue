@@ -1,5 +1,5 @@
 <template>
-		<div class="container">
+		<div class="video-container">
 			<div class="section is-small">
 				<div class="box has-background-dark has-text-centered has-text-white">
 					<div class="glider-contain">

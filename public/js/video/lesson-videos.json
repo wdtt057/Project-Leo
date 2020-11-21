@@ -1,11 +1,11 @@
 [
     {
-        "lessonID" : "HTML LESSON 1A",
-        "title" : "Test Video1",
-        "videoURL" : "https://www.youtube.com/embed/QGJuMBdaqIw"
+        "lessonID" : "HTML LESSON 1",
+        "title" : "Introduction to HTML",
+        "videoURL" : "https://www.youtube.com/embed/bWPMSSsVdPk"
     },
     {
-        "lessonID" : "HTML LESSON 1B",
+        "lessonID" : "HTML LESSON 2",
         "title" : "Test Video2",
         "videoURL" : "https://www.youtube.com/embed/seXfgpaD12Q"
     }

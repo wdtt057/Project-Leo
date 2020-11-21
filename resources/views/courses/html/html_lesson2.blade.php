@@ -3,7 +3,7 @@
 @section('content')
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
-      <h2 id="heading">HTML LESSON 1</h2>
+      <h2 id="heading">HTML LESSON 2</h2>
       <p>Introduction to HTML</p>
       <div id="msform">
         <!-- progressbar -->

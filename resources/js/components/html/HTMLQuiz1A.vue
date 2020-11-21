@@ -32,6 +32,6 @@
 		</section>
 		<hr>
 		<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-		<a id="exitQuiz" class="button action-button is-hidden" href="/home">Exit Quiz</a>
+		<a id="exitQuiz" class="button action-button is-hidden" href="/html-lesson2">Next Lesson</a>
 	</fieldset>
 </template>

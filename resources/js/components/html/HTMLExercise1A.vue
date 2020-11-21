@@ -45,6 +45,6 @@
 		</section>
 		<hr>
 		<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-		<input type="button" name="next" id="lesson-next" class="next action-button" value="Next" />
+		<input type="button" name="next" id="lesson-next" class="next action-button is-hidden" value="Next" />
 	</fieldset>
 </template>

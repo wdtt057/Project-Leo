@@ -2446,7 +2446,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}\n", ""]);
+exports.push([module.i, ".typed-title[data-v-643fd5aa] {\n  color: white;\n}\nspan.typed-text[data-v-643fd5aa] {\n  color: #7e05ff;\n}\nspan.cursor[data-v-643fd5aa] {\n  display: inline-block;\n  margin-left: 3px;\n  width: 4px;\n  background-color: #7e05ff;\n  animation: cursorBlink-data-v-643fd5aa 1s infinite;\n}\nspan.cursor.typing[data-v-643fd5aa] {\n  animation: none;\n}\n@keyframes cursorBlink-data-v-643fd5aa {\n49% {\n    background-color: #7e05ff;\n}\n50% {\n    background-color: transparent;\n}\n99% {\n    background-color: transparent;\n}\n}", ""]);
 
 // exports
 
@@ -20985,12 +20985,16 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "/courses/html/level1/lesson2" } }, [
+                  _c("a", { attrs: { href: "/html-lesson2" } }, [
                     _vm._v("Lesson 2")
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 3")])])
+                _c("li", [
+                  _c("a", { attrs: { href: "/html-lesson3" } }, [
+                    _vm._v("Lesson 3")
+                  ])
+                ])
               ]
             )
           ]),
@@ -21336,7 +21340,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", { staticClass: "video-container" }, [
       _c("div", { staticClass: "section is-small" }, [
         _c(
           "div",
@@ -22199,7 +22203,7 @@ var staticRenderFns = [
       }),
       _vm._v(" "),
       _c("input", {
-        staticClass: "next action-button",
+        staticClass: "next action-button is-hidden",
         attrs: {
           type: "button",
           name: "next",
@@ -22364,9 +22368,9 @@ var staticRenderFns = [
         "a",
         {
           staticClass: "button action-button is-hidden",
-          attrs: { id: "exitQuiz", href: "/home" }
+          attrs: { id: "exitQuiz", href: "/html-lesson2" }
         },
-        [_vm._v("Exit Quiz")]
+        [_vm._v("Next Lesson")]
       )
     ])
   }
@@ -35829,8 +35833,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
