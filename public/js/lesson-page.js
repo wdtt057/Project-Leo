@@ -1,10 +1,10 @@
 /* TEXT EDITOR INITIALIZERS check codemirror for documentation*/
 var htmlEditor = CodeMirror(document.getElementById("htmlEditor"),{
-    value: "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1></h1>\n\t</body>\n</html>",
+    value: lessonPromptHTML,
     mode: "htmlmixed",
     // htmlMode: true,
     theme: "shadowfox",
-    tabSize: 4,
+    tabSize: 2,
 	lineNumbers: true,
 	lineWrapping: true,
     extraKeys: {"Ctrl-Space": "autocomplete"}

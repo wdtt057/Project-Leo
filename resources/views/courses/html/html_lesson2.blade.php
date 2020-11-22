@@ -14,17 +14,22 @@
           <li id="lesson-exercise"><strong>Excercise A</strong></li>
           <li id="lesson-quiz"><strong>Quiz A</strong></li>
         </ul>
-				<!-- fieldsets -->
+		<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-					Warmup Shit
-					<hr>
-					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+			Warmup Shit
+			<hr>
+			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>
-				<lesson-video></lesson-video>
-				<html-exercise-1a></html-exercise-1a>
-        <html-quiz-1a></html-quiz-1a>
+		<lesson-video></lesson-video>
+		<html-exercise-2></html-exercise-2>
+		<fieldset>
+			<quiz></quiz>
+			<hr>
+			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+			<a id="exitQuiz" class="button action-button is-hidden" href="/html-lesson3">Next Lesson</a>
+		</fieldset>
         <lesson-slides></lesson-slides>
       </div>
     </div>
@@ -48,8 +53,9 @@
 	})();
 </script>
 <script>
+	var lessonPromptHTML = "<!DOCTYPE html>\n<head>\n<style>\np {\n\tcolor:#03d3fc;\n}\n</style>\n<html>\n\t<body>\n\t<h1>Give it a try!</h1>\n\t\t\tWrap me in a paragraph tag!\n\t</body>\n</html>";
 	function checkAnswer(){
-		if(html1_ans === htmlEditor.getValue()){
+		if(htmlEditor.getValue().includes(html2_ans)){
 			document.getElementById("lesson-next").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.add("is-active");
@@ -69,7 +75,7 @@
 			document.getElementById("mod-head").classList.add("fail-header");
 			document.getElementById("msg-body").classList.add("fail-body");
 			document.getElementById("head-msg").innerHTML = "Wrong Answer!";
-			document.getElementById("msg-body").innerHTML = "Try Again!<br />&bull; Check your spelling and your spacing.<br />&bull; Make sure it is in the &lt;h1&gt; tag!";
+			document.getElementById("msg-body").innerHTML = "Try Again!<br />&bull; Check your spelling and your spacing.<br />&bull; Make sure it is on one line!";
 		}
 	}
 </script>

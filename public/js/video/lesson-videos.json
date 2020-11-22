@@ -6,7 +6,12 @@
     },
     {
         "lessonID" : "HTML LESSON 2",
-        "title" : "Test Video2",
-        "videoURL" : "https://www.youtube.com/embed/seXfgpaD12Q"
+        "title" : "Paragraph Tags",
+        "videoURL" : "https://www.youtube.com/embed/yxN2GyBoEf8"
+    },
+    {
+        "lessonID" : "HTML LESSON 3",
+        "title" : "Creating a list in HTML",
+        "videoURL" : "https://www.youtube.com/embed/1Pv3dlO8KWw"
     }
 ]

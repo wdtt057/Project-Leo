@@ -1,5 +1,4 @@
 <template>
-	<fieldset>
 		<section class="section">
 			<h1 class="title is-2">HTML Quiz 1</h1>
 			<h3 id="qNum" class="subtitle is-6"></h3>
@@ -30,8 +29,4 @@
 				</div>
 			</div>
 		</section>
-		<hr>
-		<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-		<a id="exitQuiz" class="button action-button is-hidden" href="/html-lesson2">Next Lesson</a>
-	</fieldset>
 </template>

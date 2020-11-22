@@ -23,8 +23,13 @@
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>
 				<lesson-video></lesson-video>
-				<html-exercise-1a></html-exercise-1a>
-        <html-quiz-1a></html-quiz-1a>
+				<html-exercise-1></html-exercise-1>
+				<fieldset>
+						<quiz></quiz>
+						<hr>
+						<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+						<a id="exitQuiz" class="button action-button is-hidden" href="/html-lesson2">Next Lesson</a>
+				</fieldset>
         <lesson-slides></lesson-slides>
       </div>
     </div>
@@ -48,6 +53,7 @@
 	})();
 </script>
 <script>
+	var lessonPromptHTML = "<!DOCTYPE html>\n<html>\n\t<body>\n\t\t<h1></h1>\n\t</body>\n</html>";
 	function checkAnswer(){
 		if(html1_ans === htmlEditor.getValue()){
 			document.getElementById("lesson-next").classList.remove("is-hidden");

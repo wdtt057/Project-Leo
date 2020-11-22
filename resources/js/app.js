@@ -24,14 +24,15 @@ Vue.component('contact-page', require('./components/ContactPage.vue').default);
 Vue.component('aboutus', require('./components/AboutUs.vue').default);
 
 Vue.component('lesson-video', require('./components/LessonVideo.vue').default);
+Vue.component('quiz', require('./components/Quiz.vue').default);
 // HTML Lessons
 Vue.component('lesson-slides', require('./components/LessonSlides.vue').default);
 Vue.component('intro-html-one', require('./components/html/IntroHTML1.vue').default);
-Vue.component('html-exercise-1a', require('./components/html/HTMLExercise1A.vue').default);
-Vue.component('html-quiz-1a', require('./components/html/HTMLQuiz1A.vue').default);
+Vue.component('html-exercise-1', require('./components/html/HTMLExercise1.vue').default);
+Vue.component('html-exercise-2', require('./components/html/HTMLExercise2.vue').default);
+Vue.component('html-exercise-3', require('./components/html/HTMLExercise3.vue').default);
 
 // CSS Lessons
-
 Vue.component('css-exercise-1a', require('./components/css/CSSExercise1A.vue').default);
 
 //JavaScript Lessons
