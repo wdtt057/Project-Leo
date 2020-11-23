@@ -1,7 +1,7 @@
 @extends('layouts.form')
 
 @section('content')
-<div class="container box">
+<div class="container box is-lavender">
   <div class="flash-message">
     @foreach (['danger', 'warning', 'success', 'info'] as $msg)
       @if(Session::has('alert-' . $msg))
@@ -29,7 +29,7 @@
             </div>
             <div class="field">
               <p class="control is-expanded has-icons-left">
-                <input class="input form-control" onkeyup="validateLName()" id="lastname" name="lastname" type="text" required>
+                <input class="input form-control" onkeyup="validateLName()" id="lastname" name="lastname" type="text" required placeholder="Last Name">
                 <span class="icon is-small is-left">
                   <i class="fas fa-user"></i>
                 </span>
@@ -66,7 +66,7 @@
           <div class="field-body">
             <div class="field">
             <p class="control is-expanded has-icons-left">
-                <input class="input form-control @error('email') is-invalid @enderror" onkeyup="validateMail()" id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email">
+                <input class="input form-control @error('email') is-invalid @enderror" onkeyup="validateMail()" id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="leo@mail.com">
                 @error('email')
                   <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -113,7 +113,7 @@
                   <span class="strong"></span>
                 </div>
                 <div class="indicator-text"></div>
-									<span><input type="checkbox" onclick="toggleVisibility()"> Show Password</span>
+									<span style="color:#D0D1CD;"><input type="checkbox" onclick="toggleVisibility()"> Show Password</span>
 									@error('password')
 										<span class="invalid-feedback" role="alert">
 											<strong>{{ $message }}</strong>
@@ -162,12 +162,12 @@
             <label class="label"></label>
           </div>
           <div class="field-body">
-            <p class="control">
-              <button id="submit-button" type="submit" class="button is-primary">
+            <p class="control has-text-grey-light">
+              <button id="submit-button" type="submit" class="button is-royal-blue">
                 {{ __('Register') }}
               </button>
               <br>
-              <span>Already registered? <a href="/login">Sign in here</a></span>
+              <span>Already registered? <a class="has-text-dark" href="/login">Sign in here</a></span>
             </p>
           </div>
         </div>
@@ -219,14 +219,30 @@ form .indicator-text{
     font-size: 14px;
     font-weight: 500;
     display: none;
+    color:#D0D1CD;
 }
 form .indicator-text.weak{
-    color: #ff4757;
+    color: black;
 }
 form .indicator-text.medium{
-    color: orange;
+    color: black;
 }
 form .indicator-text.strong{
-    color: #23ad5c;
+    color: black;
 }
+
+.is-royal-blue{
+    background-color: #265eaa!important;
+    border-color:#265eaa!important;
+    color: white!important;
+}
+
+.is-lavender{
+    background-color: #a394de!important;
+}
+
+.is-yellow{
+    background-color: #eeec66!important;
+}
+
 </style>

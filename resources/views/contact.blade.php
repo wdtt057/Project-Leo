@@ -3,22 +3,22 @@
 @section('content')
     <!--<contact-page></contact-page>-->
     <section class="section is-small">
-        <h1 class="title is-1 has-text-centered">Contact Us!ヾ(＠＾▽＾＠)ﾉ</h1>
     </section>
-    <hr>
     <section class="section is-small">
         <div class="columns">
-            <div class="column is-half"> 
-                <img src="\images\contactpage_test.jpg" alt="contactTest" style="opacity:0.8">
+            <div class="column is-two-fifths"> 
+                <img src="\images\background_img_2.png" alt="contactTest">
             </div>
-            <div class="column is-half">
+            <div class="column">
 								@if(Session::get('message_sent'))
 									<div class="notification is-success is-light" role="alert">
 									{{Session::get('message_sent')}}
 									</div>
 								@endif
+                <section class="section is-small box is-lavender">
+                <h1 class="title is-1 has-text-centered">Contact Us!ヾ(＠＾▽＾＠)ﾉ</h1>
                 <!--Start of form-->
-								<form method="POST" action="{{route('contact.send')}}"enctype="multipart/form-data">
+                  <form method="POST" action="{{route('contact.send')}}"enctype="multipart/form-data">
 									@csrf
 									<!-- Top Row -->
 									<div class="field is-horizontal">
@@ -78,14 +78,26 @@
                     <div class="field-body">
                       <div class="field">
                         <div class="control">
-                          <button type="submit" class="button is-primary">Send message</button>
+                          <button type="submit" class="button is-royal-blue">Send message</button>
                         </div>
                       </div>
                     </div>
                   </div>  
                 </form>
                 <!--End of Form-->
+              </section>
+              </div>
             </div>
-        </div>
     </section>
-@endsection
+    @endsection
+    
+<style>
+  .is-royal-blue{
+    background-color: #265eaa!important;
+    border-color:#265eaa!important;
+    color: white!important;
+  }
+  .is-lavender{
+    background-color: #a394de!important;
+  }
+  </style>

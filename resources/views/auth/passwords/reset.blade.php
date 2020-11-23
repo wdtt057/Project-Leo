@@ -1,9 +1,9 @@
 @extends('layouts.form')
 
 @section('content')
-<div class="container box">
+<div class="container">
   <div class="columns">
-    <div class="column is-three-fifths is-offset-one-fifth box has-background-light">
+    <div class="column is-three-fifths is-offset-one-fifth box is-lavender">
       <h2 class="title is-3">{{ __('Reset Password') }}</h2>
       <form method="POST" action="{{ route('password.update') }}">
         @csrf
@@ -97,7 +97,7 @@
           </div>
           <div class="field-body">
             <p class="control">
-              <button id="submit-button" type="submit" class="button is-info">
+              <button id="submit-button" type="submit" class="button is-royal-blue">
                 {{ __('Reset Password') }}
               </button>
             </p>
@@ -159,5 +159,15 @@ form .indicator-text.medium{
 }
 form .indicator-text.strong{
     color: #23ad5c;
+}
+
+.is-royal-blue{
+    background-color: #265eaa!important;
+    border-color:#265eaa!important;
+    color: white!important;
+}
+
+.is-lavender{
+      background-color: #a394de!important;
 }
 </style>

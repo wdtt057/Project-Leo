@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="columns">
-  <div class="column is-three-fifths is-offset-one-fifth box has-background-light">
+  <div class="column is-three-fifths is-offset-one-fifth box is-lavender">
     @if (session('status'))
       <div class="alert alert-success" role="alert">
         {{ session('status') }}
@@ -39,7 +39,7 @@
         </div>
         <div class="field-body">
           <p class="control">
-            <button id="submit-button" type="submit" class="button is-info">
+            <button id="submit-button" type="submit" class="button is-royal-blue">
             {{ __('Send Password Reset Link') }}
             </button>
           </p>
@@ -50,3 +50,15 @@
   </div>
 </div>
 @endsection
+
+<style>
+  .is-royal-blue{
+    background-color: #265eaa!important;
+    border-color:#265eaa!important;
+    color: white!important;
+  }
+
+  .is-lavender{
+    background-color: #a394de!important;
+  }
+</style>

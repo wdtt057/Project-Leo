@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="columns">
-  <div class="column is-three-fifths is-offset-one-fifth box has-background-light">
+  <div class="column is-three-fifths is-offset-one-fifth box is-lavender">
     <h1 class="title is-3">Login</h1>
     <form method="POST" action="{{ route('login') }}">
       @csrf
@@ -31,14 +31,14 @@
             <i class="fas fa-lock"></i>
           </span>
           @if (Route::has('password.request'))
-            <a class="btn btn-link" href="{{ route('password.request') }}">
+            <a class="btn btn-link has-text-dark" href="{{ route('password.request') }}">
               {{ __('Forgot Your Password?') }}
             </a>
           @endif
         </p>
       </div>
       <div class="field">
-        <p class="control">
+        <p class="control has-text-grey-light">
           <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
           <label for="remember">
@@ -46,15 +46,26 @@
           </label>
         </p>
       <div class="field">
-        <p class="control">
-          <button type="submit" class="button is-success">
+        <p class="control has-text-grey-light">
+          <button type="submit" class="button is-royal-blue">
             {{ __('Login') }}
           </button>
           <br>
-          <span>New User? <a href="/register">Sign up here</a></span>
+          <span>New User? <a class="has-text-dark" href="/register">Sign up here</a></span>
         </p>
       </div>
     </form>
   </div>
 </div>
 @endsection
+
+<style>
+  .is-royal-blue{
+      background-color: #265eaa!important;
+      border-color:#265eaa!important;
+      color: white!important;
+  }
+  .is-lavender{
+      background-color: #a394de!important;
+  }
+</style>

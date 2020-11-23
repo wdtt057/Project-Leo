@@ -14,6 +14,11 @@
     <script src="\js\jquery.min.js"></script>
     <script src="\js\jquery.onepage-scroll.js"></script>
     <script defer src="\js\landing-page.js"></script>
+    <style>
+      .has-text-yellow{
+        color:#eeec66!important;
+      }
+    </style>
   </head>
   <body>
   <div id="app">
@@ -25,15 +30,15 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-1 has-text-white-bis">
-          System.out.println("<span class="has-text-primary" id="text"></span><span id="cursor"></span>");
+          System.out.println("<span class="has-text-yellow" id="text"></span><span id="cursor"></span>");
         </h1>
-        <h2 class="subtitle">
-        Primary subtitle
-        </h2>
         <div class="hero is-fullheight">
           <div class="hero-body">
             <div class="container">
-              <button class="button is-info is-outlined is-rounded is-large" style="font-weight:bold;" onclick="window.location.href='/register'">Get Started</button><br>
+            <h2 class="subtitle has-text-grey-light">
+      <strong class="has-text-grey-light">Begin your journey today!</strong>
+        </h2>
+              <button class="button is-info is-rounded is-large" style="font-weight:bold;" onclick="window.location.href='/register'">Start Coding</button><br>
             </div>
           </div>
         </div>
@@ -50,7 +55,7 @@
               <h1 class="title is-1" style="color:#4dc1e4;">
                   Be the leaders of your generation!
               </h1>
-              <p class="subtitle is-4">Learn Web Development by learning to code in HTML, CSS and Javascript.</p>
+              <p class="subtitle is-4 has-text-grey-light">Learn Web Development by learning to code in HTML, CSS and Javascript.</p>
             </div>
             <div class="column is-two-fifths">
               <figure class="image">
