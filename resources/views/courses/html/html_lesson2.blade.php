@@ -17,7 +17,7 @@
 		<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-			Warmup Shit
+		<strong>Let's get started! Get ready with a pen and piece of paper or open up any text editor. We want you to make a list of anything you want! Think about trips you've made to the grocery store or your letters to Santa. Be sure to make a title and list each with a bullet point!</strong>	
 			<hr>
 			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
@@ -43,7 +43,7 @@
 	$.ajax({
 			'async': false,
 			'global': false,
-			'url': "/js/quiz/html-q1.json",
+			'url': "/js/quiz/html-q2.json",
 			'dataType': "json",
 			'success': function(data) {
 				json = data;

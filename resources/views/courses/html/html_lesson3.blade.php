@@ -17,7 +17,8 @@
 		<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-			Warmup Shit
+		<br><br>
+		<strong>Let's get started! Once again, get your pen and paper or text editor ready. Have you ever had a pen pal or sent a letter to grandma? Today we want you to write out a proper address! Feel free to look up the location of your favorite restaurant or store if you would like to do that instead. Be sure to write the name of the person or place on the first line. Next add the address line containing the street name and number. Finally, on the next line be sure to write down the city, state, and zipcode! Now add "&lt;br&gt;" after every line. All finished? Yay! You successfully used the break tag!</strong><br><br>
 			<hr>
 			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
@@ -43,7 +44,7 @@
 	$.ajax({
 			'async': false,
 			'global': false,
-			'url': "/js/quiz/html-q1.json",
+			'url': "/js/quiz/html-q.json",
 			'dataType': "json",
 			'success': function(data) {
 				json = data;

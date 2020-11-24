@@ -7,7 +7,7 @@
  function generate(index){
    if(index < jsonData.length){
      document.getElementById("qNum").innerHTML = "Question " + (index+1) + " of " + jsonData.length;
-     document.getElementById("question").innerHTML = jsonData[index].q;
+     document.getElementById("question").textContent = jsonData[index].q;
      document.getElementById("optt1").textContent = jsonData[index].opt1;
      document.getElementById("optt2").textContent = jsonData[index].opt2;
      document.getElementById("optt3").textContent = jsonData[index].opt3;

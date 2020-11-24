@@ -115,7 +115,7 @@
               <hr>
               <h4 class="subtitle is-4">JS</h4>
               <progress id="js-progress" class="progress is-info" value="60" max="100">100%</progress>
-              <br>
+              
              <!--  <canvas id="lessonsCompleted"> -->
               <!-- </canvas> -->
             </div>
@@ -131,17 +131,17 @@
             </div>
           </div>
         </div>
-        <div class="column is-6">
+        <!-- <div class="column is-6">
           <div class="panel">
             <p class="panel-heading">
               Something
             </p>
             <div class="panel-block">
-              <!-- <canvas id="lessonsCompleted"></canvas> -->
+              <!- <canvas id="lessonsCompleted"></canvas> ->
             </div>
           </div>
-        </div>
-        <div class="column is-6">
+        </div> -->
+        <!-- <div class="column is-6">
           <div class="panel">
             <p class="panel-heading">
               <strong>Dark Side</strong>
@@ -152,7 +152,7 @@
               </figure>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </main>
   </div>

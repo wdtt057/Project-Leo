@@ -18,6 +18,21 @@
       .has-text-yellow{
         color:#eeec66!important;
       }
+
+      .is-royal-blue{
+        background-color:#265eaa!important;
+        border:#265eaa!important;
+      }
+
+      .has-text-royal-blue{
+        color:#eeec66!important;
+      }
+
+      .is-teal-blue{
+        background-color:#49a0c0!important;
+        border:#49a0c0!important;
+
+      }
     </style>
   </head>
   <body>
@@ -36,9 +51,10 @@
           <div class="hero-body">
             <div class="container">
             <h2 class="subtitle has-text-grey-light">
-      <strong class="has-text-grey-light">Begin your journey today!</strong>
+      <strong class="has-text-grey-light"><br><br></strong>
+      <strong class="has-text-grey-light">Begin your journey today!<br></strong>
         </h2>
-              <button class="button is-info is-rounded is-large" style="font-weight:bold;" onclick="window.location.href='/register'">Start Coding</button><br>
+              <button class="button is-teal-blue is-rounded is-large" style="font-weight:bold;color:white;" onclick="window.location.href='/register'">Start Coding</button><br>
             </div>
           </div>
         </div>
@@ -52,10 +68,10 @@
         <div class="container">
           <div class="columns">
             <div class="column">
-              <h1 class="title is-1" style="color:#4dc1e4;">
+              <h1 class="title is-1 has-text-info" style="">
                   Be the leaders of your generation!
               </h1>
-              <p class="subtitle is-4 has-text-grey-light">Learn Web Development by learning to code in HTML, CSS and Javascript.</p>
+              <p class="subtitle is-4 has-text-grey-light">Get the upperhand and gain skills in web development by learning to code with HTML, CSS and Javascript.</p>
             </div>
             <div class="column is-two-fifths">
               <figure class="image">

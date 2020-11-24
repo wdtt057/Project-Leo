@@ -32,7 +32,7 @@
               <a class="button is-warning" href="/register">
                 <strong>Create Account</strong>
               </a>
-              <a class="button is-info is-outlined" href="/login">
+              <a class="button is-outlined is-link" href="/login">
                 <strong>Login</strong>
               </a>
             </div>
@@ -56,3 +56,8 @@ export default {
   }
 }
 </script>
+<style>
+  .is-yellow{
+      background-color: #eeec66!important;
+  }
+</style>

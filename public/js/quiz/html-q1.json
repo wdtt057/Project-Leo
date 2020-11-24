@@ -27,21 +27,12 @@
         "hint" : "The answer is easier than it looks! :)"
     },
     {
-        "q" : "Which tag defines a hyperlink?",
-        "opt1" : "<embed>",
-        "opt2" : "<link>",
-        "opt3" : "<a>",
-        "opt4" : "<hyperlink>",
-        "answer" : "<a>",
-        "hint" : "Also known as an anchor"
-    },
-    {
-        "q" : "Which will represent an ordered list?",
-        "opt1" : "<ol>",
-        "opt2" : "<ul>",
-        "opt3" : "<li>",
-        "opt4" : "<dl>",
-        "answer" : "<ol>",
-        "hint" : "The hint is with the word ordered"
+        "q" : "Which heading list is ordered from largest to smallest?",
+        "opt1" : "<h1>,<h2>,<h3>",
+        "opt2" : "<head3>,<head2>,<head1>",
+        "opt3" : "<head1>,<head2>,<head3>",
+        "opt4" : "<h3>,<h2>,<h1>",
+        "answer" : "<h1>,<h2>,<h3>",
+        "hint" : "Just like counting! dumbass kid"
     }
 ]

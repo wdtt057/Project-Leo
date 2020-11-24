@@ -1,0 +1,47 @@
+[
+    {
+        "q" : "Where does the footer tag go?",
+        "opt1" : "Top of the webpage",
+        "opt2" : "Bottom of the webpage",
+        "opt3" : "Center of the webpage",
+        "opt4" : "In the head tag",
+        "answer" : "Bottom of the webpage",
+        "hint" : "Where is your foot in accordance to your body?"
+    },
+    {
+        "q" : "What tag contains all the elements of an HTML document?",
+        "opt1" : "<meta>",
+        "opt2" : "<body>",
+        "opt3" : "<html>",
+        "opt4" : "<head>",
+        "answer" : "<body>",
+        "hint" : "Is HTML contained in the body or the head?"
+    },
+    {
+        "q" : "The _____ tag represents the root of an HTML document.",
+        "opt1" : "<html>",
+        "opt2" : "<body>",
+        "opt3" : "<meta>",
+        "opt4" : "<root>",
+        "answer" : "<html>",
+        "hint" : "The answer is easier than it looks! :)"
+    },
+    {
+        "q" : "Which tag defines a hyperlink?",
+        "opt1" : "<embed>",
+        "opt2" : "<link>",
+        "opt3" : "<a>",
+        "opt4" : "<hyperlink>",
+        "answer" : "<a>",
+        "hint" : "Also known as an anchor"
+    },
+    {
+        "q" : "What does <br> do?",
+        "opt1" : "Makes a horizontal line",
+        "opt2" : "Produces a line break",
+        "opt3" : "Makes a bullet point list",
+        "opt4" : "None of the above",
+        "answer" : "Produces a line break",
+        "hint" : "Working hard? Take a <br>!"
+    }
+]

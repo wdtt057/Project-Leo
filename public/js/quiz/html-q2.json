@@ -1,0 +1,47 @@
+[
+    {
+        "q" : "What is the Paragraph Tag?",
+        "opt1" : "<body>",
+        "opt2" : "<br>",
+        "opt3" : "<para>",
+        "opt4" : "<p>",
+        "answer" : "<p>",
+        "hint" : "The answer is easier than it looks! :)"
+    },
+    {
+        "q" : "Which will represent an unordered list?",
+        "opt1" : "<dl>",
+        "opt2" : "<ol>",
+        "opt3" : "<ul>",
+        "opt4" : "<li>",
+        "answer" : "<ul>",
+        "hint" : "Check the abbreviation."
+    },
+    {
+        "q" : "What tag contains the list item?",
+        "opt1" : "<ul>",
+        "opt2" : "<li>",
+        "opt3" : "<dl>",
+        "opt4" : "<list>",
+        "answer" : "<li>",
+        "hint" : "The answer is easier than it looks! :)"
+    },
+    {
+        "q" : "Which tag is the least important heading?",
+        "opt1" : "<h1>",
+        "opt2" : "<h5>",
+        "opt3" : "<h3>",
+        "opt4" : "<heading>",
+        "answer" : "<h5>",
+        "hint" : "The lower the better!"
+    },
+    {
+        "q" : "Which will represent an ordered list?",
+        "opt1" : "<ol>",
+        "opt2" : "<ul>",
+        "opt3" : "<li>",
+        "opt4" : "<dl>",
+        "answer" : "<ol>",
+        "hint" : "The hint is with the word ordered."
+    }
+]
