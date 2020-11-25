@@ -8,16 +8,17 @@
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
-          <li class="active" id="intro"><strong>Introduction</strong></li>
+          <li class="active" id="intro"><strong>Start</strong></li>
           <li id="warm-up"><strong>Warmup</strong></li>
-          <li id="lesson-video"><strong>Video A</strong></li>
-          <li id="lesson-exercise"><strong>Excercise A</strong></li>
-          <li id="lesson-quiz"><strong>Quiz A</strong></li>
+          <li id="lesson-video"><strong>Video</strong></li>
+          <li id="lesson-exercise"><strong>Excercise</strong></li>
+          <li id="lesson-quiz"><strong>Quiz</strong></li>
         </ul>
 				<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-				<strong> Let's get started! Right-click anywhere on your screen or Ctrl+Shift+C to open up the browser inspector. Be sure to be in the Elements tab. What you are seeing is HTML via the DOM manipulator! Locate the header tag "&lt;head&gt;" and see if you can find our hidden message.</strong>
+		<hr>
+				<p><strong> Let's get started! Right-click anywhere on your screen or Ctrl+Shift+C to open up the browser inspector. Be sure to be in the Elements tab. What you are seeing is HTML via the DOM manipulator! Locate the header tag "&lt;head&gt;" and see if you can find our hidden message.</strong></p>
 					<hr>
 					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 

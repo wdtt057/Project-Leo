@@ -8,11 +8,11 @@
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
-          <li class="active" id="intro"><strong>Introduction</strong></li>
+          <li class="active" id="intro"><strong>Start</strong></li>
           <li id="warm-up"><strong>Warmup</strong></li>
-          <li id="lesson-video"><strong>Video A</strong></li>
-          <li id="lesson-exercise"><strong>Excercise A</strong></li>
-          <li id="lesson-quiz"><strong>Quiz A</strong></li>
+          <li id="lesson-video"><strong>Video</strong></li>
+          <li id="lesson-exercise"><strong>Excercise</strong></li>
+          <li id="lesson-quiz"><strong>Quiz</strong></li>
         </ul>
 		<!-- fieldsets -->
         <intro-html-one></intro-html-one>
@@ -44,7 +44,7 @@
 	$.ajax({
 			'async': false,
 			'global': false,
-			'url': "/js/quiz/html-q.json",
+			'url': "/js/quiz/html-q3.json",
 			'dataType': "json",
 			'success': function(data) {
 				json = data;

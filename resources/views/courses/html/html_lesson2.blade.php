@@ -4,19 +4,20 @@
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
       <h2 id="heading">HTML LESSON 2</h2>
-      <p>Introduction to HTML</p>
+      <p>Tags, lists, and more!</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
-          <li class="active" id="intro"><strong>Introduction</strong></li>
+          <li class="active" id="intro"><strong>Start</strong></li>
           <li id="warm-up"><strong>Warmup</strong></li>
-          <li id="lesson-video"><strong>Video A</strong></li>
-          <li id="lesson-exercise"><strong>Excercise A</strong></li>
-          <li id="lesson-quiz"><strong>Quiz A</strong></li>
+          <li id="lesson-video"><strong>Video</strong></li>
+          <li id="lesson-exercise"><strong>Excercise</strong></li>
+          <li id="lesson-quiz"><strong>Quiz</strong></li>
         </ul>
 		<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
+		<hr>
 		<strong>Let's get started! Get ready with a pen and piece of paper or open up any text editor. We want you to make a list of anything you want! Think about trips you've made to the grocery store or your letters to Santa. Be sure to make a title and list each with a bullet point!</strong>	
 			<hr>
 			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />

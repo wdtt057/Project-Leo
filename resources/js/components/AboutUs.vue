@@ -13,9 +13,11 @@
                     <div class="column">
                         <h2 class="title is-4">Elizabeth Barbieto</h2>
                         <ul>
-                            <li>&bull;blah</li>
+                            <li>&bull;UI Designer</li>
+                            <li>&bull;Front End Developer</li>
+                            <!-- <li>&bull;blah</li>
                             <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li>
+                            <li>&bull;blah blah blah</li> -->
                         </ul>
                     </div> 
                 </div>
@@ -27,9 +29,10 @@
                     <div class="column">
                         <h2 class="title is-4">Ryan Catterson</h2>
                         <ul>
-                            <li>&bull;memes</li>
+                            <li>&bull;Front End Developer</li>
+                            <!-- <li>&bull;memes</li>
                             <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li>
+                            <li>&bull;blah blah blah</li> -->
                         </ul>
                     </div>
                     <div class="column is-two-fifths">
@@ -47,9 +50,11 @@
                     <div class="column">
                         <h2 class="title is-4">Teresa Doan</h2>
                         <ul>
-                            <li>&bull;blah</li>
+                            <li>&bull;UI Designer</li>
+                            <li>&bull;Curriculum Leader</li>
+                            <!-- <li>&bull;blah</li>
                             <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li>
+                            <li>&bull;blah blah blah</li> -->
                         </ul>
                     </div> 
                 </div>
@@ -61,9 +66,10 @@
                     <div class="column">
                         <h2 class="title is-4">Joshua Mejia</h2>
                         <ul>
-                            <li>&bull;blah</li>
+                            <li>&bull;Full Stack Developer</li>
+                            <!-- <li>&bull;blah</li>
                             <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li>
+                            <li>&bull;blah blah blah</li> -->
                         </ul>
                     </div> 
                     <div class="column is-two-fifths">
@@ -81,9 +87,10 @@
                     <div class="column">
                         <h2 class="title is-4">Dengtai Wang</h2>
                         <ul>
-                            <li>&bull;blah</li>
+                            <li>&bull;Database Engineer</li>
+                            <!-- <li>&bull;blah</li>
                             <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li>
+                            <li>&bull;blah blah blah</li> -->
                         </ul>
                     </div> 
                 </div>
