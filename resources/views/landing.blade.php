@@ -84,17 +84,25 @@
     </div>
       </section>
       <section style="background: linear-gradient(#01819a, #88019f);">      
-      <div class="hero is-large is-bold">
+      <div class="hero is-medium is-bold">
         <div class="hero-body">
           <div class="columns">
             <div class="column is-one-third">
-              <figure> <img src="\images\html-logo.png" alt="" width="250px" height="250px"></figure>
+              <figure class="center"> <img src="\images\html-logo.png" alt="" width="250px" height="250px"><br>
+              Used to organize and give structure to the content and elements. Some properties are used to either reference a CSS rule to apply style or to trigger a JavaScript function to create interactivity. Important: It can be modified later on using JavaScript!
+            </figure>
+              
             </div>
             <div class="column is-one-third">
-            <figure> <img src="\images\css-logo.png" alt="" width="250px" height="250px"></figure>
+            <figure class="center"> <img src="\images\css-logo.png" alt="" width="250px" height="250px"><br>
+            Used to make everything pretty with style, but it also has this superpower of making elements appear and disappear using the display or visibility properties. Important: It needs to be referenced by an html element, and it can be modified later on using JavaScript!
+              </figure>
             </div>
             <div class="column is-one-third">
-            <figure> <img src="\images\js-logo.png" alt="" width="250px" height="250px"></figure>
+            <figure class="center"> <img src="\images\js-logo.png" alt="" width="250px" height="250px"><br>
+            This guy is a beast, it creates and destroys HTML tags or CSS rules dinamically, whenever and whatever you want. 
+          </figure>
+            
             </div>
           </div>
         </div>
