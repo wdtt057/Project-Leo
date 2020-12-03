@@ -37,7 +37,6 @@
   </div>
 @endsection
 <script src="/js/jquery.min.js"></script> 
-<!-- ajax request for quiz-->
 <script>
 	var jsonData = (function() {
 	var json = null;
