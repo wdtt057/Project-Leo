@@ -85,23 +85,27 @@
       </section>
       <section style="background: linear-gradient(#01819a, #88019f);">      
       <div class="hero is-medium is-bold">
-        <div class="hero-body">
-          <div class="columns">
+        <div>
+          <div class="columns has-text-white-bis">
             <div class="column is-one-third">
-              <figure class="center"> <img src="\images\html-logo.png" alt="" width="250px" height="250px"><br>
-              Used to organize and give structure to the content and elements. Some properties are used to either reference a CSS rule to apply style or to trigger a JavaScript function to create interactivity. Important: It can be modified later on using JavaScript!
-            </figure>
+              <figure class="center"> <img src="\images\html-logo.png" alt="" width="250px" height="250px"><br><br>
+              <ul><li>&bull;Secret language of the web!</li>
+              <li>&bull;Reference CSS for style</li>
+              <li>&bull;Reference JavaScript for interaction</li><ul>         
+              </figure>
               
             </div>
             <div class="column is-one-third">
-            <figure class="center"> <img src="\images\css-logo.png" alt="" width="250px" height="250px"><br>
-            Used to make everything pretty with style, but it also has this superpower of making elements appear and disappear using the display or visibility properties. Important: It needs to be referenced by an html element, and it can be modified later on using JavaScript!
-              </figure>
+            <figure class="center"> <img src="\images\css-logo.png" alt="" width="250px" height="250px"><br><br>
+            <ul><li>&bull;Makes everything pretty</li>
+              <li>&bull;Can alter visibility of elements</li>
+              <li>&bull;Controls layout of websites</li><ul> </figure>
             </div>
             <div class="column is-one-third">
-            <figure class="center"> <img src="\images\js-logo.png" alt="" width="250px" height="250px"><br>
-            This guy is a beast, it creates and destroys HTML tags or CSS rules dinamically, whenever and whatever you want. 
-          </figure>
+            <figure class="center"> <img src="\images\js-logo.png" alt="" width="250px" height="250px"><br><br>
+            <ul><li>&bull;Makes websites interactive</li>
+              <li>&bull;Handles complex features</li>
+              <li>&bull;Can override CSS and HTML rules</li><ul> </figure>
             
             </div>
           </div>
