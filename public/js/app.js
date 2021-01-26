@@ -20975,11 +20975,11 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("aside", { staticClass: "column is-2" }, [
       _c("nav", { staticClass: "menu" }, [
-        _c("p", { staticClass: "menu-label" }, [
+        _c("p", { staticClass: "menu-label has-text-white" }, [
           _vm._v("\n      General\n    ")
         ]),
         _vm._v(" "),
-        _c("ul", { staticClass: "menu-list" }, [
+        _c("ul", { staticClass: "menu-list has-text-white" }, [
           _c("li", [
             _c("a", {}, [
               _vm._v("Dashboard "),
@@ -20988,36 +20988,99 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "menu-label" }, [
+        _c("p", { staticClass: "menu-label has-text-white" }, [
           _vm._v("\n      Courses\n    ")
         ]),
         _vm._v(" "),
-        _c("ul", { staticClass: "menu-list" }, [
+        _c("ul", { staticClass: "menu-list has-text-white" }, [
           _c("li", [_c("a", [_vm._v("Introduction")])]),
           _vm._v(" "),
           _c("li", [
-            _c("a", { staticClass: "has-submenu", attrs: { id: "HTML" } }, [
-              _vm._v("HTML")
-            ]),
+            _c(
+              "a",
+              {
+                staticClass: "has-submenu has-text-white",
+                attrs: { id: "HTML" }
+              },
+              [_vm._v("HTML")]
+            ),
             _vm._v(" "),
             _c(
               "ul",
               { staticClass: "submenu-list", attrs: { id: "submenuHTML" } },
               [
                 _c("li", [
-                  _c("a", { attrs: { href: "/html-lesson1" } }, [
-                    _vm._v("Lesson 1")
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "has-text-white",
+                      attrs: { href: "/html-lesson1" }
+                    },
+                    [_vm._v("Lesson 1")]
+                  )
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "/html-lesson2" } }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "has-text-white",
+                      attrs: { href: "/html-lesson2" }
+                    },
+                    [_vm._v("Lesson 2")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "has-text-white",
+                      attrs: { href: "/html-lesson3" }
+                    },
+                    [_vm._v("Lesson 3")]
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "has-submenu has-text-white",
+                attrs: { id: "CSS" }
+              },
+              [_vm._v("CSS")]
+            ),
+            _vm._v(" "),
+            _c(
+              "ul",
+              {
+                staticClass: "submenu-list has-text-white",
+                attrs: { id: "submenuCSS" }
+              },
+              [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "has-text-white",
+                      attrs: { href: "/css-lesson1" }
+                    },
+                    [_vm._v("Lesson 1")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { staticClass: "has-text-white" }, [
                     _vm._v("Lesson 2")
                   ])
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "/html-lesson3" } }, [
+                  _c("a", { staticClass: "has-text-white" }, [
                     _vm._v("Lesson 3")
                   ])
                 ])
@@ -21026,45 +21089,44 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("li", [
-            _c("a", { staticClass: "has-submenu", attrs: { id: "CSS" } }, [
-              _vm._v("CSS")
-            ]),
+            _c(
+              "a",
+              {
+                staticClass: "has-submenu has-text-white",
+                attrs: { id: "JS" }
+              },
+              [_vm._v("JavaScript")]
+            ),
             _vm._v(" "),
             _c(
               "ul",
-              { staticClass: "submenu-list", attrs: { id: "submenuCSS" } },
+              {
+                staticClass: "submenu-list has-text-white",
+                attrs: { id: "submenuJS" }
+              },
               [
                 _c("li", [
-                  _c("a", { attrs: { href: "/css-lesson1" } }, [
-                    _vm._v("Lesson 1")
+                  _c(
+                    "a",
+                    {
+                      staticClass: "has-text-white",
+                      attrs: { href: "js-lesson1" }
+                    },
+                    [_vm._v("Lesson 1")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { staticClass: "has-text-white" }, [
+                    _vm._v("Lesson 2")
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 2")])]),
-                _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 3")])])
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { staticClass: "has-submenu", attrs: { id: "JS" } }, [
-              _vm._v("JavaScript")
-            ]),
-            _vm._v(" "),
-            _c(
-              "ul",
-              { staticClass: "submenu-list", attrs: { id: "submenuJS" } },
-              [
                 _c("li", [
-                  _c("a", { attrs: { href: "js-lesson1" } }, [
-                    _vm._v("Lesson 1")
+                  _c("a", { staticClass: "has-text-white" }, [
+                    _vm._v("Lesson 3")
                   ])
-                ]),
-                _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 2")])]),
-                _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 3")])])
+                ])
               ]
             )
           ])
@@ -36267,8 +36329,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\data\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
