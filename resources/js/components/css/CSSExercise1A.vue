@@ -1,7 +1,7 @@
 <template>
 	<fieldset>
 		<section class="section">
-			<h1>HTML LESSON 1</h1>
+			<h1>CSS LESSON 1</h1>
 			<div class="columns">
 				<div class="column is-half">
 					<div class="box has-background-primary">

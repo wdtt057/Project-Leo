@@ -14,10 +14,6 @@
           <li id="lesson-exercise"><strong>Excercise A</strong></li>
           <li id="lesson-quiz"><strong>Quiz A</strong></li>
         </ul>
-        <div class="progress">
-					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-				</div> 
-				<br> 
 				<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
@@ -28,8 +24,12 @@
         </fieldset>
 				<lesson-video></lesson-video>
 				<css-exercise-1a></css-exercise-1a>
-        <html-quiz-1a></html-quiz-1a>
-      </div>
+				<fieldset>
+						<quiz></quiz>
+						<hr>
+						<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+						<a id="exitQuiz" class="button action-button is-hidden" href="/html-lesson2">Next Lesson</a>
+				</fieldset>      </div>
 	<lesson-slides></lesson-slides>
     </div>
   </div>
@@ -52,28 +52,28 @@
 	})();
 </script>
 <script>
-	function checkAnswer(){
-		if(html1_1_ans === htmlEditor.getValue()){
-			document.getElementById("lesson-next").classList.remove("is-hidden");
-			document.getElementById("res-msg").classList.remove("is-hidden");
-			document.getElementById("res-msg").classList.add("is-active");
-			document.getElementById("mod-head").classList.remove("fail-header");
-			document.getElementById("msg-body").classList.remove("fail-body");
-			document.getElementById("mod-head").classList.add("success-header");
-			document.getElementById("msg-body").classList.add("success-body");
-			document.getElementById("head-msg").innerHTML = "Correct Answer!";
-			document.getElementById("msg-body").innerHTML = "Good job!";
-			confetti.start(1500, 175, 300);
-		}
-		else{
-			document.getElementById("res-msg").classList.remove("is-hidden");
-			document.getElementById("res-msg").classList.add("is-active");
-			document.getElementById("mod-head").classList.remove("success-header");
-			document.getElementById("msg-body").classList.remove("success-body");
-			document.getElementById("mod-head").classList.add("fail-header");
-			document.getElementById("msg-body").classList.add("fail-body");
-			document.getElementById("head-msg").innerHTML = "Wrong Answer!";
-			document.getElementById("msg-body").innerHTML = "Try Again!<br />&bull; Check your spelling and your spacing.<br />&bull; Make sure it is in the &lt;h1&gt; tag!";
-		}
-	}
+	// function checkAnswer(){
+	// 	if(html1_1_ans === htmlEditor.getValue()){
+	// 		document.getElementById("lesson-next").classList.remove("is-hidden");
+	// 		document.getElementById("res-msg").classList.remove("is-hidden");
+	// 		document.getElementById("res-msg").classList.add("is-active");
+	// 		document.getElementById("mod-head").classList.remove("fail-header");
+	// 		document.getElementById("msg-body").classList.remove("fail-body");
+	// 		document.getElementById("mod-head").classList.add("success-header");
+	// 		document.getElementById("msg-body").classList.add("success-body");
+	// 		document.getElementById("head-msg").innerHTML = "Correct Answer!";
+	// 		document.getElementById("msg-body").innerHTML = "Good job!";
+	// 		confetti.start(1500, 175, 300);
+	// 	}
+	// 	else{
+	// 		document.getElementById("res-msg").classList.remove("is-hidden");
+	// 		document.getElementById("res-msg").classList.add("is-active");
+	// 		document.getElementById("mod-head").classList.remove("success-header");
+	// 		document.getElementById("msg-body").classList.remove("success-body");
+	// 		document.getElementById("mod-head").classList.add("fail-header");
+	// 		document.getElementById("msg-body").classList.add("fail-body");
+	// 		document.getElementById("head-msg").innerHTML = "Wrong Answer!";
+	// 		document.getElementById("msg-body").innerHTML = "Try Again!<br />&bull; Check your spelling and your spacing.<br />&bull; Make sure it is in the &lt;h1&gt; tag!";
+	// 	}
+	// }
 </script>
