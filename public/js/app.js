@@ -22088,7 +22088,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("fieldset", [
       _c("section", { staticClass: "section" }, [
-        _c("h1", [_vm._v("HTML LESSON 1")]),
+        _c("h1", [_vm._v("CSS LESSON 1")]),
         _vm._v(" "),
         _c("div", { staticClass: "columns" }, [
           _c("div", { staticClass: "column is-half" }, [
@@ -36267,8 +36267,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

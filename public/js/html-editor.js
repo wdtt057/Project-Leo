@@ -1,3 +1,15 @@
+var htmlEditor = CodeMirror(document.getElementById("htmlEditor"),{
+    value: lessonPromptHTML,
+    mode: "htmlmixed",
+    // htmlMode: true,
+    theme: "shadowfox",
+    tabSize: 2,
+	lineNumbers: true,
+	lineWrapping: true,
+    extraKeys: {"Ctrl-Space": "autocomplete"}
+});
+
+
 var output = htmlEditor.getValue();
 function executeCodeHTML(){
     var text = htmlEditor.getValue();

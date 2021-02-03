@@ -1,3 +1,13 @@
+var cssEditor = CodeMirror(document.getElementById("cssEditor"),{
+    value: "body {\n\tbackground-color: #eee;\n}",
+    mode: "css",
+    theme: "shadowfox",
+    tabSize: 4,
+	lineNumbers: true,
+	lineWrapping: true,
+    extraKeys: {"Ctrl-Space": "autocomplete"}
+});
+
 var lesson = "<h1 class='title-class'>test</h1>\n\t<p>Hello test</p>\n<p id='beth'>testing 12</p>";
 var output = cssEditor.getValue();
 function executeCodeCSS(){

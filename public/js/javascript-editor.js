@@ -1,3 +1,13 @@
+var jsEditor = CodeMirror(document.getElementById("jsEditor"),{
+    value: "function{\n}",
+    mode: "javascript",
+    theme: "shadowfox",
+    tabSize: 4,
+	lineNumbers: true,
+	lineWrapping: true,
+    extraKeys: {"Ctrl-Space": "autocomplete"}
+});
+
 var lesson = '<h1 style="color:#BDBCB2">Show the hidden message!</h1>\n<button onclick=openMessage()>Click Me!</button>\n<p id="hidden-message" style="display:none">Good job! You wrote your first javascript function! :)</p>';
 var output = jsEditor.getValue();
 function executeCodeJS(){
