@@ -19,8 +19,8 @@
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">Resources</a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Link 1</a>
-              <a class="navbar-item" href="https://www.youtube.com/watch?v=ZZ5LpwO-An4" target="_blank">Link 2</a>
+              <a class="navbar-item" href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+              <a class="navbar-item" href="https://www.geeksforgeeks.org/" target="_blank">Geeks for Geeks</a>
               <hr class="navbar-divider">
               <a class="navbar-item" href="/contact-us" style="color:#41CAE5; font-weight: bold;">Contact Us</a>
             </div>

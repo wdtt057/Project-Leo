@@ -2087,6 +2087,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -21278,11 +21287,51 @@ var staticRenderFns = [
             _c("div", { staticClass: "card-header" }, [_vm._v("Course")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _vm._v("\n                    CSS\n                ")
+              _c("h1", [_vm._v("HTML")]),
+              _vm._v(" "),
+              _c("img", {
+                attrs: { src: "\\images\\courses_html.png", width: "700px" }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "“Hypertext Markup Language” is the skeleton of a webpage. It is used to define a webpage’s structure."
+                )
+              ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _vm._v("\n                    PHP\n                ")
+              _c("h1", [_vm._v("CSS")]),
+              _vm._v(" "),
+              _c("img", {
+                attrs: {
+                  src: "\\images\\courses_css_placeholder.png",
+                  width: "700px"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "“Cascading Style Sheets” is used in conjunction with HTML to define the look of a webpage."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" }, [
+              _c("h1", [_vm._v("JavaScript")]),
+              _vm._v(" "),
+              _c("img", {
+                attrs: {
+                  src: "\\images\\courses_javascript_placeholder.png",
+                  width: "700px"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "JavaScript is used in conjunction with HTML to define the behavior of a webpage."
+                )
+              ])
             ])
           ])
         ])
@@ -21620,12 +21669,9 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "navbar-item",
-              attrs: {
-                href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                target: "_blank"
-              }
+              attrs: { href: "https://www.w3schools.com/", target: "_blank" }
             },
-            [_vm._v("Link 1")]
+            [_vm._v("W3 Schools")]
           ),
           _vm._v(" "),
           _c(
@@ -21633,11 +21679,11 @@ var staticRenderFns = [
             {
               staticClass: "navbar-item",
               attrs: {
-                href: "https://www.youtube.com/watch?v=ZZ5LpwO-An4",
+                href: "https://www.geeksforgeeks.org/",
                 target: "_blank"
               }
             },
-            [_vm._v("Link 2")]
+            [_vm._v("Geeks for Geeks")]
           ),
           _vm._v(" "),
           _c("hr", { staticClass: "navbar-divider" }),
@@ -36267,8 +36313,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
