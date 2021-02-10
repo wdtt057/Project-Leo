@@ -24,7 +24,7 @@
             <a id="CSS" class="has-submenu">CSS</a>
             <ul id="submenuCSS" class="submenu-list">
               <li><a href="/css-lesson1">Lesson 1</a></li>
-              <li><a>Lesson 2</a></li>
+              <li><a href="/css-lesson2">Lesson 2</a></li>
               <li><a>Lesson 3</a></li>
             </ul>
           </li>

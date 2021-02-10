@@ -21049,7 +21049,11 @@ var staticRenderFns = [
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 2")])]),
+                _c("li", [
+                  _c("a", { attrs: { href: "/css-lesson2" } }, [
+                    _vm._v("Lesson 2")
+                  ])
+                ]),
                 _vm._v(" "),
                 _c("li", [_c("a", [_vm._v("Lesson 3")])])
               ]
@@ -36313,8 +36317,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

@@ -51,6 +51,9 @@ class HomeController extends Controller
     public function cssLesson1(){
         return view('courses.css.css_lesson1');
     }
+    public function cssLesson2(){
+        return view('courses.css.css_lesson2');
+    }
     public function jsLesson1(){
         return view('courses.js.js_lesson1');
     }

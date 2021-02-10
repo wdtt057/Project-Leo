@@ -66,6 +66,8 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
 
     Route::get('/css-lesson1', [App\Http\Controllers\HomeController::class, 'cssLesson1'])->name('courses.css.css_lesson1');
 
+    Route::get('/css-lesson2', [App\Http\Controllers\HomeController::class, 'cssLesson2'])->name('courses.css.css_lesson2');
+
     Route::get('/js-lesson1', [App\Http\Controllers\HomeController::class, 'jsLesson1'])->name('courses.js.js_lesson1');
 });
 

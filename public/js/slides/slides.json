@@ -36,5 +36,30 @@
 										"/images/lesson-slides/html/33.png",
 										"/images/lesson-slides/html/35.png"
 									]
+	},
+	{
+		"lessonID" : "CSS LESSON 1",
+		"slidesTitle" : "CSS LESSON A",
+		"slidePath" : [
+										"/images/lesson-slides/css/1.png",
+										"/images/lesson-slides/css/2.png",
+										"/images/lesson-slides/css/3.png",
+										"/images/lesson-slides/css/4.png",										
+										"/images/lesson-slides/css/5.png"
+									]
+	},
+	{
+		"lessonID" : "CSS LESSON 2",
+		"slidesTitle" : "CSS LESSON B",
+		"slidePath" : [
+										"/images/lesson-slides/css/6.png",
+										"/images/lesson-slides/css/7.png",
+										"/images/lesson-slides/css/8.png",
+										"/images/lesson-slides/css/9.png",										
+										"/images/lesson-slides/css/10.png",
+										"/images/lesson-slides/css/11.png",
+										"/images/lesson-slides/css/12.png",
+										"/images/lesson-slides/css/13.png"
+									]
 	}
 ]
