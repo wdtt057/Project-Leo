@@ -2096,6 +2096,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -21287,54 +21330,92 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
+          _c("h1", { staticClass: "title is-1" }, [_vm._v("Courses")]),
+          _vm._v(" "),
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("Course")]),
+            _c("div", { staticClass: "card-header" }, [
+              _c("p", { staticClass: "card-header-title" }, [_vm._v("HTML")])
+            ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h1", [_vm._v("HTML")]),
-              _vm._v(" "),
-              _c("img", {
-                attrs: { src: "\\images\\courses_html.png", width: "700px" }
-              }),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "“Hypertext Markup Language” is the skeleton of a webpage. It is used to define a webpage’s structure."
-                )
+            _c("div", { staticClass: "card-content" }, [
+              _c("div", { staticClass: "media" }, [
+                _c("div", { staticClass: "media-left" }, [
+                  _c("div", { staticClass: "card-image" }, [
+                    _c("figure", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: { src: "\\images\\courses_html.png" }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-content" }, [
+                  _c("p", { staticClass: "subtitle" }, [
+                    _vm._v(
+                      "“Hypertext Markup Language” is the skeleton of a webpage. It is used to define a webpage’s structure."
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _c("p", { staticClass: "card-header-title" }, [_vm._v("CSS")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-content" }, [
+              _c("div", { staticClass: "media" }, [
+                _c("div", { staticClass: "media-left" }, [
+                  _c("div", { staticClass: "card-image" }, [
+                    _c("figure", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: { src: "\\images\\courses_css_placeholder.png" }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-content" }, [
+                  _c("p", { staticClass: "subtitle" }, [
+                    _vm._v(
+                      "“Cascading Style Sheets” is used in conjunction with HTML to define the look of a webpage."
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _c("p", { staticClass: "card-header-title" }, [
+                _vm._v("JavaScript")
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h1", [_vm._v("CSS")]),
-              _vm._v(" "),
-              _c("img", {
-                attrs: {
-                  src: "\\images\\courses_css_placeholder.png",
-                  width: "700px"
-                }
-              }),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "“Cascading Style Sheets” is used in conjunction with HTML to define the look of a webpage."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _c("h1", [_vm._v("JavaScript")]),
-              _vm._v(" "),
-              _c("img", {
-                attrs: {
-                  src: "\\images\\courses_javascript_placeholder.png",
-                  width: "700px"
-                }
-              }),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "JavaScript is used in conjunction with HTML to define the behavior of a webpage."
-                )
+            _c("div", { staticClass: "card-content" }, [
+              _c("div", { staticClass: "media" }, [
+                _c("div", { staticClass: "media-left" }, [
+                  _c("div", { staticClass: "card-image" }, [
+                    _c("figure", { staticClass: "image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "\\images\\courses_javascript_placeholder.png"
+                        }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "media-content" }, [
+                  _c("p", { staticClass: "subtitle" }, [
+                    _vm._v(
+                      "JavaScript is used in conjunction with HTML to define the behavior of a webpage."
+                    )
+                  ])
+                ])
               ])
             ])
           ])
@@ -36317,8 +36398,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Pineapps\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
