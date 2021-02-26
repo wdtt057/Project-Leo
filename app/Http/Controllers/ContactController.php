@@ -14,7 +14,7 @@ class ContactController extends Controller
 
     public function sendEmail(Request $request){
         $details = [
-            'name' => $request->name,
+            'name' => $request->username,
             'email' => $request->email,
             'msg' => $request->msg
         ];
