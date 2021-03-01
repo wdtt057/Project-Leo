@@ -20,9 +20,10 @@ class CreateCoursesTable extends Migration
             $table->string("language_type"); //php,CSS,JS...
             $table->double("difficulty_level", 1, 1); //0.0 to 9.9 add 0.1 then go 0.1 to 10.0
             $table->longText('description')->nullable();
-            $table->softDeletes();
+            $table->integer('uid')->unsigned();
+            $table->foreign('uid')->references('user_id')->on('users');
             $table->timestamps();
-            $table->foreign('username')->references('user_id')->on('users');
+            $table->softDeletes();
         });
     }
 
