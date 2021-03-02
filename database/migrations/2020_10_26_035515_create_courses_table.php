@@ -21,7 +21,7 @@ class CreateCoursesTable extends Migration
             $table->double("difficulty_level", 1, 1); //0.0 to 9.9 add 0.1 then go 0.1 to 10.0
             $table->longText('description')->nullable();
             $table->integer('uid')->unsigned();
-            $table->foreign('uid')->references('user_id')->on('users');
+            $table->foreign('uid')->references('id')->on('users');
             $table->timestamps();
             $table->softDeletes();
         });
