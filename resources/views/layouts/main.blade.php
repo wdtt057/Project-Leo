@@ -17,9 +17,7 @@
 <body>
 	<div id="app" class="has-background-lighter">
   <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
-			<div class="container is-fluid">
-					@yield('content')
-			</div>
+    @yield('content')
 	</div>
 </body>
 </html>

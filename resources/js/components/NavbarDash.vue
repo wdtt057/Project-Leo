@@ -1,5 +1,5 @@
 <template>
-	<nav class="navbar is-dark">
+	<nav class="navbar is-dark is-hidden-desktop">
     <div class="container is-fluid">
       <div class="navbar-brand">
         <a class="navbar-item" href="/home">
@@ -18,8 +18,9 @@
 					<div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">{{ user.username }}</a>
             <div class="navbar-dropdown">
+              <a class="navbar-item" href="#"><i class="far fa-chart-bar"></i>&nbsp;Dashboard</a>
               <a class="navbar-item" href="#"><i class="fas fa-user"></i>&nbsp;Profile</a>
-              <a class="navbar-item" href="/settings"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+              <a class="navbar-item" href="#"><i class="fas fa-cog"></i>&nbsp;Settings</a>
               <hr class="navbar-divider">
               <a class="navbar-item" :href="route" style="color:red; font-weight: bold;"
 							onclick="event.preventDefault();
