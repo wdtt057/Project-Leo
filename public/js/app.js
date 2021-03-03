@@ -21098,7 +21098,11 @@ var staticRenderFns = [
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 3")])])
+                _c("li", [
+                  _c("a", { attrs: { href: "/css-lesson3" } }, [
+                    _vm._v("Lesson 3")
+                  ])
+                ])
               ]
             )
           ]),
@@ -21118,9 +21122,17 @@ var staticRenderFns = [
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 2")])]),
+                _c("li", [
+                  _c("a", { attrs: { href: "js-lesson2" } }, [
+                    _vm._v("Lesson 2")
+                  ])
+                ]),
                 _vm._v(" "),
-                _c("li", [_c("a", [_vm._v("Lesson 3")])])
+                _c("li", [
+                  _c("a", { attrs: { href: "js-lesson3" } }, [
+                    _vm._v("Lesson 3")
+                  ])
+                ])
               ]
             )
           ])

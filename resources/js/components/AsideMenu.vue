@@ -25,15 +25,15 @@
             <ul id="submenuCSS" class="submenu-list">
               <li><a href="/css-lesson1">Lesson 1</a></li>
               <li><a href="/css-lesson2">Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
+              <li><a href="/css-lesson3" >Lesson 3</a></li>
             </ul>
           </li>
           <li>
             <a id="JS" class="has-submenu">JavaScript</a>
             <ul id="submenuJS" class="submenu-list">
               <li><a href="js-lesson1">Lesson 1</a></li>
-              <li><a>Lesson 2</a></li>
-              <li><a>Lesson 3</a></li>
+              <li><a href="js-lesson2">Lesson 2</a></li>
+              <li><a href="js-lesson3">Lesson 3</a></li>
             </ul>
           </li>
         </ul>
