@@ -28,8 +28,28 @@ class HomeController extends Controller
         $user->firstname = $request['firstname'];
         $user->lastname = $request['lastname'];
         $user->username = $request['username'];
+        $user->birthday = $request['birthday'];
         $user->save();
         return redirect('home#profile');
+    }
+    
+    public function updatePhoto(Request $request)
+    {
+        $validatedData = $request->validate([
+            'avatar' => 'required|image|mimes:jpg,png,jpeg,svg',
+        ]);
+
+        if($request->hasFile('avatar')){
+            $user = Auth::user();
+            $username = $request->username;
+            $avatar = $request->file('avatar');
+            $filename = time() . '.' . $avatar->getClientOriginalExtension();
+    		Image::make($avatar)->save( public_path('/images/avatar/' . $username . $filename ) );
+
+    		
+    		$user->avatar = $filename;
+    		$user->save();
+        }
     }
     /**
      * Show the application dashboard.

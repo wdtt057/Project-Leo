@@ -169,7 +169,7 @@
             <div class="column is-6 is-offset-1 box">
               <h1 class="title">Profile Information</h1>
 
-              <form method="POST" action="updateProfile">
+              <form method="POST" action="updateProfile" style="width:80%;margin-left:auto;margin-right:auto;">
                 @csrf
                 <div class="field is-horizontal">
                   <div class="field-label is-normal">
@@ -178,7 +178,7 @@
                   <div class="field-body">
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input class="input form-control"  name="firstname" type="text" value="{{ Auth::user()->firstname }}">
+                        <input class="input form-control"  name="firstname" type="text" value="{{ Auth::user()->firstname }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-user"></i>
                         </span>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input class="input form-control" name="lastname" type="text" value="{{ Auth::user()->lastname }}">
+                        <input class="input form-control" name="lastname" type="text" value="{{ Auth::user()->lastname }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-user"></i>
                         </span>
@@ -202,7 +202,7 @@
                   <div class="field-body">
                     <div class="field">
                     <p class="control is-expanded has-icons-left">
-                        <input class="input form-control @error('name') is-invalid @enderror" type="text" name="username" type="text" value="{{ Auth::user()->username }}">
+                        <input class="input form-control @error('name') is-invalid @enderror" type="text" name="username" type="text" value="{{ Auth::user()->username }}" disabled>
                         @error('name')
                           <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -223,7 +223,7 @@
                   <div class="field-body">
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input type="date" id="birthday" class="input form-control" name="birthday" placeholder="{{ Auth::user()->birthday }}">
+                        <input type="date" id="birthday" class="input form-control" name="birthday" value="{{ Auth::user()->birthday }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-birthday-cake"></i>
                         </span>
@@ -237,9 +237,21 @@
                   <div class="field-label is-normal">
                     <label class="label"></label>
                   </div>
-                  <div class="field-body">
-                    <p class="control has-text-grey-light">
-                      <button id="submit-button" type="submit" class="button is-royal-blue">Update Profile</button>
+                  <div class="field">
+                    <p class="buttons">
+                      <button id="updateProfileBtn" class="button is-info" type="button" onclick="updateProfileToggle()">Update Profile</button>
+                      <button id="cancelChange" class="button is-danger is-outlined is-hidden" type="button" onclick="updateProfileToggle()">
+                        <span>Cancel</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </button>
+                      <button id="saveChangesProfile" type="submit" class="button is-success is-pulled-right is-hidden">
+                      <span class="icon is-small">
+                        <i class="fas fa-check"></i>
+                      </span>
+                      <span>Save</span>
+                      </button>
                     </p>
                   </div>
                 </div>
@@ -311,6 +323,22 @@
   }
 
   window.onload = dashToggle;
+
+  // Button Toggle
+  function updateProfileToggle() {
+    let cancelBtn = document.getElementById("cancelChange");
+    let submitChangesBtn = document.getElementById("saveChangesProfile");
+    let updateProfileBtn = document.getElementById("updateProfileBtn");
+    let inputField = document.querySelectorAll("input");
+
+    for (let i = inputField.length - 1; i >= 0; i--) {
+      inputField[i].toggleAttribute("disabled");
+    }
+    updateProfileBtn.classList.toggle("is-hidden");
+    cancelBtn.classList.toggle("is-hidden");
+    submitChangesBtn.classList.toggle("is-hidden");
+  }
+
 </script>
 
 <style>

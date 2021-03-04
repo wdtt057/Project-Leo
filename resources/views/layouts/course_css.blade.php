@@ -35,7 +35,7 @@
   <body>
     <div id="app" class="lesson-bg">
       <!-- FOR DARKMODE class="has-background-grey-dark -->
-      <navbardash :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></navbardash>
+      <lessonnav :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></lessonnav>
       <section class="section is-small">
         @yield('content')
       </section>
