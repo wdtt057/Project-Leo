@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Auth;
 class HomeController extends Controller
 {
     /**
@@ -16,6 +16,21 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
 
+    public function updateProfile(Request $request) 
+    {
+        $request->validate([
+            'firstname' =>'required|min:1|string|max:255',
+            'lastname' =>'required|min:1|string|max:255',
+            'username' =>'required|min:5|string|max:255'
+        ]);
+
+        $user = Auth::user();
+        $user->firstname = $request['firstname'];
+        $user->lastname = $request['lastname'];
+        $user->username = $request['username'];
+        $user->save();
+        return redirect('home#profile');
+    }
     /**
      * Show the application dashboard.
      *

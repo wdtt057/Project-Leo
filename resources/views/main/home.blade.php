@@ -155,9 +155,99 @@
           </div> -->
         </div>
       </div>
-
+      <!-- Start Profile Content-->
       <div id="profile" class="dash-content">
-        <h1 style="text-align:center">Something Goes Here eventually for profile</h1>
+        <div class="box section is-medium">
+          <div class="columns">
+            <!-- Left Profile Column -->
+            <div class="column is-3 is-offset-1">
+            <figure class="image">
+              <img class="is-rounded" src="{{ Auth::user()->avatar }}">
+            </figure>
+            </div>
+            <!-- Right Profile Column -->
+            <div class="column is-6 is-offset-1 box">
+              <h1 class="title">Profile Information</h1>
+
+              <form method="POST" action="updateProfile">
+                @csrf
+                <div class="field is-horizontal">
+                  <div class="field-label is-normal">
+                    <label class="label">Name</label>
+                  </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input class="input form-control"  name="firstname" type="text" value="{{ Auth::user()->firstname }}">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input class="input form-control" name="lastname" type="text" value="{{ Auth::user()->lastname }}">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field is-horizontal">
+                  <div class="field-label is-normal">
+                    <label class="label">Username</label>
+                  </div>
+                  <div class="field-body">
+                    <div class="field">
+                    <p class="control is-expanded has-icons-left">
+                        <input class="input form-control @error('name') is-invalid @enderror" type="text" name="username" type="text" value="{{ Auth::user()->username }}">
+                        @error('name')
+                          <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                          </span>
+                        @enderror                
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field is-horizontal">
+                  <div class="field-label is-normal">
+                    <label class="label">Birthday</label>
+                  </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input type="date" id="birthday" class="input form-control" name="birthday" placeholder="{{ Auth::user()->birthday }}">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-birthday-cake"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+
+                <div class="field is-horizontal">
+                  <div class="field-label is-normal">
+                    <label class="label"></label>
+                  </div>
+                  <div class="field-body">
+                    <p class="control has-text-grey-light">
+                      <button id="submit-button" type="submit" class="button is-royal-blue">Update Profile</button>
+                    </p>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="settings" class="dash-content">

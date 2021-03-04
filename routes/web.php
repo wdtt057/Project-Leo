@@ -75,6 +75,8 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
     Route::get('/js-lesson2', [App\Http\Controllers\HomeController::class, 'jsLesson2'])->name('courses.js.js_lesson2');
 
     Route::get('/js-lesson3', [App\Http\Controllers\HomeController::class, 'jsLesson3'])->name('courses.js.js_lesson3');
+
+    Route::post('updateProfile', [App\Http\Controllers\HomeController::class, 'updateProfile']);
 });
 
 Route::get('/FAQs' , function() {
