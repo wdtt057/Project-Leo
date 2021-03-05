@@ -10,8 +10,8 @@
         <p class="control has-icons-left">
           <input id="email" class="input form-control @error('email') is-invalid @enderror" type="email" placeholder="Email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
           @error('email')
-            <span class="invalid-feedback" role="alert">
-              <strong class="has-text-danger">{{ $message }}</strong>
+            <span class="box has-background-danger" style="padding:0.75rem!important;" role="alert">
+              <strong class="has-text-white">{{ $message }}</strong>
             </span>
           @enderror
           <span class="icon is-small is-left">
@@ -67,5 +67,9 @@
   }
   .is-lavender{
       background-color: #a394de!important;
+  }
+
+  .input{
+    margin-bottom:0.75rem;
   }
 </style>

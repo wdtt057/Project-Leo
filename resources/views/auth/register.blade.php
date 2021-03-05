@@ -5,7 +5,7 @@
   <div class="flash-message">
     @foreach (['danger', 'warning', 'success', 'info'] as $msg)
       @if(Session::has('alert-' . $msg))
-        <p class="alert alert-{{ $msg }} has-background-{{ $msg }}">{{ Session::get('alert-' .$msg) }} <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></p>
+        <p class="box has-background-{{ $msg }} has-text-white" style="text-align: center;font-size: 20px;width: 80%;margin-left: auto;margin-right: auto;margin-bottom: 0.75em;padding: 0.75rem!important;">{{ Session::get('alert-' .$msg) }} </p>
       @endif
     @endforeach
   </div>

@@ -33,6 +33,12 @@
         border:#49a0c0!important;
 
       }
+
+      #landing-language{
+        margin-top:10em;
+        font-size:1.2em;
+      }
+
     </style>
   </head>
   <body>
@@ -83,29 +89,29 @@
       </div>
     </div>
       </section>
-      <section style="background: linear-gradient(#01819a, #88019f);">      
-      <div class="hero is-medium is-bold">
+      <section style="background:linear-gradient(#01819a, #88019f);">      
+      <div id="landing-language" class="hero is-medium is-bold">
         <div>
           <div class="columns has-text-white-bis">
             <div class="column is-one-third">
               <figure class="center"> <img src="\images\html-logo.png" alt="" width="250px" height="250px"><br><br>
-              <ul><li>&bull;Secret language of the web!</li>
-              <li>&bull;Reference CSS for style</li>
-              <li>&bull;Reference JavaScript for interaction</li><ul>         
+              <ul><li>&bull; Secret language of the web!</li>
+              <li>&bull; Reference CSS for style</li>
+              <li>&bull; Reference JavaScript for interaction</li><ul>         
               </figure>
               
             </div>
             <div class="column is-one-third">
             <figure class="center"> <img src="\images\css-logo.png" alt="" width="250px" height="250px"><br><br>
-            <ul><li>&bull;Makes everything pretty</li>
-              <li>&bull;Can alter visibility of elements</li>
-              <li>&bull;Controls layout of websites</li><ul> </figure>
+            <ul><li>&bull; Makes everything pretty</li>
+              <li>&bull; Can alter visibility of elements</li>
+              <li>&bull; Controls layout of websites</li><ul> </figure>
             </div>
             <div class="column is-one-third">
             <figure class="center"> <img src="\images\js-logo.png" alt="" width="250px" height="250px"><br><br>
-            <ul><li>&bull;Makes websites interactive</li>
-              <li>&bull;Handles complex features</li>
-              <li>&bull;Can override CSS and HTML rules</li><ul> </figure>
+            <ul><li>&bull; Makes websites interactive</li>
+              <li>&bull; Handles complex features</li>
+              <li>&bull; Can override CSS and HTML rules</li><ul> </figure>
             
             </div>
           </div>
