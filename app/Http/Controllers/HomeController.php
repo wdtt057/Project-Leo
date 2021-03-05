@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Auth;
+use Image;
+use File;
+
 class HomeController extends Controller
 {
     /**
@@ -41,14 +44,17 @@ class HomeController extends Controller
 
         if($request->hasFile('avatar')){
             $user = Auth::user();
-            $username = $request->username;
+            $username = Auth::user()->username;
             $avatar = $request->file('avatar');
-            $filename = time() . '.' . $avatar->getClientOriginalExtension();
-    		Image::make($avatar)->save( public_path('/images/avatar/' . $username . $filename ) );
+            $filename = $avatar->getClientOriginalName();
+            $newPath = public_path('/images/avatar/'. $username . '/');
+            File::makeDirectory($newPath, 0775, true);
+    		Image::make($avatar)->save( public_path('/images/avatar/'. $username . '/' . $filename ) );
 
     		
-    		$user->avatar = $filename;
+    		$user->avatar = '/images/avatar/' . $username . '/' . $filename;
     		$user->save();
+            return redirect('home#profile');
         }
     }
     /**

@@ -161,9 +161,16 @@
           <div class="columns">
             <!-- Left Profile Column -->
             <div class="column is-3 is-offset-1">
-            <figure class="image">
-              <img class="is-rounded" src="{{ Auth::user()->avatar }}">
-            </figure>
+                <form enctype="multipart/form-data" action="updatePhoto" method="POST">
+                <figure class="image">
+                  <img class="is-rounded" src="{{ Auth::user()->avatar }}">
+                </figure>
+                <label>Update Profile Image</label>
+                <input type="file" name="avatar">
+                @csrf
+                <button type="submit" class="">Change Photo</button>
+            </form>
+
             </div>
             <!-- Right Profile Column -->
             <div class="column is-6 is-offset-1 box">
@@ -389,5 +396,6 @@
   }
   .display-dash-content {
     display: block;
+    margin-top: 24px;
   }
 </style>
