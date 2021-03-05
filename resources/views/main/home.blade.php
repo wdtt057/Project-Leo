@@ -178,7 +178,7 @@
                   <div class="field-body">
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input class="input form-control"  name="firstname" type="text" value="{{ Auth::user()->firstname }}" disabled>
+                        <input class="input form-control profile-field"  name="firstname" type="text" value="{{ Auth::user()->firstname }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-user"></i>
                         </span>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input class="input form-control" name="lastname" type="text" value="{{ Auth::user()->lastname }}" disabled>
+                        <input class="input form-control profile-field" name="lastname" type="text" value="{{ Auth::user()->lastname }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-user"></i>
                         </span>
@@ -202,7 +202,7 @@
                   <div class="field-body">
                     <div class="field">
                     <p class="control is-expanded has-icons-left">
-                        <input class="input form-control @error('name') is-invalid @enderror" type="text" name="username" type="text" value="{{ Auth::user()->username }}" disabled>
+                        <input class="input form-control @error('name') is-invalid @enderror profile-field" type="text" name="username" type="text" value="{{ Auth::user()->username }}" disabled>
                         @error('name')
                           <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -223,7 +223,7 @@
                   <div class="field-body">
                     <div class="field">
                       <p class="control is-expanded has-icons-left">
-                        <input type="date" id="birthday" class="input form-control" name="birthday" value="{{ Auth::user()->birthday }}" disabled>
+                        <input type="date" id="birthday" class="input form-control profile-field" name="birthday" value="{{ Auth::user()->birthday }}" disabled>
                         <span class="icon is-small is-left">
                           <i class="fas fa-birthday-cake"></i>
                         </span>
@@ -329,7 +329,7 @@
     let cancelBtn = document.getElementById("cancelChange");
     let submitChangesBtn = document.getElementById("saveChangesProfile");
     let updateProfileBtn = document.getElementById("updateProfileBtn");
-    let inputField = document.querySelectorAll("input");
+    let inputField = document.querySelectorAll(".profile-field");
 
     for (let i = inputField.length - 1; i >= 0; i--) {
       inputField[i].toggleAttribute("disabled");
