@@ -20,7 +20,7 @@ class QuizScoresController extends Controller
         $score = new QuizScores();
         $score->score = $request['score'];
         $score->lesson = $request['lesson'];
-        $score->score_id = Auth::id();
+        $score->user_id = Auth::id();
         $score->save();
         return redirect('/test2');
     }
