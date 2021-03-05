@@ -48,7 +48,9 @@ class HomeController extends Controller
             $avatar = $request->file('avatar');
             $filename = $avatar->getClientOriginalName();
             $newPath = public_path('/images/avatar/'. $username . '/');
-            File::makeDirectory($newPath, 0775, true);
+            if(!$newPath) {
+                File::makeDirectory($newPath, 0775, true);
+            }
     		Image::make($avatar)->save( public_path('/images/avatar/'. $username . '/' . $filename ) );
 
     		
