@@ -36,5 +36,12 @@
         <a class="button is-primary">Primary</a>
         <a class="button is-link">Link</a>
       </div>
+
+      <form method="POST" action="uploadScore">
+        @csrf
+        <input type="text" name="lesson">
+        <input type="number" name="score">
+        <button type="submit">Save</button>
+      </form>
   </body>
 </html>
