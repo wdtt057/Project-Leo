@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
 use Image;
+use Storage;
 use File;
 
 class HomeController extends Controller
@@ -47,9 +48,9 @@ class HomeController extends Controller
             $username = Auth::user()->username;
             $avatar = $request->file('avatar');
             $filename = $avatar->getClientOriginalName();
-            $newPath = public_path('/images/avatar/'. $username . '/');
-            if(!$newPath) {
-                File::makeDirectory($newPath, 0775, true);
+            $path = public_path('/images/avatar/'. $username . '/');
+            if(!Storage::exists($path)) {
+                File::makeDirectory($path, 0775, true);
             }
     		Image::make($avatar)->save( public_path('/images/avatar/'. $username . '/' . $filename ) );
 
