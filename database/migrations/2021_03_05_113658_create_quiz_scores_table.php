@@ -16,8 +16,8 @@ class CreateQuizScoresTable extends Migration
         Schema::create('quiz_scores', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('user_id')->nullable();
-            $table->string('lesson');
-            $table->double('score');
+            $table->string('lesson')->nullable();
+            $table->double('score')->default(0);
             $table->timestamps();
             $table->foreign('user_id')->references('id')
                                        ->on('users')
