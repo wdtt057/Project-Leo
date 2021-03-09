@@ -2,16 +2,16 @@
     {
         "lessonID" : "HTML LESSON 1",
         "title" : "Introduction to HTML",
-        "videoURL" : "https://www.youtube.com/embed/bWPMSSsVdPk"
+        "videoURL" : "https://www.youtube.com/embed/THr8E5bUqTM"
     },
     {
         "lessonID" : "HTML LESSON 2",
         "title" : "Paragraph Tags",
-        "videoURL" : "https://www.youtube.com/embed/yxN2GyBoEf8"
+        "videoURL" : "https://www.youtube.com/embed/NqckqMAi0BU"
     },
     {
         "lessonID" : "HTML LESSON 3",
         "title" : "Creating a list in HTML",
-        "videoURL" : "https://www.youtube.com/embed/1Pv3dlO8KWw"
+        "videoURL" : "https://www.youtube.com/embed/WA511aEDxKs"
     }
 ]
