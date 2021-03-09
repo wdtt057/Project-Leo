@@ -6,6 +6,7 @@ use App\Models\QuizScores;
 use Illuminate\Http\Request;
 
 use Auth;
+use DB;
 
 class QuizScoresController extends Controller
 {
@@ -18,10 +19,21 @@ class QuizScoresController extends Controller
     public function uploadScore(Request $request)
     {
         $score = new QuizScores();
-        $score->user_id = Auth::id();
-        $score->score = $request['Score'];
-        $score->lesson = $request['Lesson']; 
-        $score->save();
+        $lessonTitle = $request->Lesson;
+        $lessonExists = DB::table('quiz_scores')->where('user_id', Auth::id())
+                                        ->where('lesson', $lessonTitle)
+                                        ->value('lesson');
+        if($lessonTitle == $lessonExists) {
+            DB::table('quiz_scores')->where('user_id', Auth::id())
+                                    ->where('lesson', $lessonTitle)
+                                    ->update(['score' => $request->Score]);
+        }else {                                
+            $score->user_id = Auth::id();
+            $score->score = $request['Score'];
+            $score->lesson = $request['Lesson']; 
+            $score->save();
+        }
+
         return response()->json(
             [
                 'success' => true,
