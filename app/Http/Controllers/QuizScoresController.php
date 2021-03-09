@@ -19,13 +19,8 @@ class QuizScoresController extends Controller
     {
         $score = new QuizScores();
         $score->user_id = Auth::id();
-      /*   $score->score = $request['Score'];
-        $score->lesson = $request['Lesson']; */
-        \DB::table('quiz_scores')->insert([
-            'user_id'=> $request->user_id,
-            'lesson' => $request->Lesson,
-            'score'  => $request->Score,
-        ]);
+        $score->score = $request['Score'];
+        $score->lesson = $request['Lesson']; 
         $score->save();
         return response()->json(
             [
@@ -35,20 +30,6 @@ class QuizScoresController extends Controller
         );
     }
 
-    /* public function ajaxSendScores(Request $request)
-    {
-        \DB::table('quiz_scores')->insert([
-            'lesson' => $request->Lesson,
-            'score'  => $request->Score,
-        ]);
-        return response()->json(
-            [
-                'success' => true,
-                'message' => 'Data inserted successfully'
-            ]
-        );
-    }
- */
     public function index()
     {
         //

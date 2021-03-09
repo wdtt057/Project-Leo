@@ -82,9 +82,9 @@ function quizCheck(){
                   },
             success:function(response){
               if(response.success){
-                alert(response.message)
+                console.log(response.message)
               }else{
-                alert("Error")
+                console.log("Error")
               }
             },
             error:function(error){
