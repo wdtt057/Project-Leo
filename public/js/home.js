@@ -39,9 +39,9 @@
 //Quiz Scores Chart
 //$.get('get_html_data', function (data, status) {
   
-
     function getData(){
-        var result = [];
+        var result1 = [];
+        var result2 = [];
         return $.ajax({
             url: 'retrieveScores',
             method: 'GET',
@@ -50,20 +50,21 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: function(data){
-                //for(var i = 0; i < data.length; i++)
-                    //console.log(data[i].score);
-
+                for(var i = 0; i < data.length; i++)
+                    result1 += data[i].score;
+                console.log("First Loop: " + result1);
                 for(var i in data)
-                    result.push(data[i].score);
-                //console.log(JSON.stringify(result));
-                    //result.push(data[i].score);
-                //console.log(result);
+                    result2.push(data[i].score);
+                console.log("second loop as JSON object: "+ result2)
+                console.log("second loop as string: " + JSON.stringify(result2));
+                return result2;
             },
             error: function(res){
                 console.log('Error - Ajax Failed: ');
                 console.log(res);
             }
         });
+        
     }
 
     var htmlScore = getData();

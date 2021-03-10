@@ -126,7 +126,7 @@
               <p class="panel-heading">
                 Quiz Scores
               </p>
-              <div class="panel-block">
+              <div class="panel-block box">
                 <canvas id="quizScores"></canvas>
               </div>
             </div>
