@@ -37,7 +37,37 @@
 //     }
 // });
 //Quiz Scores Chart
-$.get('get_html_data', function (data, status) {
+//$.get('get_html_data', function (data, status) {
+  
+
+    function getData(){
+        var result = [];
+        return $.ajax({
+            url: 'retrieveScores',
+            method: 'GET',
+            dataType: 'json',
+            headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            success: function(data){
+                //for(var i = 0; i < data.length; i++)
+                    //console.log(data[i].score);
+
+                for(var i in data)
+                    result.push(data[i].score);
+                //console.log(JSON.stringify(result));
+                    //result.push(data[i].score);
+                //console.log(result);
+            },
+            error: function(res){
+                console.log('Error - Ajax Failed: ');
+                console.log(res);
+            }
+        });
+    }
+
+    var htmlScore = getData();
+    console.log("Test: " + htmlScore);
     var quizScores = document.getElementById('quizScores').getContext('2d');
     var myLineChart = new Chart(quizScores, {
         'type': 'line',
@@ -46,7 +76,7 @@ $.get('get_html_data', function (data, status) {
             'datasets': [
                 {
                     'label': 'HTML Score',
-                    'data': data,
+                    'data': [75, 100],
                     'fill': false,
                     'borderColor': 'rgba(255, 99, 132, 0.7)',
                     'lineTension': 0.1
@@ -80,7 +110,7 @@ $.get('get_html_data', function (data, status) {
             }
         }
     })
-});
+//});
 
 const accordion = document.getElementsByClassName('has-submenu');
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
      <h1 class="title">
@@ -37,11 +38,33 @@
         <a class="button is-link">Link</a>
       </div>
 
-      <form method="POST" action="uploadScore">
+      <form method="GET" action="retrieveScores">
         @csrf
-        <input type="text" name="lesson">
-        <input type="number" name="score">
-        <button type="submit">Save</button>
+        <button class="button is-success is-outlined" type="submit">Test button</button>
       </form>
+      <div id="result"></div>
   </body>
+  <script>
+  $(document).ready(function() {
+      $.ajax({
+        url: 'retrieveScores',
+        method: 'GET',
+        dataType: 'json',
+        headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+        success: function(data){
+          var result = [];
+          for(var i in data)
+              result.push(data[i].score);
+              
+          $('#result').html(JSON.stringify(result));
+        },
+        error: function(res){
+          console.log('Error - Ajax Failed: ');
+          console.log(res);
+        }
+      });
+  });
+  </script>
 </html>

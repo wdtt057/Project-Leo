@@ -42,9 +42,12 @@ class QuizScoresController extends Controller
         );
     }
 
-    public function index()
+    public function retrieveScores(Request $request)
     {
-        //
+        $user_id = Auth::id();
+        $quizData = DB::table('quiz_scores')->where('user_id', Auth::id())
+                                            ->get('score');
+        return response()->json($quizData);
     }
 
     /**

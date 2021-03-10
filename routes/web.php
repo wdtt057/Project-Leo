@@ -79,6 +79,7 @@ Route::group(['middleware' => ['preventBackHistory']],function(){
     Route::post('updateProfile', [App\Http\Controllers\HomeController::class, 'updateProfile']);
     Route::post('updatePhoto', [App\Http\Controllers\HomeController::class, 'updatePhoto']);
     Route::post('uploadScore', [App\Http\Controllers\QuizScoresController::class, 'uploadScore']);
+    Route::get('retrieveScores', [App\Http\Controllers\QuizScoresController::class, 'retrieveScores']);
 });
 
 Route::get('/FAQs' , function() {
