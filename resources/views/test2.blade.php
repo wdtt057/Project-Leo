@@ -58,7 +58,7 @@
           for(var i in data)
               result.push(data[i].score);
               
-          $('#result').html(JSON.stringify(result));
+          $('#result').html(result);
         },
         error: function(res){
           console.log('Error - Ajax Failed: ');

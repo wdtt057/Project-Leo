@@ -37,38 +37,35 @@
 //     }
 // });
 //Quiz Scores Chart
-//$.get('get_html_data', function (data, status) {
-  
     function getData(){
-        var result1 = [];
-        var result2 = [];
-        return $.ajax({
+        var arr = [];
+        $.ajax({
             url: 'retrieveScores',
             method: 'GET',
             dataType: 'json',
+            async: false,
             headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: function(data){
-                for(var i = 0; i < data.length; i++)
-                    result1 += data[i].score;
-                console.log("First Loop: " + result1);
                 for(var i in data)
-                    result2.push(data[i].score);
-                console.log("second loop as JSON object: "+ result2)
-                console.log("second loop as string: " + JSON.stringify(result2));
-                return result2;
+                    arr.push(data[i].score*100);
+                var scoreArr = arr;
+
+                loadData(scoreArr);
             },
             error: function(res){
                 console.log('Error - Ajax Failed: ');
                 console.log(res);
             }
         });
-        
     }
-
-    var htmlScore = getData();
-    console.log("Test: " + htmlScore);
+    getData();
+    var htmlScores, cssScores, javascriptScores;
+    function loadData(param){
+        htmlScores = param
+    }
+    
     var quizScores = document.getElementById('quizScores').getContext('2d');
     var myLineChart = new Chart(quizScores, {
         'type': 'line',
@@ -77,7 +74,7 @@
             'datasets': [
                 {
                     'label': 'HTML Score',
-                    'data': [75, 100],
+                    'data': htmlScores,
                     'fill': false,
                     'borderColor': 'rgba(255, 99, 132, 0.7)',
                     'lineTension': 0.1

@@ -55,18 +55,7 @@ function quizCheck(){
     i++;
     if(jsonData.length-1 < i){
       var score = (correctCount/jsonData.length)*100;
-      if(score >= 70){
-        document.getElementById("exitQuiz").classList.remove("is-hidden")
-        confetti.start();
-        document.getElementById("quiz-msg").classList.remove("is-hidden");
-        document.getElementById("quiz-msg").classList.add("is-active");
-        document.getElementById("quiz-mod-head").classList.add("success-header");
-        document.getElementById("quiz-msg-body").classList.add("success-body");
-        document.getElementById("quiz-msg-head").innerHTML = "You passed!";
-        document.getElementById("quiz-msg-body").innerHTML = "Good job, you got " + correctCount + " correct out of " + jsonData.length + "!<br>Grade: <span id='score'>" + score + "</span>%";
-
-        
-        var finalscore = score/100;
+      var finalscore = score/100;
         function ajaxSendScores() {
           $.ajaxSetup({
             headers: {
@@ -92,8 +81,18 @@ function quizCheck(){
             }
           })
         }
+
+      if(score >= 70){
+        document.getElementById("exitQuiz").classList.remove("is-hidden")
+        confetti.start();
+        document.getElementById("quiz-msg").classList.remove("is-hidden");
+        document.getElementById("quiz-msg").classList.add("is-active");
+        document.getElementById("quiz-mod-head").classList.add("success-header");
+        document.getElementById("quiz-msg-body").classList.add("success-body");
+        document.getElementById("quiz-msg-head").innerHTML = "You passed!";
+        document.getElementById("quiz-msg-body").innerHTML = "Good job, you got " + correctCount + " correct out of " + jsonData.length + "!<br>Grade: <span id='score'>" + score + "</span>%";
         // send score to database
-        ajaxSendScores();
+        ajaxSendScores();        
       }
       else{
         document.getElementById("retryQuiz").classList.remove("is-hidden")
@@ -103,6 +102,8 @@ function quizCheck(){
         document.getElementById("quiz-msg-body").classList.add("fail-body");
         document.getElementById("quiz-msg-head").innerHTML = "Try Again!";
         document.getElementById("quiz-msg-body").innerHTML = "You need at least 70% to move on!<br>You got " + correctCount + " correct out of " + jsonData.length +".<br>Grade: " + score + "%";
+        // send score to database
+        ajaxSendScores();      
       }
     }
   //callback to generate

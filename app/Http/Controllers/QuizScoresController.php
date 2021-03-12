@@ -46,6 +46,7 @@ class QuizScoresController extends Controller
     {
         $user_id = Auth::id();
         $quizData = DB::table('quiz_scores')->where('user_id', Auth::id())
+                                            ->where('lesson', 'LIKE', '%HTML%')
                                             ->get('score');
         return response()->json($quizData);
     }

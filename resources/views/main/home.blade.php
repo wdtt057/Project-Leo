@@ -271,6 +271,7 @@
 
       <div id="settings" class="dash-content">
         <h1 style="text-align:center">Something Goes Here eventually for settings</h1>
+        <div id="test"></div>
       </div>
     </main>
   </div>
