@@ -45,10 +45,22 @@ class QuizScoresController extends Controller
     public function retrieveScores(Request $request)
     {
         $user_id = Auth::id();
-        $quizData = DB::table('quiz_scores')->where('user_id', Auth::id())
+        $htmlData = DB::table('quiz_scores')->where('user_id', Auth::id())
                                             ->where('lesson', 'LIKE', '%HTML%')
                                             ->get('score');
-        return response()->json($quizData);
+        $cssData = DB::table('quiz_scores')->where('user_id', Auth::id())
+                                            ->where('lesson', 'LIKE', '%CSS%')
+                                            ->get('score');
+        $jsData = DB::table('quiz_scores')->where('user_id', Auth::id())
+                                            ->where('lesson', 'LIKE', '%JAVASCRIPT%')
+                                            ->get('score');
+        return response()->json(
+            [
+                $htmlData,
+                $cssData,
+                $jsData
+            ]   
+        );
     }
 
     /**

@@ -39,6 +39,8 @@
 //Quiz Scores Chart
     function getData(){
         var arr = [];
+        var arr2 = [];
+        var arr3 = [];
         $.ajax({
             url: 'retrieveScores',
             method: 'GET',
@@ -48,11 +50,23 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: function(data){
-                for(var i in data)
-                    arr.push(data[i].score*100);
+                var htmlArr = data[0];
+                var cssArr = data[1];
+                var jsArr = data[2];
+
+                for(var i in htmlArr)
+                    arr.push(htmlArr[i].score*100);
                 var scoreArr = arr;
 
-                loadData(scoreArr);
+                for(var j in cssArr)
+                    arr2.push(cssArr[j].score*100);
+                var scoreArr2 = arr2;
+
+                for(var k in jsArr)
+                    arr3.push(jsArr[k].score*100);
+                var scoreArr3 = arr3;
+                
+                loadData(scoreArr, scoreArr2, scoreArr3);
             },
             error: function(res){
                 console.log('Error - Ajax Failed: ');
@@ -62,8 +76,10 @@
     }
     getData();
     var htmlScores, cssScores, javascriptScores;
-    function loadData(param){
-        htmlScores = param
+    function loadData(param, param2, param3){
+        htmlScores = param;
+        cssScores = param2;
+        javascriptScores = param3;
     }
     
     var quizScores = document.getElementById('quizScores').getContext('2d');
@@ -81,14 +97,14 @@
                 },
                 {
                     'label': 'CSS Score',
-                    'data': [60, 75, 90, 100, 83],
+                    'data': cssScores,
                     'fill': false,
                     'borderColor': 'rgba(255, 206, 86, 0.7)',
                     'lineTension': 0.1
                 },
                 {
                     'label': 'JavaScript Score',
-                    'data': [100, 90, 90, 100, 55],
+                    'data': javascriptScores,
                     'fill': false,
                     'borderColor': 'rgba(153, 102, 255, 0.7)',
                     'lineTension': 0.1
