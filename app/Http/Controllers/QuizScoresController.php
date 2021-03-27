@@ -47,13 +47,16 @@ class QuizScoresController extends Controller
         $user_id = Auth::id();
         $htmlData = DB::table('quiz_scores')->where('user_id', Auth::id())
                                             ->where('lesson', 'LIKE', '%HTML%')
+                                            ->orderBy('lesson', 'ASC')
                                             ->get('score');
         $cssData = DB::table('quiz_scores')->where('user_id', Auth::id())
-                                            ->where('lesson', 'LIKE', '%CSS%')
-                                            ->get('score');
+                                           ->where('lesson', 'LIKE', '%CSS%')
+                                           ->orderBy('lesson', 'ASC')
+                                           ->get('score');
         $jsData = DB::table('quiz_scores')->where('user_id', Auth::id())
-                                            ->where('lesson', 'LIKE', '%JAVASCRIPT%')
-                                            ->get('score');
+                                          ->where('lesson', 'LIKE', '%JAVASCRIPT%')
+                                          ->orderBy('lesson', 'ASC')
+                                          ->get('score');
         return response()->json(
             [
                 $htmlData,
