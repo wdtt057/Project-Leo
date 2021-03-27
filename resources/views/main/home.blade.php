@@ -28,7 +28,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Avg. Quiz Score:</div>
-                    <div class="title is-5">81/100</div>
+                    <div class="title is-5"><span id="htmlAvg"></span>%</div>
                   </div>
                 </div>
                 <div class="level-item">
@@ -40,7 +40,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Completion %</div>
-                    <div class="title is-5">100%</div>
+                    <div class="title is-5"><span id="htmlComplete"></span>%</div>
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Avg. Quiz Score:</div>
-                    <div class="title is-5">81.6/100</div>
+                    <div class="title is-5"><span id="cssAvg"></span>%</div>
                   </div>
                 </div>
                 <div class="level-item">
@@ -66,7 +66,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Completion %</div>
-                    <div class="title is-5">30%</div>
+                    <div class="title is-5"><span id="cssComplete"></span>%</div>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Avg. Quiz Score:</div>
-                    <div class="title is-5">87/100</div>
+                    <div class="title is-5"><span id="jsAvg"></span>%</div>
                   </div>
                 </div>
                 <div class="level-item">
@@ -92,7 +92,7 @@
                 <div class="level-item">
                   <div class="">
                     <div class="heading">Completion %</div>
-                    <div class="title is-5">60%</div>
+                    <div class="title is-5"><span id="jsComplete"></span>%</div>
                   </div>
                 </div>
               </div>
@@ -108,13 +108,13 @@
               </p>
               <div class="box">
                 <h4 class="subtitle is-4">HTML</h4>
-                <progress id="html-progress" class="progress is-danger" value="100" max="100">30%</progress>
+                <progress id="html-progress" class="progress is-danger" value="" max="5"></progress>
                 <hr>
                 <h4 class="subtitle is-4">CSS</h4>
-                <progress id="css-progress" class="progress is-warning" value="30" max="100">30%</progress>
+                <progress id="css-progress" class="progress is-warning" value="" max="5"></progress>
                 <hr>
                 <h4 class="subtitle is-4">JS</h4>
-                <progress id="js-progress" class="progress is-info" value="60" max="100">100%</progress>
+                <progress id="js-progress" class="progress is-info" value="" max="5"></progress>
                 
               <!--  <canvas id="lessonsCompleted"> -->
                 <!-- </canvas> -->
