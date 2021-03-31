@@ -35,29 +35,3 @@
         </div>
     </div>
 </template>
-<style>
-/* *{
-    box-sizing: border-box;
-} */
-/* 
-.team{
-    width: 70%;
-    text-align: center;
-    font-weight: bolder; 
-} */
-/* 
-.row {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
-/* 
-.column {
-    max-width: 15em;
-}
-
-.column img {
-    width: 100%;
-    height: auto;
-} */
-</style>
