@@ -1,100 +1,63 @@
 <template>
     <div>
-        <section class="section is-small">
+        <section class="section has-text-centered is-small">
             <h1 class="title is-1">Our Mission</h1>
-            <p>With Project-Leo, our mission is to empower students by teaching Web Development techniques that will allow them to grow and apply themselves.</p>
+            <h2>With Project-Leo, our mission is to empower students by teaching Web Development techniques that will allow them to grow and apply themselves.</h2>
+            <br><img class="is-rounded" src="\images\background_img_1.png" width="400px" height="400px">
         </section>
-         <section class="section is-small" id="Elizabeth-Barbieto">
-            <hr>
-                <div class="columns">
-                    <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\elizabeth_with_dog_icon.png" width="200px" height="200px">
-                    </div>
-                    <div class="column">
-                        <h2 class="title is-4">Elizabeth Barbieto</h2>
-                        <ul>
-                            <li>&bull;UI Designer</li>
-                            <li>&bull;Front End Developer</li>
-                            <!-- <li>&bull;blah</li>
-                            <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li> -->
-                        </ul>
-                    </div> 
-                </div>
-            </hr>
-        </section>
-        <section class="section is-small" id="Ryan-Catterson">
-            <hr>
-                <div class="columns">
-                    <div class="column">
-                        <h2 class="title is-4">Ryan Catterson</h2>
-                        <ul>
-                            <li>&bull;Front End Developer</li>
-                            <!-- <li>&bull;memes</li>
-                            <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li> -->
-                        </ul>
-                    </div>
-                    <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\ryan_with_dog_icon.png" width="200px" height="200px">
-                    </div>
-                </div>
-            </hr>
-        </section>
-        <section class="section is-small" id="Teresa-Doan">
-            <hr>
-                <div class="columns">
-                    <div class="column is-two-fifths">
-                        <img class="is-rounded" src="\images\teresa_icon.png" width="200px" height="200px">
-                    </div>
-                    <div class="column">
-                        <h2 class="title is-4">Teresa Doan</h2>
-                        <ul>
-                            <li>&bull;UI Designer</li>
-                            <li>&bull;Curriculum Leader</li>
-                            <!-- <li>&bull;blah</li>
-                            <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li> -->
-                        </ul>
-                    </div> 
-                </div>
-            </hr>
-        </section>
-        <section class="section is-small" id="Joshua-Mejia">
-            <hr>
-                <div class="columns">
-                    <div class="column">
-                        <h2 class="title is-4">Joshua Mejia</h2>
-                        <ul>
-                            <li>&bull;Full Stack Developer</li>
-                            <!-- <li>&bull;blah</li>
-                            <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li> -->
-                        </ul>
-                    </div> 
-                    <div class="column is-two-fifths">
-                            <img class="is-square" src="\images\joshua_icon.png" width="200px" height="200px">
-                    </div>
-                </div>
-            </hr>
-        </section>
-        <section class="section is-small" id="Dengtai-Wang">
-            <hr>
-                <div class="columns">
-                    <div class="column is-two-fifths">
-                            <img class="is-rounded is1-by-1" src="\images\dengtai_icon.png" width="200px" height="200px">
-                    </div>
-                    <div class="column">
-                        <h2 class="title is-4">Dengtai Wang</h2>
-                        <ul>
-                            <li>&bull;Database Engineer</li>
-                            <!-- <li>&bull;blah</li>
-                            <li>&bull;blah blah</li>
-                            <li>&bull;blah blah blah</li> -->
-                        </ul>
-                    </div> 
-                </div>
-            </hr>
-        </section>
+        <h1 class="title has-text-centered">Team Members</h1>
+        <div class="team columns is-centered">
+            <div class="column has-text-centered is-2">
+                <img class="is-rounded" src="\images\joshua_icon.png" width="150px" height="150px">
+                <h2>Joshua Mejia</h2>
+                <h3>Full Stack Developer</h3>
+            </div> 
+            <div class="column has-text-centered is-2">
+                <img class="is-rounded" src="\images\elizabeth_with_dog_icon.png" width="150px" height="150px">
+                <h2>Elizabeth Barbieto</h2>
+                <h3>UI Designer / Frontend Developer</h3>
+            </div> 
+            <div class="column has-text-centered is-2">
+                <img class="is-rounded" src="\images\ryan_with_dog_icon.png" width="150px" height="150px">
+                <h2>Ryan Catterson</h2>
+                <h3>Frontend Developer</h3>
+            </div> 
+            <div class="column has-text-centered is-2">
+            <img class="is-rounded" src="\images\teresa_icon.png" width="150px" height="150px">
+                <h2>Teresa Doan</h2>
+                <h3>UI Designer</h3>
+            </div> 
+            <div class="column has-text-centered is-2">
+                <img class="is-rounded" src="\images\dengtai_icon.png" width="150px" height="150px">
+                <h2>Dengtai Wang</h2>
+                <h3>Backend Developer</h3>
+            </div> 
+        </div>
     </div>
-</tempalte>
+</template>
+<style>
+/* *{
+    box-sizing: border-box;
+} */
+/* 
+.team{
+    width: 70%;
+    text-align: center;
+    font-weight: bolder; 
+} */
+/* 
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+/* 
+.column {
+    max-width: 15em;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+} */
+</style>
