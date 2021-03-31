@@ -2,10 +2,10 @@
     <aside class="column is-2 aside hero is-fullheight is-hidden-mobile" style="box-shadow: 0px 0px 32px blue;">
       <nav class="menu">
       <div class="main">
-        <p class="menu-label title">
-          General
-        </p>
         <ul class="menu-list">
+          <p class="menu-label title">
+            General
+          </p>
           <li><a class="name" href="#dashboard">Dashboard <i class="far fa-chart-bar"></i></a></li>
           <li><a class="name" href="#profile">Profile&nbsp;<i class="fas fa-user"></i></a></li>
           <li><a class="name" href="#settings">Settings&nbsp;<i class="fas fa-cog"></i></a></li>
@@ -20,13 +20,11 @@
               <input type="hidden" name="_token" v-bind:value="csrf">
             </form>
           </li>
-        </ul>
-        <p class="menu-label title">
-          Courses
-        </p>
-        <ul class="menu-list">
+          <p class="menu-label title">
+            Courses
+          </p>
           <li>
-            <a id="HTML" class="has-submenu name">HTML</a>
+            <a id="HTML" href="#html-menu" class="has-submenu name">HTML</a>
             <ul id="submenuHTML" class="submenu-list">
               <li><a class="name" href="/html-lesson1">Lesson 1</a></li>
               <li><a class="name" href="/html-lesson2">Lesson 2</a></li>

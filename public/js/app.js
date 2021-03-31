@@ -1964,8 +1964,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("aside menu mounted");
@@ -21124,11 +21122,11 @@ var render = function() {
     [
       _c("nav", { staticClass: "menu" }, [
         _c("div", { staticClass: "main" }, [
-          _c("p", { staticClass: "menu-label title" }, [
-            _vm._v("\n      General\n    ")
-          ]),
-          _vm._v(" "),
           _c("ul", { staticClass: "menu-list" }, [
+            _c("p", { staticClass: "menu-label title" }, [
+              _vm._v("\n        General\n      ")
+            ]),
+            _vm._v(" "),
             _vm._m(0),
             _vm._v(" "),
             _vm._m(1),
@@ -21165,18 +21163,22 @@ var render = function() {
                   })
                 ]
               )
-            ])
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "menu-label title" }, [
+              _vm._v("\n        Courses\n      ")
+            ]),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._m(5)
           ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "menu-label title" }, [
-            _vm._v("\n      Courses\n    ")
-          ]),
-          _vm._v(" "),
-          _vm._m(3),
           _vm._v(" "),
           _c("br"),
           _vm._v(" "),
-          _vm._m(4)
+          _vm._m(6)
         ])
       ])
     ]
@@ -21220,80 +21222,81 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "menu-list" }, [
-      _c("li", [
-        _c("a", { staticClass: "has-submenu name", attrs: { id: "HTML" } }, [
-          _vm._v("HTML")
-        ]),
-        _vm._v(" "),
-        _c(
-          "ul",
-          { staticClass: "submenu-list", attrs: { id: "submenuHTML" } },
-          [
-            _c("li", [
-              _c(
-                "a",
-                { staticClass: "name", attrs: { href: "/html-lesson1" } },
-                [_vm._v("Lesson 1")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                { staticClass: "name", attrs: { href: "/html-lesson2" } },
-                [_vm._v("Lesson 2")]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                { staticClass: "name", attrs: { href: "/html-lesson3" } },
-                [_vm._v("Lesson 3")]
-              )
-            ])
-          ]
-        )
-      ]),
+    return _c("li", [
+      _c(
+        "a",
+        {
+          staticClass: "has-submenu name",
+          attrs: { id: "HTML", href: "#html-menu" }
+        },
+        [_vm._v("HTML")]
+      ),
       _vm._v(" "),
-      _c("li", [
-        _c("a", { staticClass: "has-submenu name", attrs: { id: "CSS" } }, [
-          _vm._v("CSS")
+      _c("ul", { staticClass: "submenu-list", attrs: { id: "submenuHTML" } }, [
+        _c("li", [
+          _c("a", { staticClass: "name", attrs: { href: "/html-lesson1" } }, [
+            _vm._v("Lesson 1")
+          ])
         ]),
         _vm._v(" "),
-        _c("ul", { staticClass: "submenu-list", attrs: { id: "submenuCSS" } }, [
-          _c("li", [
-            _c("a", { attrs: { href: "/css-lesson1" } }, [_vm._v("Lesson 1")])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "/css-lesson2" } }, [_vm._v("Lesson 2")])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "/css-lesson3" } }, [_vm._v("Lesson 3")])
+        _c("li", [
+          _c("a", { staticClass: "name", attrs: { href: "/html-lesson2" } }, [
+            _vm._v("Lesson 2")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { staticClass: "name", attrs: { href: "/html-lesson3" } }, [
+            _vm._v("Lesson 3")
           ])
         ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { staticClass: "has-submenu name", attrs: { id: "CSS" } }, [
+        _vm._v("CSS")
       ]),
       _vm._v(" "),
-      _c("li", [
-        _c("a", { staticClass: "has-submenu name", attrs: { id: "JS" } }, [
-          _vm._v("JavaScript")
+      _c("ul", { staticClass: "submenu-list", attrs: { id: "submenuCSS" } }, [
+        _c("li", [
+          _c("a", { attrs: { href: "/css-lesson1" } }, [_vm._v("Lesson 1")])
         ]),
         _vm._v(" "),
-        _c("ul", { staticClass: "submenu-list", attrs: { id: "submenuJS" } }, [
-          _c("li", [
-            _c("a", { attrs: { href: "js-lesson1" } }, [_vm._v("Lesson 1")])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "js-lesson2" } }, [_vm._v("Lesson 2")])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "js-lesson3" } }, [_vm._v("Lesson 3")])
-          ])
+        _c("li", [
+          _c("a", { attrs: { href: "/css-lesson2" } }, [_vm._v("Lesson 2")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "/css-lesson3" } }, [_vm._v("Lesson 3")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { staticClass: "has-submenu name", attrs: { id: "JS" } }, [
+        _vm._v("JavaScript")
+      ]),
+      _vm._v(" "),
+      _c("ul", { staticClass: "submenu-list", attrs: { id: "submenuJS" } }, [
+        _c("li", [
+          _c("a", { attrs: { href: "js-lesson1" } }, [_vm._v("Lesson 1")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "js-lesson2" } }, [_vm._v("Lesson 2")])
+        ]),
+        _vm._v(" "),
+        _c("li", [
+          _c("a", { attrs: { href: "js-lesson3" } }, [_vm._v("Lesson 3")])
         ])
       ])
     ])
@@ -36799,8 +36802,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\GitHub\project-leo\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
