@@ -303,9 +303,8 @@
         </div>
       </div>
       <!-- Settings Content -->
-      <div class="box">
-      <div id="settings" class="dash-content" style="margin-left: 10%">
-          <h1 class="title">Change Password</h1>
+      <div id="settings" class="dash-content box">
+        <h1 class="title">Change Password</h1>
           <form method="POST" style="width:50%">
             <div class="field-body">
               <div class="field-label is-normal">
@@ -358,7 +357,6 @@
           <button style="background-color: red; margin-left: 3%">Delete</button>
 
         <div id="test"></div>
-      </div>
       </div>
       <!-- HTML Content -->
       <div id="html-menu" class="dash-content">
