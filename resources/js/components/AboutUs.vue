@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <section class="box section is-small">
+    <div class="box">
+        <section class="section is-small">
             <h1 class="title is-1 has-text-centered ">Our Mission</h1>
             <h2 class="container is-one-fifth" style="width:775px;"><strong>Project L.E.O (Learning Envirnment Online) is a free course made to teach kids how to create their own websites. Web design is not only a great creative outlet, but also a valuable life skill that can be used in future careers. Furthermore, learning to code is a great introduction to learning how to problem solve and think logically! Unfortunately, coding is typically not taught in most schools and valuable time to practice is lost. The sooner you start your journey in the wonderful world of programming, the better! Thus Project L.E.O is here as an open window into your bright future.</strong>
             <br><br><img class="top-image is-rounded" src="\images\background_img_1.png" width="400px" height="400px">
@@ -35,6 +35,7 @@
                 <h3>Backend Developer</h3>
             </div> 
         </div>
+        <br><br>
     </div>
 </template>
 

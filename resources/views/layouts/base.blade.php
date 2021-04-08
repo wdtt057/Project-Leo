@@ -18,7 +18,7 @@
         <navbar></navbar>
           @yield('content')
     </div>
-    <section class="section is-medium"></section>
+
     <footer class="footer">
     <div class="content has-text-centered">
       <p>

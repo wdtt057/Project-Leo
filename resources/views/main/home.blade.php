@@ -300,9 +300,62 @@
         </div>
       </div>
       <!-- Settings Content -->
-      <div id="settings" class="dash-content">
-        <h1 style="text-align:center">Something Goes Here eventually for settings</h1>
+      <div class="box">
+      <div id="settings" class="dash-content" style="margin-left: 10%">
+          <h1 class="title">Change Password</h1>
+          <form method="POST" style="width:50%">
+            <div class="field-body">
+              <div class="field-label is-normal">
+                <label class="label">Old Password</label>
+              </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input class="input form-control profile-field"  name="password" type="text"  disabled>
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="field-body">
+              <div class="field-label is-normal">
+                <label class="label">New Password</label>
+              </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input class="input form-control profile-field"  name="password" type="text"  disabled>
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="field-body">
+              <div class="field-label is-normal">
+                <label class="label">Re-enter New Password</label>
+              </div>
+                  <div class="field-body">
+                    <div class="field">
+                      <p class="control is-expanded has-icons-left">
+                        <input class="input form-control profile-field"  name="password" type="text"  disabled>
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <button style="margin-left: 3%">Confirm</button>
+          </form>
+          <h1 class="title">Delete Account</h1>
+          <button style="background-color: red; margin-left: 3%">Delete</button>
+
         <div id="test"></div>
+      </div>
       </div>
       <!-- HTML Content -->
       <div id="html-menu" class="dash-content">
