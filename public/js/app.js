@@ -20978,13 +20978,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-<<<<<<< HEAD
-    return _c("div", [
-      _c("section", { staticClass: "box section is-small" }, [
-=======
     return _c("div", { staticClass: "box" }, [
       _c("section", { staticClass: "section is-small" }, [
->>>>>>> d79a55f1ab182270d48ab3cda8db0ab81459ff01
         _c("h1", { staticClass: "title is-1 has-text-centered " }, [
           _vm._v("Our Mission")
         ]),
@@ -36833,13 +36828,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\js\app.js */"./resources/js/app.js");
 module.exports = __webpack_require__(/*! C:\Users\jmeji\Documents\Github\project-leo\resources\css\app.css */"./resources/css/app.css");
-=======
-__webpack_require__(/*! C:\Users\thery\project-leo\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\thery\project-leo\resources\css\app.css */"./resources/css/app.css");
->>>>>>> d79a55f1ab182270d48ab3cda8db0ab81459ff01
 
 
 /***/ })
