@@ -4,7 +4,7 @@
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
       <h2 id="heading">JavaScript LESSON 2</h2>
-      <p>Something Something</p>
+      <p>Loops n' Logs!</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">

@@ -4,7 +4,7 @@
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
       <h2 id="heading">CSS LESSON 2</h2>
-      <p>Description Goes Here</p>
+      <p>Stylesheets!</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
@@ -17,7 +17,7 @@
 				<!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-					Warmup Shit
+		<strong>Let's get started! How about we make the "Next" button your favorite color? Right-click anywhere on your screen or Ctrl+Shift+C to open up the browser inspector. Locate the selector tool which can be found at the top-left corner of the inspector (Displayed as a mouse cursor in a box). After clicking the tool, move your mouse around the page. Notice how everything is higlighting when you hover over them? This is how you can choose what you want to edit. With the selector tool still on, click the "next" button. The inspector should have changed. Find the Style tab in the inspector. From here lets see if you can figure out how to change the color of the button. Feel free to edit anything else on the site! But be warned, once the page is refreshed it will return back to the original state. Happy editing!</strong>
 					<hr>
 					<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 

@@ -4,7 +4,7 @@
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
       <h2 id="heading">JavaScript LESSON 1</h2>
-      <p>Variables, Strings, and Booleans! Oh my!</p>
+      <p>Variables, Strings, and Booleans!</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
@@ -40,9 +40,14 @@
         </fieldset>
         <lesson-video></lesson-video>
         <js-exercise-1a></js-exercise-1a>
-        <html-quiz-1a></html-quiz-1a>
-      </div>
+        <fieldset>
+			<quiz></quiz>
+			<hr>
+			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+			<a id="exitQuiz" class="button action-button is-hidden" href="/home">Next Lesson</a>
+		</fieldset>
 		<lesson-slides></lesson-slides>
+      </div>
     </div>
   </div>
 @endsection
@@ -54,7 +59,7 @@
 	$.ajax({
 			'async': false,
 			'global': false,
-			'url': "/js/quiz/html-q1.json",
+			'url': "/js/quiz/js-q1.json",
 			'dataType': "json",
 			'success': function(data) {
 				json = data;

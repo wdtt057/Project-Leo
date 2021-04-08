@@ -1,6 +1,6 @@
 <template>
 		<section class="section">
-			<h1 class="title is-2">HTML Quiz 1</h1>
+			<h1 class="title is-2">Quiz</h1>
 			<h3 id="qNum" class="subtitle is-6"></h3>
 			<div>
 				<span id="question" class="title is-4" style="padding-right:5px;"></span>

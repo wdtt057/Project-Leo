@@ -1,0 +1,38 @@
+[
+    {
+        "q" : "Which of the following variables has a string value?",
+        "opt1" : "var string = 123;",
+        "opt2" : "var string = true;",
+        "opt3" : "var num = 23",
+        "opt4" : "var num = \"23\"",
+        "answer" : "var num = \"23\"",
+        "hint" : "Don't let the variable name trick you!"
+    },
+    {
+        "q" : "var bool = true;\nconsole.log(!bool);\nWhat will display in the console?",
+        "opt1" : "bool",
+        "opt2" : "true",
+        "opt3" : "false",
+        "opt4" : "!bool",
+        "answer" : "false",
+        "hint" : "The symbol \"!\" means the opposite!"
+    },
+    {
+        "q" : "What will print after running the following code?\nvar numFour = 4;\nconsole.log(numFour+numFour);",
+        "opt1" : "4",
+        "opt2" : "44",
+        "opt3" : "8",
+        "opt4" : "4+4",
+        "answer" : "8",
+        "hint" : "The answer is easier than it looks! :)"
+    },
+    {
+        "q" : "What will print after running the following code?\nvar numFour = \"4\";\nconsole.log(numFour+numFour);",
+        "opt1" : "4",
+        "opt2" : "44",
+        "opt3" : "8",
+        "opt4" : "4+4",
+        "answer" : "44",
+        "hint" : "Adding two strings combine them as one long string!"
+    }
+]
