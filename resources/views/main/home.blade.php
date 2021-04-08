@@ -4,6 +4,9 @@
   <div class="columns">
     <aside-menu :user="{{ Auth::user() }}" route="{{ route('logout') }}" csrf="{{csrf_token()}}"></aside-menu>
     <main class="column" style="margin: 10px 20px 10px 20px">
+      <div class="card tutorial-msg">
+       <p style="padding-left:10px; margin:auto 0">New to the website? Take a look at our <a href="" class="pulsating-text has-text-info">video tutorial</a> <div class="blob blue"></div>  </p> 
+      </div>
       <div id="dashboard" class="dash-content">
         <div class="level">
           <div class="level-left">
@@ -417,5 +420,58 @@
   .display-dash-content {
     display: block;
     margin-top: 24px;
+  }
+
+  .pulsating-text {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+    font-weight: 700;
+  }
+  @-webkit-keyframes pulsate {
+      0% { 
+          opacity: 0.5;
+      }
+      50% { 
+          opacity: 1.0;
+      }
+      100% { 
+          opacity: 0.5;
+      }
+  }
+  .tutorial-msg {
+    display: flex;
+  }
+  .blob {
+    background: black;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    transform: scale(1);
+    animation: pulse-black 3s infinite;
+  }
+  .blob.blue {
+    background: rgba(52, 172, 224, 1);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 1);
+    animation: pulse-blue 3s infinite;
+  }
+
+  @keyframes pulse-blue {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+    }
   }
 </style>
