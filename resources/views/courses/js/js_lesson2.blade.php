@@ -21,8 +21,10 @@
         <!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-            Warmup Shit
-            <hr>
+            <strong>Ready to dive into loops? I sure am!! This lesson's warm-up will rely on a small mini-game provided by Google! Click the following link and run through as many levels as you like!</strong>
+            <br>
+			<a class="warmup" href="https://www.google.com/logos/2017/logo17/logo17.html?hl=en" target="_blank">Google Doodle Games</a>
+			<hr>
             <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>

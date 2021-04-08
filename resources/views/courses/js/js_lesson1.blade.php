@@ -3,8 +3,8 @@
 @section('content')
 	<div class="columns">
     <div class="card column is-10 is-offset-1">
-      <h2 id="heading">JavaScript LESSON 1A</h2>
-      <p>Something Something</p>
+      <h2 id="heading">JavaScript LESSON 1</h2>
+      <p>Variables, Strings, and Booleans! Oh my!</p>
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
@@ -21,7 +21,19 @@
         <!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-            Warmup Shit
+            <strong>For this lesson we will introduce all types of data. To practice, lets think all about you! What's your name? How old are you? Hair color? Eye color? Do you like watching Sunday cartoons? Anything! Let's list all that you think of on a sheet of paper. To start you off, I'll answer the questions myself! Be sure to answer in the same format as me!</strong>
+			<div class="box" style="background-color:light-grey; width=250px!important;">
+				<ul style="list-style-type:none;">
+  					<li>myName = "Elizabeth"</li>
+  					<li>myAge = 22</li>
+  					<li>hairColor = "brown"</li>
+					<li>likeSundayCartoons = true</li>
+					<li>haveADog = true</li>
+					<li>haveACat = false</li>
+					<li>numberOfSiblings = 6</li>
+				</ul>  
+			</div>
+			<strong>See? It's easy! Be sure to start every with an indicating name like "myName". Then follow that with an equal sign and the value for your trait! Notice that for my yes/no wuestions I answered with "true" or "false". Be sure to do the same!</strong>	
             <hr>
             <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 

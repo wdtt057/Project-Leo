@@ -21,7 +21,23 @@
         <!-- fieldsets -->
         <intro-html-one></intro-html-one>
         <fieldset>
-            Warmup Shit
+           	<strong>For today's lesson, let's think of a common pattern that you do every day. It could be brushing your teeth, making your bed, or tying your shoes! For todays warm-up, lets talk about every action required to tie your shoes! First, grab your laces! Next, tie the knot! Then, loop-de-loop! And finally, pull! let's list it out.</strong> 
+		   	<ul>tieOurShoes
+		   		<li>1. grab laces</li>
+		   		<li>2. loop-de-loop</li>
+		   		<li>3. pull</li>
+		   	</ul>
+			<br>
+		   	<strong>Easy peasy! Now lets turn it into a function!</strong>
+		   	<ul>
+			   <li>function tieOurShoes(){</li>
+		   		<ul id="indent">
+		   			<li>grabLaces();</li>
+		   			<li>loopDeLoop();</li>
+		   			<li>pull();</li>
+		   		</ul>
+				<li>}</li>
+		   	</ul>
             <hr>
             <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
@@ -77,3 +93,8 @@
 		}
 	}
 </script>
+<style>
+#indent{
+	margin-left:20px;
+}
+</style>

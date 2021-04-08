@@ -30,7 +30,7 @@
 	},
 	{
 		"lessonID" : "HTML LESSON 3",
-		"slidesTitle" : "HTML LESSON B",
+		"slidesTitle" : "HTML LESSON C",
 		"slidePath" : [
 										"/images/lesson-slides/html/32.png",
 										"/images/lesson-slides/html/33.png",
@@ -60,6 +60,65 @@
 										"/images/lesson-slides/css/11.png",
 										"/images/lesson-slides/css/12.png",
 										"/images/lesson-slides/css/13.png"
+									]
+	},
+	{
+		"lessonID" : "CSS LESSON 3",
+		"slidesTitle" : "CSS LESSON C",
+		"slidePath" : [
+										"/images/lesson-slides/css/6.png",
+										"/images/lesson-slides/css/7.png",
+										"/images/lesson-slides/css/8.png",
+										"/images/lesson-slides/css/9.png",										
+										"/images/lesson-slides/css/10.png",
+										"/images/lesson-slides/css/11.png",
+										"/images/lesson-slides/css/12.png",
+										"/images/lesson-slides/css/13.png"
+									]
+	},
+	{
+		"lessonID" : "JavaScript LESSON 1",
+		"slidesTitle" : "JavaScript LESSON A",
+		"slidePath" : [
+										"/images/lesson-slides/js/1.jpg",
+										"/images/lesson-slides/js/2.jpg",
+										"/images/lesson-slides/js/3.jpg",
+										"/images/lesson-slides/js/4.jpg",
+										"/images/lesson-slides/js/5.jpg",
+										"/images/lesson-slides/js/6.jpg",
+										"/images/lesson-slides/js/7.jpg",
+										"/images/lesson-slides/js/8.jpg",
+										"/images/lesson-slides/js/9.jpg",
+										"/images/lesson-slides/js/10.jpg",
+										"/images/lesson-slides/js/11.jpg",
+										"/images/lesson-slides/js/12.jpg"
+									]
+	},
+	{
+		"lessonID" : "JavaScript LESSON 2",
+		"slidesTitle" : "JavaScript LESSON B",
+		"slidePath" : [
+										"/images/lesson-slides/js/20.jpg",
+										"/images/lesson-slides/js/21.jpg",
+										"/images/lesson-slides/js/22.jpg",
+										"/images/lesson-slides/js/23.jpg",
+										"/images/lesson-slides/js/24.jpg",
+										"/images/lesson-slides/js/25.jpg",
+										"/images/lesson-slides/js/26.jpg",
+										"/images/lesson-slides/js/27.jpg"
+									]
+	},
+	{
+		"lessonID" : "JavaScript LESSON 3",
+		"slidesTitle" : "JavaScript LESSON C",
+		"slidePath" : [
+										"/images/lesson-slides/js/13.jpg",
+										"/images/lesson-slides/js/14.jpg",
+										"/images/lesson-slides/js/15.jpg",
+										"/images/lesson-slides/js/16.jpg",
+										"/images/lesson-slides/js/17.jpg",
+										"/images/lesson-slides/js/18.jpg",
+										"/images/lesson-slides/js/19.jpg"
 									]
 	}
 ]
