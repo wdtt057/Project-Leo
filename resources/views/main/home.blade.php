@@ -161,17 +161,48 @@
           <div class="columns">
             <!-- Left Profile Column -->
             <div class="column is-3 is-offset-1">
-                <form enctype="multipart/form-data" action="updatePhoto" method="POST">
+              <form enctype="multipart/form-data" action="updatePhoto" method="POST">
+                @csrf
                 <figure class="image">
                   <img class="is-rounded" src="{{ Auth::user()->avatar }}">
                 </figure>
-                <label>Update Profile Image</label>
-                <input type="file" name="avatar">
-                @csrf
-                <button type="submit" class="">Change Photo</button>
-            </form>
+                <button id="updatePhotoBtn" class="button is-info" type="button" onclick="updatePhotoToggle()">Update Photo</button>
+                  <div id="inputPhoto" class="file is-small has-name is-hidden">
+                    <label class="file-label">
+                      <input class="file-input" type="file" name="avatar">
+                      <span class="file-cta">
+                        <span class="file-icon">
+                          <i class="fas fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                          Choose Photo
+                        </span>
+                      </span>
+                      <span class="file-name"> 
+                        No file selected . . .
+                      </span>
+                    </label>
+                  </div>
 
+                  <div class="field">
+                    <p class="buttons">
+                      <button id="cancelChangePhoto" class="button is-danger is-outlined is-hidden" type="button" onclick="updatePhotoToggle()">
+                        <span>Cancel</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </button>
+                      <button id="saveChangesPhoto" type="submit" class="button is-success is-pulled-right is-hidden">
+                        <span class="icon is-small">
+                          <i class="fas fa-check"></i>
+                        </span>
+                        <span>Save Photo</span>
+                      </button>
+                    </p>
+                </div>
+              </form>
             </div>
+
             <!-- Right Profile Column -->
             <div class="column is-6 is-offset-1 box">
               <h1 class="title">Profile Information</h1>
@@ -283,78 +314,6 @@
     </main>
   </div>
 @endsection
-
-<script>
-  function showTime() {
-    var date = new Date(),
-        utc = new Date(Date(
-          date.getFullYear(),
-          date.getMonth(),
-          date.getDate(),
-          date.getHours(),
-          date.getMinutes(),
-          date.getSeconds()
-        ));
-
-    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
-  }
-
-  setInterval(showTime, 1000);
-
-  function dashToggle() {
-    const dashTabs = document.querySelectorAll('.menu-list a');
-    const dashContents = document.querySelectorAll('.dash-content');
-    
-    if(location.hash) {
-      const dashTab = document.querySelector(`[href="${location.hash}"]`);
-      const dashContent = document.querySelector(location.hash);
-
-      dashTab.classList.add('is-active');
-      dashContent.classList.add('display-dash-content');
-    } else {
-      if (dashTabs[0]) {
-        dashTabs[0].classList.add('is-active');
-        dashContents[0].classList.add('display-dash-content');
-      }
-    }
-
-    window.addEventListener('hashchange', () => {
-        const tabName = location.hash.split('#')[1];
-        const dashTab = document.querySelector(`[href="#${tabName}"]`);
-        const dashContent = document.querySelector(`#${tabName}`);
-
-        // loop through all activated tab and hide them
-        for (let i = dashContents.length - 1; i >= 0; i--) {
-          dashContents[i].classList.remove('display-dash-content');
-        }
-        for (let i = dashTabs.length - 1; i >= 0; i--) {
-          dashTabs[i].classList.remove('is-active');
-        }
-
-        // activate the selected tab
-        dashTab.classList.add('is-active');
-        dashContent.classList.add('display-dash-content');
-    });
-  }
-
-  window.onload = dashToggle;
-
-  // Button Toggle
-  function updateProfileToggle() {
-    let cancelBtn = document.getElementById("cancelChange");
-    let submitChangesBtn = document.getElementById("saveChangesProfile");
-    let updateProfileBtn = document.getElementById("updateProfileBtn");
-    let inputField = document.querySelectorAll(".profile-field");
-
-    for (let i = inputField.length - 1; i >= 0; i--) {
-      inputField[i].toggleAttribute("disabled");
-    }
-    updateProfileBtn.classList.toggle("is-hidden");
-    cancelBtn.classList.toggle("is-hidden");
-    submitChangesBtn.classList.toggle("is-hidden");
-  }
-
-</script>
 
 <style>
   .submenu-list {

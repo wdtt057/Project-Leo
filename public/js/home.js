@@ -148,3 +148,85 @@ for(let i = 0; i < accordion.length; i++) {
     }
   }
 }
+/** Dashboard Clock */
+function showTime() {
+    var date = new Date(),
+        utc = new Date(Date(
+          date.getFullYear(),
+          date.getMonth(),
+          date.getDate(),
+          date.getHours(),
+          date.getMinutes(),
+          date.getSeconds()
+        ));
+
+    document.getElementById('time').innerHTML = utc.toLocaleTimeString();
+}
+
+setInterval(showTime, 1000);
+
+/** Side Menu Toggle  */
+function dashToggle() {
+    const dashTabs = document.querySelectorAll('.menu-list a');
+    const dashContents = document.querySelectorAll('.dash-content');
+
+    if(location.hash) {
+        const dashTab = document.querySelector(`[href="${location.hash}"]`);
+        const dashContent = document.querySelector(location.hash);
+
+        dashTab.classList.add('is-active');
+        dashContent.classList.add('display-dash-content');
+    } else {
+        if (dashTabs[0]) {
+        dashTabs[0].classList.add('is-active');
+        dashContents[0].classList.add('display-dash-content');
+        }
+    }
+
+    window.addEventListener('hashchange', () => {
+        const tabName = location.hash.split('#')[1];
+        const dashTab = document.querySelector(`[href="#${tabName}"]`);
+        const dashContent = document.querySelector(`#${tabName}`);
+
+        // loop through all activated tab and hide them
+        for (let i = dashContents.length - 1; i >= 0; i--) {
+            dashContents[i].classList.remove('display-dash-content');
+        }
+        for (let i = dashTabs.length - 1; i >= 0; i--) {
+            dashTabs[i].classList.remove('is-active');
+        }
+
+        // activate the selected tab
+        dashTab.classList.add('is-active');
+        dashContent.classList.add('display-dash-content');
+    });
+}
+
+window.onload = dashToggle;
+
+/** Update Profile Button Toggle */
+function updateProfileToggle() {
+    let cancelBtn = document.getElementById("cancelChange");
+    let submitChangesBtn = document.getElementById("saveChangesProfile");
+    let updateProfileBtn = document.getElementById("updateProfileBtn");
+    let inputField = document.querySelectorAll(".profile-field");
+
+    for (let i = inputField.length - 1; i >= 0; i--) {
+        inputField[i].toggleAttribute("disabled");
+    }
+    updateProfileBtn.classList.toggle("is-hidden");
+    cancelBtn.classList.toggle("is-hidden");
+    submitChangesBtn.classList.toggle("is-hidden");
+}
+
+function updatePhotoToggle() {
+    let cancelBtn = document.getElementById("cancelChangePhoto");
+    let submitChangesBtn = document.getElementById("saveChangesPhoto");
+    let updateProfileBtn = document.getElementById("updatePhotoBtn");
+    let photoInput = document.getElementById("inputPhoto")
+
+    updateProfileBtn.classList.toggle("is-hidden");
+    cancelBtn.classList.toggle("is-hidden");
+    submitChangesBtn.classList.toggle("is-hidden");
+    photoInput.classList.toggle("is-hidden");
+}
