@@ -18,5 +18,15 @@
         "lessonID" : "JavaScript LESSON 1",
         "title" : "Display text in JavaScript",
         "videoURL" : "https://www.youtube.com/embed/jiFKkMeCR4Y"
+    },
+    {
+        "lessonID" : "JavaScript LESSON 2",
+        "title" : "Modify with CSS",
+        "videoURL" : "https://www.youtube.com/embed/Snm-DT9Le7g"
+    },
+    {
+        "lessonID" : "JavaScript LESSON 3",
+        "title" : "DIsplay dialog box",
+        "videoURL" : "https://www.youtube.com/embed/CzTziTH1zGQ"
     }
 ]
