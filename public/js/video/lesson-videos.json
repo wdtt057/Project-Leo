@@ -13,5 +13,10 @@
         "lessonID" : "HTML LESSON 3",
         "title" : "Creating a list in HTML",
         "videoURL" : "https://www.youtube.com/embed/WA511aEDxKs"
+    },
+    {
+        "lessonID" : "JavaScript LESSON 1",
+        "title" : "Display text in JavaScript",
+        "videoURL" : "https://www.youtube.com/embed/jiFKkMeCR4Y"
     }
 ]
