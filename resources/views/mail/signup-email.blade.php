@@ -155,7 +155,7 @@
     <table style="max-width:600px;margin-left:auto;margin-right:auto;">
       <tr>
         <!-- Logo image -->
-        <td><a href="http://localhost/" style="cursor:pointer;"><img title="Project LEO Site" style="height:auto;width:100%;border-radius:4px;margin-top:32px;margin-bottom:32px;box-shadow:-6px 12px 10px #888888" src="https://cdn.glitch.com/f01bcd60-b609-4a96-b981-33d6ac970e4d%2Femail-hero.jpg?v=1614196433237" alt="Project LEO Hero"></a></td>
+        <td><a href="https://www.project-leo.dev/" style="cursor:pointer;"><img title="Project LEO Site" style="height:auto;width:100%;border-radius:4px;margin-top:32px;margin-bottom:32px;box-shadow:-6px 12px 10px #888888" src="https://cdn.glitch.com/f01bcd60-b609-4a96-b981-33d6ac970e4d%2Femail-hero.jpg?v=1614196433237" alt="Project LEO Hero"></a></td>
       </tr>   
       <tr>
         <!-- Headline -->
@@ -173,7 +173,7 @@
       </tr>
       <tr style="text-align:center;margin-bottom:16px;padding:16px;">
         <td>
-          <a href="http://localhost/verify?code={{$email_data['verification_code']}}" target="_blank" class="footer-btn">Verify My Account</a>
+          <a href="https://www.project-leo.dev/verify?code={{$email_data['verification_code']}}" target="_blank" class="footer-btn">Verify My Account</a>
         </td>
       </tr>
       <tr>
