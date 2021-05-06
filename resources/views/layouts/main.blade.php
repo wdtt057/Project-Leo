@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="csrf-token" content="{{ csrf_token() }}">
+      <meta name="description" content="Project L.E.O (Learning Envirnment Online), our free course made to teach kids how to create their own websites. Web design is not only a great creative outlet, but also a valuable life skill that can be used in future careers. Furthermore, learning to code is a great introduction to learning how to problem solve and think logically! Unfortunately, coding is typically not taught in most schools and valuable time to practice is lost. The sooner you start your journey in the wonderful world of programming, the better! Thus Project L.E.O is here as an open window into your bright future.">
       <title>Project LEO</title>
       <link rel="stylesheet" href="css/styles.css">
       <link rel="stylesheet" href="/plugin/codemirror/lib/codemirror.css">
