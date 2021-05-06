@@ -1,9 +1,9 @@
 $(".main").onepage_scroll();
 
         $(window).on('load', function(){ //remove setTimeout function before web launch
-        setTimeout(function (){ //delete this line
+        //setTimeout(function (){ //delete this line -- debugging purposes
           $('.preloader').addClass('complete');
-        }, 2000); //delete this line
+        //}, 2000); //delete -- this line debugging purposes
       });
 
       // List of sentences
