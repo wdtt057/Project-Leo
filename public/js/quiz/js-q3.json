@@ -1,0 +1,38 @@
+[
+    {
+        "q" : "Choose the answer that best fits. A(n) ______ can be passed through a function to change its behavior.",
+        "opt1" : "variable",
+        "opt2" : "value",
+        "opt3" : "argument",
+        "opt4" : "expression",
+        "answer" : "argument",
+        "hint" : "You may find the answer in the slides."
+    },
+    {
+        "q" : "Which function has 2 arguments?",
+        "opt1" : "print(hello)",
+        "opt2" : "add(num1, num3, num2)",
+        "opt3" : "sub(num3, num2)",
+        "opt4" : "person(name, age, height)",
+        "answer" : "sub(num3, num2)",
+        "hint" : "Commas separate our arguments"
+    },
+    {
+        "q" : "Choose the answer that best fits. Functions are used to ____",
+        "opt1" : "make your code easier to read",
+        "opt2" : "bundle up code for later use",
+        "opt3" : "organize your code",
+        "opt4" : "all of the above",
+        "answer" : "all of the above",
+        "hint" : "The answer is easier than it looks! :)"
+    },
+    {
+        "q" : "What will print after running the following code?\nvar numFour = \"4\";\nconsole.log(numFour+numFour);",
+        "opt1" : "4",
+        "opt2" : "44",
+        "opt3" : "8",
+        "opt4" : "4+4",
+        "answer" : "44",
+        "hint" : "Adding two strings combine them as one long string!"
+    }
+]

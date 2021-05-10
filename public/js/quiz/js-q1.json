@@ -9,7 +9,7 @@
         "hint" : "Don't let the variable name trick you!"
     },
     {
-        "q" : "var bool = true;\nconsole.log(!bool);\nWhat will display in the console?",
+        "q" : "var bool = true;  console.log(!bool);  What will display in the console?",
         "opt1" : "bool",
         "opt2" : "true",
         "opt3" : "false",
@@ -18,7 +18,7 @@
         "hint" : "The symbol \"!\" means the opposite!"
     },
     {
-        "q" : "What will print after running the following code?\nvar numFour = 4;\nconsole.log(numFour+numFour);",
+        "q" : "What will print after running the following code?  var numFour = 4;  console.log(numFour+numFour);",
         "opt1" : "4",
         "opt2" : "44",
         "opt3" : "8",
@@ -27,7 +27,7 @@
         "hint" : "The answer is easier than it looks! :)"
     },
     {
-        "q" : "What will print after running the following code?\nvar numFour = \"4\";\nconsole.log(numFour+numFour);",
+        "q" : "What will print after running the following code?  var numFour = \"4\";  console.log(numFour+numFour);",
         "opt1" : "4",
         "opt2" : "44",
         "opt3" : "8",

@@ -44,7 +44,7 @@
 			<quiz></quiz>
 			<hr>
 			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
-			<a id="exitQuiz" class="button action-button is-hidden" href="/home">Next Lesson</a>
+			<a id="exitQuiz" class="button action-button is-hidden" href="/js-lesson2">Next Lesson</a>
 		</fieldset>
 		<lesson-slides></lesson-slides>
       </div>

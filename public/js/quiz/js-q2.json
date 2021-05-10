@@ -1,0 +1,38 @@
+[
+    {
+        "q" : "How many loops will execute after the following for loop? for(i=1; i<6; i++)",
+        "opt1" : "6",
+        "opt2" : "7",
+        "opt3" : "1",
+        "opt4" : "5",
+        "answer" : "5",
+        "hint" : "Be mindful of the operator! (>, <, <=, or >=)"
+    },
+    {
+        "q" : "Which line of code will print \"Hello\" properly in JavaScript?",
+        "opt1" : "console.log(Hello)",
+        "opt2" : "println(\"Hello\")",
+        "opt3" : "console.log(\"Hello\")",
+        "opt4" : "println(Hello)",
+        "answer" : "console.log(\"Hello\")",
+        "hint" : "What signifies a String?"
+    },
+    {
+        "q" : "Which for loop will print 10 times?",
+        "opt1" : "for(i=1; i<10; i++)",
+        "opt2" : "for(i=0; i<=9; i++)",
+        "opt3" : "for(i=1; i<=10; i++)",
+        "opt4" : "for(i=0; i<9; i++)",
+        "answer" : "for(i=0; i<=9; i++)",
+        "hint" : "If you're having trouble keeping track, try writing down each loop!"
+    },
+    {
+        "q" : "What will print after running the following code? console.log(5+5);",
+        "opt1" : "5",
+        "opt2" : "55",
+        "opt3" : "10",
+        "opt4" : "5+5",
+        "answer" : "10",
+        "hint" : "Is it printing a String or numbers?"
+    }
+]

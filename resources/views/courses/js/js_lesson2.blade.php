@@ -28,12 +28,17 @@
             <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
           <input type="button" name="next" class="next action-button" value="Next" /> 
         </fieldset>
-        <lesson-video></lesson-video>
+		<lesson-video></lesson-video>
         <js-exercise-1a></js-exercise-1a>
-        <html-quiz-1a></html-quiz-1a>
-      </div>
+        <fieldset>
+			<quiz></quiz>
+			<hr>
+			<input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+			<a id="exitQuiz" class="button action-button is-hidden" href="/js-lesson3">Next Lesson</a>
+		</fieldset>
 		<lesson-slides></lesson-slides>
-    </div>
+      </div>
+	</div>
   </div>
 @endsection
 <script src="/js/jquery.min.js"></script> 
@@ -44,7 +49,7 @@
 	$.ajax({
 			'async': false,
 			'global': false,
-			'url': "/js/quiz/html-q1.json",
+			'url': "/js/quiz/js-q2.json",
 			'dataType': "json",
 			'success': function(data) {
 				json = data;
