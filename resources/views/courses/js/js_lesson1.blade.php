@@ -69,7 +69,7 @@
 	})();
 </script>
 <script>
-	var jsPrompt = 'function helloTo(){\n\tvar myName = "test"; \n\tdocument.querySelector(".display-name").innerHTML = "Hello " + myName;\n}'
+	var jsPrompt = 'function helloTo(){\n\n\tdocument.querySelector(".display-name").innerHTML = "Hello, " + myName;\n}'
 	var lesson = "<h1 class='display-name' onclick='helloTo()'>Click me</h1>"
 
 	function checkAnswer(){
