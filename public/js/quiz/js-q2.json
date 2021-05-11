@@ -9,7 +9,7 @@
         "hint" : "Be mindful of the operator! (>, <, <=, or >=)"
     },
     {
-        "q" : "Which line of code will print \"Hello\" properly in JavaScript?",
+        "q" : "Which line of code will print \"Hello\" to the console properly in JavaScript?",
         "opt1" : "console.log(Hello)",
         "opt2" : "println(\"Hello\")",
         "opt3" : "console.log(\"Hello\")",

@@ -1,5 +1,6 @@
 var jsEditor = CodeMirror(document.getElementById("jsEditor"),{
-    value: "function{\n}",
+    // value: "function{\n}",
+    value: jsPrompt,
     mode: "javascript",
     theme: "shadowfox",
     tabSize: 4,
@@ -8,7 +9,7 @@ var jsEditor = CodeMirror(document.getElementById("jsEditor"),{
     extraKeys: {"Ctrl-Space": "autocomplete"}
 });
 
-var lesson = '<h1 style="color:#BDBCB2">Show the hidden message!</h1>\n<button onclick=openMessage()>Click Me!</button>\n<p id="hidden-message" style="display:none">Good job! You wrote your first javascript function! :)</p>';
+// var lesson = '<h1 style="color:#BDBCB2">Show the hidden message!</h1>\n<button onclick=openMessage()>Click Me!</button>\n<p id="hidden-message" style="display:none">Good job! You wrote your first javascript function! :)</p>';
 var output = jsEditor.getValue();
 function executeCodeJS(){
     var text = jsEditor.getValue();
@@ -26,4 +27,4 @@ function executeCodeJS(){
 jsEditor.refresh();
 
 // JavaScript Answer Key starts here
-var js1A_ans = 'function openMessage(){\n\tdocument.getElementById("hidden-message").style.display = "block";\n}';
+//  var js1A_ans = 'function openMessage(){\n\tdocument.getElementById("hidden-message").style.display = "block";\n}';

@@ -4,13 +4,9 @@
 			<h1>JavaScript Lesson 1A</h1>
 			<div class="columns">
 				<div class="column is-half">
-					<div class="box has-background-primary">
-						<p>Tasks
-							<ul>
-								<li>.css-title: blue</li>
-								<li>p: italics and yellow</li>
-								<li>#cssbg black</li>
-							</ul>
+					<div class="box has-background-primary has-text-white-bis">
+						<p>
+							Create a variable called myName inside of the function. Assign your variable as a String with your name as the value. To see your progress, click the Output box!
 						</p>
 					</div>       
 				</div>

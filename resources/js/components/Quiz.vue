@@ -4,6 +4,7 @@
 			<h3 id="qNum" class="subtitle is-6"></h3>
 			<div>
 				<span id="question" class="title is-4" style="padding-right:5px;"></span>
+				<br>
 				<i class="far fa-lightbulb"></i>
 				<div style="font-size:12px;" class="hint"> Hint
 					<span id="quizHint" class="hint-text">Tooltip text</span>

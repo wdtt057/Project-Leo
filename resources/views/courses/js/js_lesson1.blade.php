@@ -69,8 +69,11 @@
 	})();
 </script>
 <script>
+	var jsPrompt = 'function helloTo(){\n\tvar myName = "test"; \n\tdocument.querySelector(".display-name").innerHTML = "Hello " + myName;\n}'
+	var lesson = "<h1 class='display-name' onclick='helloTo()'>Click me</h1>"
+
 	function checkAnswer(){
-		if(js1A_ans === jsEditor.getValue()){
+		if(jsEditor.getValue().includes("var myName")){
 			document.getElementById("lesson-next").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.remove("is-hidden");
 			document.getElementById("res-msg").classList.add("is-active");

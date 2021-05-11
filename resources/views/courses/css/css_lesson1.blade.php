@@ -8,7 +8,7 @@
       <div id="msform">
         <!-- progressbar -->
         <ul id="progressbar">
-          <li class="active" id="intro"><strong>Introduction</strong></li>
+          <li class="active" id="intro"><strong>Start</strong></li>
           <li id="warm-up"><strong>Warmup</strong></li>
           <li id="lesson-video"><strong>Video A</strong></li>
           <li id="lesson-exercise"><strong>Excercise A</strong></li>
