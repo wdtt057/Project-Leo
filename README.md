@@ -48,5 +48,5 @@ Online learning application to teach middle schoolers entry level programming th
 # License
 This project is currently unlicensed, but check again soon for updates!
 
-# Footnote
+### Footnote
 This is a Senior Capstone Project that portrays the culmination of the skills we learned and developed in our time at California State University, Northridge.
