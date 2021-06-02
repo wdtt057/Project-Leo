@@ -16,9 +16,9 @@ Online learning application to teach middle schoolers entry level programming th
 3. Make a copy of `.env.example` and rename it to `.env`
 4. Fill out `.env` with correct information
   * Make sure that lines 10 - 15 in point to the correct database name and credentials
-    * If you are using [XAMPP](https://www.apachefriends.org/download.html), you just need to create a new database named `laravel`
+    * If you are using [XAMPP](https://www.apachefriends.org/download.html), you just need to create a new database named `laravel` (or a name of your choosing)
   * Fill in information for gmail (or the mailing client of your choosing) in lines 27-34
-  * Fill in the lines starting with `NOCATPCHA_` with a valid google reCaptcha SITEKEY and SECRET from the reCAPTCHA V2 (checkbox version)
+  * Fill in the lines starting with `NOCAPTCHA_` with a valid google reCaptcha SITEKEY and SECRET from the reCAPTCHA V2 (checkbox version)
     * These can be obtained by following the detailed instructions [here](https://www.google.com/recaptcha/about/).
 5. Start up your SQL server
    ```properties
